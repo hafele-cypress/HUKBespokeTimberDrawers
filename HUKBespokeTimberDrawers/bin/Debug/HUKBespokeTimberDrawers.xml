@@ -1,0 +1,1053 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HUKBespokeTimberDrawers</name>
+    </assembly>
+    <members>
+        <member name="T:HUKBespokeTimberDrawers.DrawerDimensions">
+             <summary>
+            The DrawerDimensions recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.DrawerDimensions.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.DrawerDimensions.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.DrawerDimensions.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.DrawerDimensions.ExWidth_mm">
+            <summary>
+            Gets or sets the value of variable ExWidth_mm.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.DrawerDimensions.ExDepth_mm">
+            <summary>
+            Gets or sets the value of variable ExDepth_mm.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.DrawerDimensions.ExHeight_mm">
+            <summary>
+            Gets or sets the value of variable ExHeight_mm.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.DrawerDimensions.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.DrawerDimensions.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.DrawerDimensions.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.DrawerDimensions.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.Material_Oak">
+             <summary>
+            The Material_Oak recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.Material_Oak.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.Material_Oak.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.Material_Oak.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.Material_Oak.Thickness">
+            <summary>
+            Gets or sets the value of variable Thickness.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.Material_Oak.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.Material_Oak.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.Material_Oak.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.Material_Oak.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.MyHafele_Login_CoUser">
+             <summary>
+            The MyHafele_Login_CoUser recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.CustomerNumber">
+            <summary>
+            Gets or sets the value of variable CustomerNumber.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Password">
+            <summary>
+            Gets or sets the value of variable Password.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.CoUserUsername">
+            <summary>
+            Gets or sets the value of variable CoUserUsername.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_CoUser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.MyHafele_Login_User">
+             <summary>
+            The MyHafele_Login_User recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.MyHafele_Login_User.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_User.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_User.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_User.CustomerNumber">
+            <summary>
+            Gets or sets the value of variable CustomerNumber.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Login_User.Password">
+            <summary>
+            Gets or sets the value of variable Password.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_User.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.MyHafele_Login_User.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_User.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Login_User.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser">
+             <summary>
+            The MyHafele_Log_Out_Close_Browser recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafele_Log_Out_Close_Browser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository">
+            <summary>
+            The class representing the HUKBespokeTimberDrawersRepository element repository.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the HUKBespokeTimberDrawersRepository element repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.ExHeight_mm">
+            <summary>
+            Gets or sets the value of variable ExHeight_mm.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.MyHafelePortal">
+            <summary>
+            The MyHafelePortal folder.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.LoginBtn">
+            <summary>
+            The LoginBtn item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.LoginBtnInfo">
+            <summary>
+            The LoginBtn item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.CoUser">
+            <summary>
+            The CoUser item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.CoUserInfo">
+            <summary>
+            The CoUser item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.CoUserName">
+            <summary>
+            The CoUserName item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder.CoUserNameInfo">
+            <summary>
+            The CoUserName item info.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder">
+            <summary>
+            The MyHafelePortalAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MyHafelePortal  folder.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawerInfoClass">
+            <summary>
+            The TimberDrawerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TimberDrawerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsertInfoClass">
+            <summary>
+            The DrawerInsertInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsertInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            DrawerInsertInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsertInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsertInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRackInfoClass">
+            <summary>
+            The WallHungSpiceRackInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRackInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            WallHungSpiceRackInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRackInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRackInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsertInfoClass">
+            <summary>
+            The SpiceRackInsertInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsertInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            SpiceRackInsertInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsertInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsertInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsertInfoClass">
+            <summary>
+            The KnifeBlockInsertInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsertInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            KnifeBlockInsertInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsertInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsertInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFrontInfoClass">
+            <summary>
+            The InternalDrawerFrontInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFrontInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            InternalDrawerFrontInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFrontInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFrontInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.PleaseLogin">
+            <summary>
+            The PleaseLogin item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.PleaseLoginInfo">
+            <summary>
+            The PleaseLogin item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.LogOut">
+            <summary>
+            The LogOut item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.LogOutInfo">
+            <summary>
+            The LogOut item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.BespokeDrawers">
+            <summary>
+            The BespokeDrawers item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.BespokeDrawersInfo">
+            <summary>
+            The BespokeDrawers item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.StartNewQuote">
+            <summary>
+            The StartNewQuote item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.StartNewQuoteInfo">
+            <summary>
+            The StartNewQuote item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.AddProduct">
+            <summary>
+            The AddProduct item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.AddProductInfo">
+            <summary>
+            The AddProduct item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawer">
+            <summary>
+            The TimberDrawer item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.TimberDrawerInfo">
+            <summary>
+            The TimberDrawer item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsert">
+            <summary>
+            The DrawerInsert item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DrawerInsertInfo">
+            <summary>
+            The DrawerInsert item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRack">
+            <summary>
+            The WallHungSpiceRack item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.WallHungSpiceRackInfo">
+            <summary>
+            The WallHungSpiceRack item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsert">
+            <summary>
+            The SpiceRackInsert item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SpiceRackInsertInfo">
+            <summary>
+            The SpiceRackInsert item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsert">
+            <summary>
+            The KnifeBlockInsert item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.KnifeBlockInsertInfo">
+            <summary>
+            The KnifeBlockInsert item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFront">
+            <summary>
+            The InternalDrawerFront item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.InternalDrawerFrontInfo">
+            <summary>
+            The InternalDrawerFront item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.PegBoard">
+            <summary>
+            The PegBoard item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.PegBoardInfo">
+            <summary>
+            The PegBoard item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Dimensions">
+            <summary>
+            The Dimensions item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.DimensionsInfo">
+            <summary>
+            The Dimensions item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Thickness">
+            <summary>
+            The Thickness item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.ThicknessInfo">
+            <summary>
+            The Thickness item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SaveProductAndExit">
+            <summary>
+            The SaveProductAndExit item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SaveProductAndExitInfo">
+            <summary>
+            The SaveProductAndExit item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.QuoteSummary">
+            <summary>
+            The QuoteSummary item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.QuoteSummaryInfo">
+            <summary>
+            The QuoteSummary item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.CancelQuote">
+            <summary>
+            The CancelQuote item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.CancelQuoteInfo">
+            <summary>
+            The CancelQuote item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.AreYouSure_CancelQuote">
+            <summary>
+            The AreYouSure_CancelQuote item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.AreYouSure_CancelQuoteInfo">
+            <summary>
+            The AreYouSure_CancelQuote item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MyHafele_PleaseLogin">
+            <summary>
+            The MyHafele_PleaseLogin item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MyHafele_PleaseLoginInfo">
+            <summary>
+            The MyHafele_PleaseLogin item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_Oak">
+            <summary>
+            The Material_Oak item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_OakInfo">
+            <summary>
+            The Material_Oak item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_Ply">
+            <summary>
+            The Material_Ply item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_PlyInfo">
+            <summary>
+            The Material_Ply item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_Walnut">
+            <summary>
+            The Material_Walnut item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Material_WalnutInfo">
+            <summary>
+            The Material_Walnut item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SelectThickness">
+            <summary>
+            The SelectThickness item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.SelectThicknessInfo">
+            <summary>
+            The SelectThickness item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_13mm">
+            <summary>
+            The MaterialThickness_13mm item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_13mmInfo">
+            <summary>
+            The MaterialThickness_13mm item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_15mm">
+            <summary>
+            The MaterialThickness_15mm item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_15mmInfo">
+            <summary>
+            The MaterialThickness_15mm item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_16mm">
+            <summary>
+            The MaterialThickness_16mm item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.MaterialThickness_16mmInfo">
+            <summary>
+            The MaterialThickness_16mm item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Copy_of_MaterialThickness_16mm">
+            <summary>
+            The Copy_of_MaterialThickness_16mm item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.Copy_of_MaterialThickness_16mmInfo">
+            <summary>
+            The Copy_of_MaterialThickness_16mm item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.ProductTypes">
+            <summary>
+            The ProductTypes item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.ProductTypesInfo">
+            <summary>
+            The ProductTypes item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder.HttpsQmyHafeleCoUkQuotesBespoke">
+            <summary>
+            The HttpsQmyHafeleCoUkQuotesBespoke folder.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder">
+            <summary>
+            The HttpsQmyHafeleCoUkQuotesBespokeFolder folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsQmyHafeleCoUkQuotesBespoke  folder.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Width_Text">
+            <summary>
+            The Width_Text item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Width_TextInfo">
+            <summary>
+            The Width_Text item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.MoreInfo">
+            <summary>
+            The MoreInfo item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.MoreInfoInfo">
+            <summary>
+            The MoreInfo item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Depth_Text">
+            <summary>
+            The Depth_Text item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Depth_TextInfo">
+            <summary>
+            The Depth_Text item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Height_Text">
+            <summary>
+            The Height_Text item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.Height_TextInfo">
+            <summary>
+            The Height_Text item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.ImgTagPly">
+            <summary>
+            The ImgTagPly item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.ImgTagPlyInfo">
+            <summary>
+            The ImgTagPly item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.DivTagDot">
+            <summary>
+            The DivTagDot item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.DivTagDotInfo">
+            <summary>
+            The DivTagDot item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.PleaseSpecifyAnyAdditionalProductRe">
+            <summary>
+            The PleaseSpecifyAnyAdditionalProductRe item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.HttpsQmyHafeleCoUkQuotesBespokeFolder.PleaseSpecifyAnyAdditionalProductReInfo">
+            <summary>
+            The PleaseSpecifyAnyAdditionalProductRe item info.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder.Pane">
+            <summary>
+            The Pane item.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder.PaneInfo">
+            <summary>
+            The Pane item info.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load">
+             <summary>
+            The MyHafelePortal_Page_Load recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.MyHafelePortal_Page_Load.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote">
+             <summary>
+            The After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote recording.
+             </summary>
+        </member>
+        <member name="F:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.repo">
+            <summary>
+            Holds an instance of the HUKBespokeTimberDrawersRepository repository.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.ExWidth_mm">
+            <summary>
+            Gets or sets the value of variable ExWidth_mm.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.ExDepth_mm">
+            <summary>
+            Gets or sets the value of variable ExDepth_mm.
+            </summary>
+        </member>
+        <member name="P:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.ExHeight_mm">
+            <summary>
+            Gets or sets the value of variable ExHeight_mm.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:HUKBespokeTimberDrawers.After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

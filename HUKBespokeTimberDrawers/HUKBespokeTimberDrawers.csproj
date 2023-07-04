@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{965B85D9-3F7C-4D48-BBB9-69CB8D028C39}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>HUKBespokeTimberDrawers</RootNamespace>
+    <AssemblyName>HUKBespokeTimberDrawers</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>d41ead21-4f9d-42ac-aa85-eac34088a1d7</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>7eb865c5-e02c-4f84-8216-c5cc9a1bfff1</id>
+    </Compile>
+    <Compile Include="Dimensions.cs">
+      <BoundTo>89e2c64e-b238-41b1-91b4-88e2f00ae12a</BoundTo>
+      <DependentUpon>Dimensions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b14f8f1c-9bfd-490a-b722-4ec714714edb</id>
+    </Compile>
+    <Compile Include="Dimensions.UserCode.cs">
+      <BoundTo>89e2c64e-b238-41b1-91b4-88e2f00ae12a</BoundTo>
+      <DependentUpon>Dimensions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f83ff9e8-8783-475a-b5e1-6e21e50ee653</id>
+    </Compile>
+    <Compile Include="DrawerDimensions.cs">
+      <BoundTo>572f0936-76c2-4bb7-9c51-c62bc415e0af</BoundTo>
+      <DependentUpon>DrawerDimensions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>036c1331-5840-4e5c-bc4d-36f80d1bd599</id>
+    </Compile>
+    <Compile Include="DrawerDimensions.UserCode.cs">
+      <BoundTo>572f0936-76c2-4bb7-9c51-c62bc415e0af</BoundTo>
+      <DependentUpon>DrawerDimensions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>048dc726-f003-4853-a32c-fe91c213aab1</id>
+    </Compile>
+    <Compile Include="Material_Oak.cs">
+      <BoundTo>6653c192-d3a0-414d-9af6-e5b411f88e4d</BoundTo>
+      <DependentUpon>Material_Oak.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5378bf73-16c3-45ce-8350-1b127876758b</id>
+    </Compile>
+    <Compile Include="Material_Oak.UserCode.cs">
+      <BoundTo>6653c192-d3a0-414d-9af6-e5b411f88e4d</BoundTo>
+      <DependentUpon>Material_Oak.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3c6ffa60-20c1-41eb-8025-eb9049de65f1</id>
+    </Compile>
+    <Compile Include="MyHafele_Login_CoUser.cs">
+      <BoundTo>537f0873-792e-48d5-a115-789472e7873e</BoundTo>
+      <DependentUpon>MyHafele_Login_CoUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f1a2c1b6-fcc5-4b3f-8086-f8da4553afdd</id>
+    </Compile>
+    <Compile Include="MyHafele_Login_CoUser.UserCode.cs">
+      <BoundTo>537f0873-792e-48d5-a115-789472e7873e</BoundTo>
+      <DependentUpon>MyHafele_Login_CoUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>298569ba-e57a-4fc7-bdb2-8d68fa5e3dc3</id>
+    </Compile>
+    <Compile Include="MyHafele_Login_User.cs">
+      <BoundTo>6700308a-a034-49b4-a589-ae709017fdeb</BoundTo>
+      <DependentUpon>MyHafele_Login_User.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2b101eca-d569-41aa-8c87-aff88aeecb57</id>
+    </Compile>
+    <Compile Include="MyHafele_Login_User.UserCode.cs">
+      <BoundTo>6700308a-a034-49b4-a589-ae709017fdeb</BoundTo>
+      <DependentUpon>MyHafele_Login_User.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>260d6812-9f25-4f73-95f4-a533d9e5d56a</id>
+    </Compile>
+    <Compile Include="MyHafele_Log_Out_Close_Browser.cs">
+      <BoundTo>777c3db8-9f0b-458c-beba-64e5ffdf4134</BoundTo>
+      <DependentUpon>MyHafele_Log_Out_Close_Browser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5bdf2ba0-258f-4b76-829c-32d975b25304</id>
+    </Compile>
+    <Compile Include="MyHafele_Log_Out_Close_Browser.UserCode.cs">
+      <BoundTo>777c3db8-9f0b-458c-beba-64e5ffdf4134</BoundTo>
+      <DependentUpon>MyHafele_Log_Out_Close_Browser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88c95ac2-0f10-4e78-8f34-e0443b932aee</id>
+    </Compile>
+    <Compile Include="HUKBespokeTimberDrawersRepository.cs">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <DependentUpon>HUKBespokeTimberDrawersRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ae3f2575-729f-4b93-b08c-72ac0940cd09</id>
+    </Compile>
+    <Compile Include="MyHafelePortal_Page_Load.cs">
+      <BoundTo>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</BoundTo>
+      <DependentUpon>MyHafelePortal_Page_Load.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c56347ce-edfb-4d6c-9c9e-f19af8aa88b5</id>
+    </Compile>
+    <Compile Include="MyHafelePortal_Page_Load.UserCode.cs">
+      <BoundTo>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</BoundTo>
+      <DependentUpon>MyHafelePortal_Page_Load.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40611afc-80b4-41ca-bfb3-7f8424f7d591</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>8820c9be-c679-4e15-ab9e-2714d195264e</id>
+    </Compile>
+    <Compile Include="After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.cs">
+      <BoundTo>5863d138-7761-47b4-a821-7e23c5be7de7</BoundTo>
+      <DependentUpon>After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e7c99ab2-1f14-4125-b26e-7a208be1548b</id>
+    </Compile>
+    <Compile Include="After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.UserCode.cs">
+      <BoundTo>5863d138-7761-47b4-a821-7e23c5be7de7</BoundTo>
+      <DependentUpon>After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ed1e112-719d-42d2-92ff-cb739e6684b6</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>d2dce9d0-d9ae-4e0e-b29f-c6cba9147d08</id>
+    </None>
+    <None Include="Dimensions.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>89e2c64e-b238-41b1-91b4-88e2f00ae12a</id>
+      <recordtableid>2f73323e-cd96-46d5-b2d2-d41279ab4fa2</recordtableid>
+    </None>
+    <None Include="DrawerDimensions.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>572f0936-76c2-4bb7-9c51-c62bc415e0af</id>
+      <recordtableid>1e96cd0d-708c-4ae6-a89d-1d889bf00de9</recordtableid>
+    </None>
+    <None Include="Material_Oak.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>6653c192-d3a0-414d-9af6-e5b411f88e4d</id>
+      <recordtableid>c9c2eb17-58f4-44c3-9dea-bb2d5511885d</recordtableid>
+    </None>
+    <None Include="MyHafele_Login_CoUser.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>537f0873-792e-48d5-a115-789472e7873e</id>
+      <recordtableid>9e3ef60a-c40f-4df6-ad6b-27c9ac7eef44</recordtableid>
+    </None>
+    <None Include="MyHafele_Login_User.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>6700308a-a034-49b4-a589-ae709017fdeb</id>
+      <recordtableid>4e8f56a9-4524-45ac-a71e-9952ff10ae7a</recordtableid>
+    </None>
+    <None Include="MyHafele_Log_Out_Close_Browser.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>777c3db8-9f0b-458c-beba-64e5ffdf4134</id>
+      <recordtableid>99582c86-8b11-4ed6-b07a-13d8bab30e4d</recordtableid>
+    </None>
+    <None Include="HUKBespokeTimberDrawersRepository.rximg">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <DependentUpon>HUKBespokeTimberDrawersRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f563f330-f6d2-4b42-87f7-6f0495d36146</id>
+    </None>
+    <None Include="HUKBespokeTimberDrawersRepository.rxrep">
+      <id>d41ead21-4f9d-42ac-aa85-eac34088a1d7</id>
+      <repoid>34afd095-787e-4ba9-a45b-95a1f9652c5a</repoid>
+      <reporootid>87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5</reporootid>
+    </None>
+    <None Include="MyHafelePortal_Page_Load.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</id>
+      <recordtableid>b8578d26-e022-468a-9231-63daa5f838bd</recordtableid>
+    </None>
+    <None Include="After_adding_bespoke_product_I_expect_to_be_directed_to_the_add_new_quote_screen_showing_quote.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>5863d138-7761-47b4-a821-7e23c5be7de7</id>
+      <recordtableid>1ee65b38-ab6b-45c3-9f60-6ab7cfd1c8cf</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HUKBespokeTimberDrawers.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>28a3bb61-cd7d-4d76-97f1-20d9e07bc7ab</id>
+    </Content>
+    <Content Include="HUKBespokeTimberDrawers.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>868559e8-52cd-403b-ab90-6dfbd9ee69f9</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{672849F1-D0DE-4D5E-B2CA-C9A2A07CF3BF}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

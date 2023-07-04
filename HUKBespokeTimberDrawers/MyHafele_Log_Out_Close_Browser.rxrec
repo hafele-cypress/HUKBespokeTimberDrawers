@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MyHafele_Log_Out_Close_Browser"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b8f5d4ca-3af4-4f31-a5ad-7ea9a9470427">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34d79915-5149-497e-a236-08c284e00cf0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="e0116325-0471-4809-93a6-9467152fa411">
+			</arguments>
+		</invokeactionrecorditem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="b74f83c6-25d5-4940-ab34-5160fff4554b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8575c214-c3ab-4827-a6e7-c30ac31a1b9c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Log out']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="25;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="14dc3cc2-60df-4979-b1d5-69ba032ae644"
+		sx="71"
+		sy="1001"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8575c214-c3ab-4827-a6e7-c30ac31a1b9c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="46,993,55,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Log out
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-ihh-c67"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Log out']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="546a6485-3c06-4a39-8ee8-5f08e74b7bee">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABAAKADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqKe5ht9vmvt3dOCc/lUtV
+JJLcXiSNcxgxgqV3CgBf7Rtf+eh/74b/AAqO41W2gZAQ7h13AqBjHTufap7a8iuWdUPzIemeo9RW
+RZf8hGy/65t/N6mTa2NaUYyb5uiZb/t21/55zfkP8aP7dtf+ec35D/GtCdzHA7rjKjPNLJIscZdu
+gotLuVz0v5fx/wCAZ39u2v8Azzm/If40f27a/wDPOb8h/jV37SoDb0dWGPkIGTnpjBp0Uwkd02Mj
+JjIbHf6UWl3Dnpfy/j/wCh/btr/zzm/If40f27a/885vyH+NXXuVVmG1yqnDOAMLSm4QKzYbCuEP
+14/xotLuHPS/l/H/AIBR/t21/wCec35D/GtGKQSxJIuQHUMM+9Z+oytLpl1uQrtYAdOeR71csv8A
+jxg/65r/ACoV72YTUHBSirak1FFFUYBRRRQAUUUUAFFFFABVeTyftaRNCjF1LbiB2qxUU9tFcY81
+N23pyRj8qAEgtYrdnZF+Zzkk/wAvpWPZf8hGy/65t/N61P7Otf8Anmf++2/xqG50vzZo5IJzBsTa
+Aq9OvfPvUyv0NqMopvmdtGXLhDJA6LjLDAzTHSaaMq6omMFSGLcg59BVP+zLr/oJTfr/AI0f2Zdf
+9BKb9f8AGi77D9nT/n/Bj76AyxhrhUwZIl2A5GN4znj3qpZ3SWEkqPBKIjI+1kQFVVXOT1zgZ9Ki
+iivXnUmaSaKO5CEByfuuOWHYcZ71rtYxtGybm+ZZF/77OTVLzMppJ6O5FCwuoZDbSI8MrHLHIZT3
+GMf4dake3lO9F2bGcPkk57cY/CqrWc1xeXTxXbwKJANq5wfkXnrS/wBmXX/QSm/X/GpbfYuMINXc
+vwY7U0ZNOus42swYEHnqKt2X/HjB/wBc1/lVB9JnkUq+oSMp6ggkfzrSgj8qCOPOdihc+uBSV73Z
+U3FU1GLvqPoooqzAKKKKACiiigAooooAKKKKACiiigAooooAp3UckE4u7dN3GJo1HLjsR7j9fypB
+q1iYwyzqxboi8sT6Y65q7RQBV09ZDFJNMpRp5C+wjlRgAA/gB+dWqKKACiiigAooooAKKKKACiii
+gD//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b8f5d4ca-3af4-4f31-a5ad-7ea9a9470427">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34d79915-5149-497e-a236-08c284e00cf0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="e0116325-0471-4809-93a6-9467152fa411">
+			</arguments>
+		</invokeactionrecorditem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="cdcbfdbf-9c89-4518-a919-76def8dec6e7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34d79915-5149-497e-a236-08c284e00cf0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MyHafele_Log_Out_Close_Browser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
