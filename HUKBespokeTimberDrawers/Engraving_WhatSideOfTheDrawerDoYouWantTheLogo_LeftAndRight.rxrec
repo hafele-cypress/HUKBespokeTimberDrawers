@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4882f91a-1725-411b-b6a9-bf45ec5f2bd8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="eb75edf3-b486-4c5b-a59f-fe1dd74f058b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8b26f903-4e87-4c5a-81d6-8ae51e2439d8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Left &amp; Right ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="02085a6f-2e7e-43ac-8ee3-218d2d99b3db">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="760e36a5-1dab-4989-8495-8a52f9052140"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8b26f903-4e87-4c5a-81d6-8ae51e2439d8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Left &amp; Right ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

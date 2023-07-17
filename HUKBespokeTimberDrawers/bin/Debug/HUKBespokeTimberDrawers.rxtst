@@ -3,6 +3,16 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="006408e9-0856-4c82-b744-dda151ecf8e5"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="01904072-c3cf-422c-99d2-24f83afe7b54"
+			name="8.4.5_After_saving_as_draft_('save_product_and_exit')_(Internal_Drawer_Front)">
+			</smartfoldernode>
+			<testmodule
 			id="01f448fd-e3e3-4241-bb2a-10614aa8ae06"
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
@@ -54,15 +64,43 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<setup
-			id="06d23765-3d00-400b-9a5b-3fbe75f48c5b"
-			name="setup">
-			</setup>
+			<testmodule
+			id="05ee79cf-5235-4331-8f5c-cbf0703b63c0"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="0743e54e-7bd4-47a1-9b0d-a86130805ae6"
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="078e85e5-1b7e-44c9-af82-65c990b948c0"
+			name="BTD3_Dimensions"
+			ref="2a29ef17-ba2f-4dce-821b-5fd17102bf2f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c4b9f133-8cf8-4d1f-a97e-c54b46e04a2b"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="cd5dec60-919e-43fb-b96f-640daccdef6e"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="0c982358-cbb0-41dd-9e15-5fab2c43eebc"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datarangeactive="True"
@@ -103,6 +141,10 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<setup
+			id="0bbcf0da-b826-4d08-89da-bd47dbf2579f"
+			name="setup">
+			</setup>
 			<testmodule
 			id="0d220147-7cc7-46c5-8929-7de44304fb9f"
 			name="MyHafele_Log_Out_Close_Browser"
@@ -122,6 +164,10 @@
 			</testcase>
 			<setup
 			id="0ecc3142-38cb-4773-8fd8-e54edb9a2942"
+			name="setup">
+			</setup>
+			<setup
+			id="10ecef2d-312c-43ea-a751-19661199f192"
 			name="setup">
 			</setup>
 			<testmodule
@@ -145,9 +191,41 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="19c628ca-4ca0-4f4d-9162-a6b79556adf0"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="19f581ec-271d-4b53-b5f7-c9f77240f908"
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1a001c28-e9ba-48b9-8e49-44f6e4fa56d0"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
@@ -180,9 +258,21 @@
 			name="8.25_Remove_product_from_the_quote_with_confirmation_that_I_have_selected_remove_correctly">
 			</smartfoldernode>
 			<testmodule
+			id="1fc38616-e849-4c28-ac52-3791bc77f9d2"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="1ff00221-97f5-40b1-bc5b-36c7ae5fee54"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2020b35e-4ff6-43d7-81fb-3a84ea87e6be"
+			name="BTD2_SelectProduct_PegBoard"
+			ref="7f97ceb1-e4c6-4e9b-a5e3-6ed760daf580"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -236,9 +326,31 @@
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
 			<teardown
+			id="23618493-ce32-4a61-b07d-4f50d30577a4"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="244ebf1d-dd5c-4e87-adc4-193628aa2ea6"
+			name="BTD2_SelectProduct_WallHungSpiceRack"
+			ref="a3b7618b-9c61-4a07-aa67-8e9fbfbe2fbf"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="25a51e58-c507-4440-840d-7357dc809255"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<teardown
 			id="25d66370-2f60-4851-ba1a-7e33aea8673a"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="2621497b-641a-45b9-b1a1-087d2c9f52a0"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -280,14 +392,22 @@
 					</var>
 				</databinding>
 			</testmodule>
-			<teardown
-			id="2bc16447-834e-4118-9b00-5a36e7b8f2e9"
-			name="teardown">
-			</teardown>
 			<testmodule
 			id="2c9a9f69-5ded-4c2d-8744-84d3e312b0f0"
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2e1712f0-d46b-4d0d-989a-8821aba99f2e"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="2e70c25e-2c02-4a12-a5ae-5edaab11b9f1"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
 			type="Recording">
 			</testmodule>
 			<teardown
@@ -311,6 +431,10 @@
 					<![CDATA[<p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{161}" paraid="1356353126"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">User story Title</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{169}" paraid="1089482219"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I need to be able to remove a product from the quote, with confirmation that I have selected remove correctly</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{179}" paraid="2053975419"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a (role)</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{189}" paraid="1749581094"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a customer</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">(</span></span><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="auto"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Modal-Remove-product</span></span><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">)</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'>&nbsp;</span></p><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{203}" paraid="1037864626"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want (Goal)</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="LineBreakBlob BlobObject DragDrop SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"><span class="SCXW224667005 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span><br class="SCXW224667005 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">If I need to remove a product from a quote, I want to be able to delete the line with a pop-up asking me if, I’m sure. I then expect to click Ok or Cancel. Ok - will remove the product, Cancel - will leave as is.</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{217}" paraid="210756685"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">so that (benefit)</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{225}" paraid="1268090105"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">The Customer is </span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">able to </span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">open any previously saved draft quote and </span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">delete a product without having to start a </span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">brand new</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> quote saving time</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">.</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{2d88c0d1-2b2f-405a-a445-d9a92b26efdd}{247}" paraid="1722800356"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Notes</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW224667005 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{54dea7b6-6434-4ee1-a595-b5ccaccbee96}{4}" paraid="759219224"><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Phase</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span></span><span class="TextRun SCXW224667005 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW224667005 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">1</span></span><span class="EOP SCXW224667005 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p>]]>
 				</description>
 			</testcase>
+			<setup
+			id="31053c75-aa41-4c70-8490-87bd4a325575"
+			name="setup">
+			</setup>
 			<smartfoldernode
 			id="31ea4abb-c3c0-4cbc-8dd0-81aa07ffabc6"
 			name="8.20_Choose_handle_type_&amp;_notching_+_specification_for_notching_&amp;_customisations_for_chosen_drawer">
@@ -319,9 +443,51 @@
 			id="320abc82-5295-43df-a8b3-6337956f6777"
 			name="8.7_Submit_enquiry_expected_confirmation_message_including_links_to_'dashboard'_&amp;_'new_quote'">
 			</smartfoldernode>
+			<testmodule
+			id="323da5cd-aec6-476e-82ab-5e125e7c1946"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="326152ce-777c-4f7a-9a6e-9fc36da94a64"
+			name="BTD2_SelectProduct_TimberDrawer"
+			ref="b8e4be27-3332-4448-8625-1cbd83b80de4"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="344f3157-9a79-48d4-b404-7e22ff13133e"
 			name="8.3_Click_the_add_address_button_return_to_the_add_new_quote_screen_with_address_details_displayed">
+			</smartfoldernode>
+			<testmodule
+			id="3564b74d-6844-4593-83f7-df9ac3d9b6b6"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			id="372bab78-bcb4-42dc-ac65-abea385f8ba1"
+			name="8.4.1_After_saving_as_draft_('save_product_and_exit')_(Draw_Insert)">
 			</smartfoldernode>
 			<testcase
 			datarangeactive="True"
@@ -338,8 +504,8 @@
 			datarangeactive="True"
 			datasource="BTD_MasterData"
 			id="3809520d-621c-4faa-87bd-b04567f54ec6"
-			maxrange="85"
-			minrange="85"
+			maxrange="0"
+			minrange="0"
 			name="8.5_After_saving_draft_return_to_the_'add_new_quote'_screen_with_draft_product_highlighted">
 				<description>
 					<![CDATA[<p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{161}" paraid="1356353126"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">User story Title</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{169}" paraid="1046333798"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">After saving as draft ('save product and exit'), I expect to return to the 'add new quote' screen with the draft product highlighted &amp; labelled as draft, along with the delivery details if they have already been added to the quote</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{179}" paraid="2053975419"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a (role)</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{189}" paraid="1749581094"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a customer</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">(</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Add new quote - draft product added with customer details</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">)</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'>&nbsp;</span></p><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{203}" paraid="1833601345"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want (Goal)</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="LineBreakBlob BlobObject DragDrop SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"><span class="SCXW119221234 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span><br class="SCXW119221234 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">After saving a draft, I want to return to the create new quote screen, I want to be able to see my current draft and be able to easily access and begin editing again.</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{217}" paraid="210756685"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">so that (benefit)</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{225}" paraid="1268090105"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">The Customer is </span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">able to </span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">open any previously saved draft quote and make further changes then submit when it’s complete</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">.</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{241}" paraid="1722800356"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Notes</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW119221234 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{87142883-61f7-40d6-9693-9c79393e500d}{253}" paraid="759219224"><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Phase</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span></span><span class="TextRun SCXW119221234 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW119221234 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">1</span></span><span class="EOP SCXW119221234 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p>]]>
@@ -349,6 +515,10 @@
 			id="382f9987-d21f-438b-85d0-8076efcd3576"
 			name="8.11_I_expect_to_enter_my_requirements_for_lacquer_underside_of_the_base">
 			</smartfoldernode>
+			<teardown
+			id="394ee7b0-ab44-49cd-9560-35238b48498c"
+			name="teardown">
+			</teardown>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -401,6 +571,36 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 </font></p>]]>
 				</description>
 			</testcase>
+			<testmodule
+			id="3bc5799a-0725-4884-9f62-e354290762ed"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
+			<teardown
+			id="3f6c5889-ea1d-4336-9def-9fbc51c6e35b"
+			name="teardown">
+			</teardown>
 			<teardown
 			id="3fe7a8fa-0f6e-4c90-a2f1-274dc8305498"
 			name="teardown">
@@ -444,6 +644,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="42db0cb5-ae71-491c-aed1-fd3088d4965b"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="449a8b4a-82d7-4a09-8eb7-b1240d17bf2c"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="4543250b-0620-4854-ae0f-49fc58b61b87"
 			name="setup">
@@ -458,6 +664,20 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="46dad6a7-67d6-40ef-9f64-b113755a4133"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="47aca462-9764-4b49-b445-2f5be254db40"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="4999cd8d-60e1-47e2-a4df-4d0f1800e43b"
 			name="8.29_Select_the_material_thickness_I_want_relative_to_the_material_selected">
@@ -469,6 +689,32 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="4a25a7b6-7985-46af-8d84-cdd12d98e71f"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="4d122844-3bef-41c2-b34c-7908c75cee94"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
@@ -478,10 +724,40 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="4e1aa063-d104-4872-9338-2326ba1a3d5a"
 			name="setup">
 			</setup>
+			<setup
+			id="4f2dc048-9103-4ba5-9fa3-3aa977cc9c69"
+			name="setup">
+			</setup>
 			<smartfoldernode
 			id="4f4af811-2ed6-4382-bfcd-7a6633752790"
 			name="8.12_Messaging_that_makes_it_clear_by_submitting_the_quote_I_have_agreed_to_order">
 			</smartfoldernode>
+			<testmodule
+			id="51609f52-85de-4d3b-9db2-ba1141ff0551"
+			name="BTD3_Dimensions"
+			ref="2a29ef17-ba2f-4dce-821b-5fd17102bf2f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c4b9f133-8cf8-4d1f-a97e-c54b46e04a2b"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="cd5dec60-919e-43fb-b96f-640daccdef6e"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="0c982358-cbb0-41dd-9e15-5fab2c43eebc"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -516,6 +792,36 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="5311ebf7-8caa-44b4-bc08-7a794234809a"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="53a7e94e-3c32-49ea-ae84-c46ee4d37196"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="54b10759-32ae-49f7-856a-587a349095ea"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
+			<smartfoldernode
+			id="55172b6b-41a5-47e8-bf0e-dc9223826111"
+			name="8.4.0_After_saving_as_draft_('save_product_and_exit')_(Draw)">
+			</smartfoldernode>
+			<testmodule
+			id="55427f84-987d-4343-9f2f-eeb8a39a5a03"
+			name="BTD5_InsertType_Type1"
+			ref="4d9cae16-9e71-44e6-82a3-7b303f8016ab"
 			type="Recording">
 			</testmodule>
 			<testcase
@@ -553,6 +859,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="5979c21e-8aa3-4005-aef6-d7e453a1e77e"
+			name="setup">
+			</setup>
 			<testmodule
 			id="59d26eb7-beaa-4564-a1aa-0e12d62bc777"
 			name="MyHafele_Login_User"
@@ -593,11 +903,85 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="5b8bcdd5-6633-4375-8bcc-dabb5ee4ea2a"
+			name="setup">
+			</smartfoldernode>
+			<testmodule
+			id="5bbcf225-d567-4603-95a6-3d7de95a9e91"
+			name="BTD_AddManualDeliveryAddress"
+			ref="ce1551dd-aadb-4529-814b-16d6dd954b66"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ContactName"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="14fa3c68-7a47-49f8-b119-b11ec3e698c7"
+					variablename="ContactName">
+					</var>
+					<var
+					dataname="TelephoneNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="90b8f8e0-8494-4cea-8a78-750e6b54adf4"
+					variablename="TelephoneNumber">
+					</var>
+					<var
+					dataname="CompanyName"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="fcae62c6-7184-4751-8fc2-90885f072d4e"
+					variablename="CompanyName">
+					</var>
+					<var
+					dataname="AddressLine1"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04fcb4ea-6eb7-4ff2-96cd-9993f7319904"
+					variablename="AddressLine1">
+					</var>
+					<var
+					dataname="AddressLine2"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="828c0238-441e-45fa-bc8a-bfa9b7c25e1f"
+					variablename="AddressLine2">
+					</var>
+					<var
+					dataname="Town_City"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="0e58e758-64f3-4eb2-b51c-4ac7270d90df"
+					variablename="Town_City">
+					</var>
+					<var
+					dataname="County"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="4a294ad6-5d70-495a-847a-bbc522f10bb6"
+					variablename="County">
+					</var>
+					<var
+					dataname="Postcode"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="28b2a5ef-c57c-41f9-80cf-dfabda1eb8c5"
+					variablename="Postcode">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="5bfe4e57-9ccb-4799-b8b5-730b968803db"
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5c73e96a-eaf3-4425-a63f-abcb9e522840"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datarangeactive="True"
@@ -620,6 +1004,32 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="5cd10506-0502-4f37-9c25-f1bfc182a2ef"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="5d1c78b7-00b3-4624-b01d-bd8e0572ba75"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="5fb8b5cf-7644-44d6-b8b9-302f597786e9"
 			name="teardown">
@@ -647,6 +1057,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="6234da84-c0fa-4f49-9afe-fc3f4b684f72"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="67216b87-24b0-4fd8-886d-0bddd0378756"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -685,6 +1101,20 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="6b65a8ac-beb6-418f-a616-425acbae8529"
 			name="8.2_After_adding_bespoke_product_I_expect_to_be_directed_to_the_'add_new_quote'_screen_showing_quote">
 			</smartfoldernode>
+			<testmodule
+			id="6ca31a8a-9c6f-42a6-8991-3aa02be9119c"
+			name="BTD4_Material_Oak"
+			ref="c9c2eb17-58f4-44c3-9dea-bb2d5511885d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="09f51953-685e-48da-83d4-4fd289525884"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="6d7362ba-02db-49e8-8a6a-f4b70e54f258"
 			name="MyHafele_Login_User"
@@ -749,6 +1179,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="71653569-2faa-44c2-80eb-7314d9d9dd6e"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="7167a0cb-2c43-4f66-b92a-3c70f0637f18"
 			name="setup">
@@ -764,6 +1200,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					<![CDATA[<p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{161}" paraid="1356353126"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">User story Title</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{169}" paraid="939566065"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I need to see a summary of the quote, including address, reference etc. &amp; status (ordered)</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{179}" paraid="2053975419"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a (role)</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{189}" paraid="1749581094"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a </span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Customer</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">(</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Quote - submitted</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">)</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'>&nbsp;</span></p><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{205}" paraid="736301488"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want (Goal)</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="LineBreakBlob BlobObject DragDrop SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"><span class="SCXW143090059 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span><br class="SCXW143090059 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want </span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">to able to locate my quote and open it so I can see a summary of the items ordered, including address, pricing, reference etc. &amp; status (ordered)</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{221}" paraid="210756685"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">so that (benefit)</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{229}" paraid="1268090105"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Easily viewable in the portal without any need for manually emailing any summery details of the quote.</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{239}" paraid="806006714"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Notes</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW143090059 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a532ef8b-12e6-4de8-9b7c-ee586450da24}{251}" paraid="759219224"><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Phase</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span></span><span class="TextRun SCXW143090059 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW143090059 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">1</span></span><span class="EOP SCXW143090059 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p>]]>
 				</description>
 			</testcase>
+			<teardown
+			id="73737aaa-63e1-4567-b24c-294077284bc5"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="74b6802a-1a88-48e3-880a-9982bae31e46"
 			name="MyHafele_Login_User"
@@ -784,6 +1224,16 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="754692bf-ba76-471b-a566-b3ccb6494ef1"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="7574b35b-466a-4e7e-a7a2-cb339474c66d"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="75c3ce24-da8c-42a1-909b-b83d703f1ab5"
 			name="MyHafele_Login_User"
@@ -831,13 +1281,19 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			datarangeactive="True"
 			datasource="BTD_MasterData"
 			id="79a87b42-3a24-4409-a7d2-ef56ed95ef6f"
-			maxrange="85"
-			minrange="85"
+			maxrange="0"
+			minrange="0"
 			name="8.4_After_saving_as_draft_('save_product_and_exit')">
 				<description>
 					<![CDATA[<p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{161}" paraid="1356353126"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">User story Title</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{169}" paraid="782010288"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">After saving as draft ('save product and exit'), I expect to return to the 'add new quote' screen with the draft product highlighted &amp; labelled as draft</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{179}" paraid="2053975419"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a (role)</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{189}" paraid="1749581094"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a customer</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">(</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Add new quote - draft product added</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">)</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'>&nbsp;</span></p><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{203}" paraid="710335445"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want (Goal)</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="LineBreakBlob BlobObject DragDrop SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: WordVisiCarriageReturn_MSFontService, Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"><span class="SCXW75871761 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span><br class="SCXW75871761 BCX0" style="margin: 0px; padding: 0px; white-space: pre !important; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="font: 11pt/18px Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; margin: 0px; padding: 0px; color: rgb(0, 0, 0); text-transform: none; text-decoration: none; font-size-adjust: none; font-stretch: normal; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">After saving a draft, I want to return to the create new quote screen, I want to be able to see my current draft and be able to easily access and begin editing again.</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{217}" paraid="210756685"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">so that (benefit)</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{225}" paraid="1268090105"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">The Customer is </span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">able to </span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">open any previously saved draft quote and make further changes then submit when it’s complete</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">.</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{241}" paraid="1722800356"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Notes</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW75871761 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{42361433-9861-4121-8996-018e8ac59128}{253}" paraid="759219224"><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Phase</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span></span><span class="TextRun SCXW75871761 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW75871761 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">1</span></span><span class="EOP SCXW75871761 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p>]]>
 				</description>
 			</testcase>
+			<testmodule
+			id="7b010cbb-2e5a-47e4-a51d-ccb6bdf14820"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="7beea604-1fa1-4b53-abf7-953828ba7fa6"
 			name="teardown">
@@ -846,6 +1302,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="7dd37225-5671-4a5a-8809-a8e3acafaa1c"
 			name="8.8_I_expect_to_be_able_to_enter_any_additional_requirements_I_may_have_or_progress_my_quote">
 			</smartfoldernode>
+			<testmodule
+			id="7f9ce701-d84b-42d0-8049-73d8d75be729"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="7fafcba8-4aca-4595-b7cc-0e563ab2db2d"
 			name="MyHafele_Log_Out_Close_Browser"
@@ -903,10 +1365,20 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="84fb9d45-312a-4a4b-a0ef-5a5118fc1f27"
 			name="8.31_Start_building_the_specification">
 			</smartfoldernode>
+			<testmodule
+			id="85594823-17f1-4dcc-ad18-1261da36b2bd"
+			name="BTD2_SelectProduct_KnifeBlockInsert"
+			ref="ebdff063-ca53-41ec-9d4b-3b18b5b39a93"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="85b85a0d-51df-4b8e-8bd5-12502f0e747d"
 			name="setup">
 			</setup>
+			<smartfoldernode
+			id="85ba784e-6d9c-44f0-880a-c7d7ddab8a92"
+			name="8.4.3_After_saving_as_draft_('save_product_and_exit')_(Spice_Rack_Insert)">
+			</smartfoldernode>
 			<testmodule
 			id="85db86fa-834f-4400-9f11-66d5f3883f29"
 			name="MyHafele_Log_Out_Close_Browser"
@@ -967,6 +1439,26 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="89f329c3-44c7-4581-9395-a42d9d74fa73"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="8ce282e8-dc8c-48dc-96e9-aa016a3fc032"
 			name="teardown">
@@ -993,6 +1485,32 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 				</description>
 			</testcase>
 			<testmodule
+			id="8f89cd2f-ea96-43e4-ab4f-5d722dade044"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="901fc36c-a34c-4682-9ce9-1cd2a3be8181"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="903ef905-7721-4a76-9652-9ac8b71d5c43"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
@@ -1002,6 +1520,26 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="9059193f-c86d-46bb-b164-651554ca6baa"
 			name="8.22_Enter_exact_size_of_the_finished_drawer_or_accessory_free-type_&amp;_select_which_material_I_want">
 			</smartfoldernode>
+			<testmodule
+			id="9130d751-8f58-4d4d-ad3f-97246c2f8f3f"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="9242d199-dd1d-43ec-8a88-55bf077ded5c"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="929fc963-8d6e-466b-83c2-2d67fe524574"
 			name="teardown">
@@ -1017,9 +1555,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			name="teardown">
 			</teardown>
 			<testmodule
-			id="943e5de6-154b-46f9-9a82-0040776132db"
-			name="MyHafele_Log_Out_Close_Browser"
-			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			id="949c14d9-b432-44eb-aa8b-81122f47d18e"
+			name="BTD2_SelectProduct_InternalDrawerFront"
+			ref="1a575a81-926f-4bd7-b349-1a7099520fc6"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1124,10 +1662,6 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
-			<smartfoldernode
-			id="9e2300ed-1521-45c4-87d7-f6608dcfd8bc"
-			name="8.4_After_saving_as_draft_('save_product_and_exit')">
-			</smartfoldernode>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -1139,6 +1673,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					<![CDATA[<p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{161}" paraid="1356353126"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">User story Title</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 23px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 14pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{169}" paraid="1562517044"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">After I click the </span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">'add address'</span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> button, I expect to return to the </span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">'add new quote'</span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> screen with the address details displayed (along with edit/delete actions)</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{187}" paraid="2053975419"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a (role)</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">&nbsp;</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{197}" paraid="1969470066"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">As a customer</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">(</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Add customer details - customer added</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">)</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 19.42px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":160,"335559740":259}'>&nbsp;</span></p><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{211}" paraid="393588260"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I want (Goal)</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{219}" paraid="1649480000"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">I </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">want to be able to </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">see the </span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">‘add new quote’</span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> screen after adding an address with all the address details displayed -reflecting any edits or deleted actions. I need to be clear that this is a ship-to/delivery address only.&nbsp;</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{237}" paraid="210756685"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">so that (benefit)</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{a2536638-bf81-4b5c-98f2-39f0f324e182}{245}" paraid="1268090105"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">The Customer is </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">able to </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">self-serve and </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">amend </span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">the address information to ensure the products are delivered to the correct address</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{7186adb6-788c-472f-a0e4-0298d38af19b}{8}" paraid="996574044"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Notes</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{7186adb6-788c-472f-a0e4-0298d38af19b}{20}" paraid="216121412"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: normal; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">This be a UK delivery address only. The delivery address (postcode) forms part of the shipping calculation (Matrix Supplied)</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"></span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span><p class="Paragraph SCXW149313798 BCX0" style="margin: 0px; padding: 0px; text-align: left; color: windowtext; text-indent: 0px; font-style: normal; font-weight: normal; vertical-align: baseline; white-space: pre-wrap; background-color: transparent; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; overflow-wrap: break-word; font-kerning: none;" paraeid="{7186adb6-788c-472f-a0e4-0298d38af19b}{30}" paraid="759219224"><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; font-weight: bold; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">Phase</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">:</span><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;"> </span></span><span class="TextRun SCXW149313798 BCX0" lang="EN-GB" lang="EN-GB" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent; font-variant-ligatures: none;" xml:lang="EN-GB" data-contrast="none"><span class="NormalTextRun SCXW149313798 BCX0" style="margin: 0px; padding: 0px; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;">1</span></span><span class="EOP SCXW149313798 BCX0" style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); line-height: 18px; font-family: Calibri, Calibri_EmbeddedFont, Calibri_MSFontService, sans-serif; font-size: 11pt; user-select: text; -webkit-user-drag: none; -webkit-tap-highlight-color: transparent;" data-ccp-props='{"201341983":0,"335559739":0,"335559740":240}'>&nbsp;</span></p>]]>
 				</description>
 			</testcase>
+			<teardown
+			id="a04af455-64d9-4849-9302-02707df1b166"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="a1d41db8-ad08-415d-aa85-1c3f3fb3b141"
 			name="MyHafelePortal_Page_Load"
@@ -1149,6 +1687,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="a1ddd207-988d-4889-971f-f91de3f37792"
 			name="setup">
 			</setup>
+			<testmodule
+			id="a2fc5643-2b07-4859-978b-43c2bb1bcd21"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="a30476be-4da8-4b41-8b73-bc82f9a3a40f"
 			name="8.26_Review_all_existing_quotes_&amp;_their_current_status,_with_option_to_search_for_a_particular_quote">
@@ -1166,6 +1710,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			<smartfoldernode
 			id="a41a016d-95b4-4857-ac86-ac7d88b4410b"
 			name="8.34_See_summary_of_the_quote_including_address,_reference_etc._&amp;_status_(ordered)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="a45f72c3-2a06-40bc-9130-e8c7082f1258"
+			name="8.4.2_After_saving_as_draft_('save_product_and_exit')_(Wall_Hung_Spice_Rack)">
 			</smartfoldernode>
 			<testmodule
 			id="a46c5905-1b78-4142-a9c8-0f3877f95a82"
@@ -1192,6 +1740,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					variablename="Password">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="a5ba6e49-8371-47c7-8408-b38034ece55d"
+			name="BTD2_SelectProduct_SpiceRackInsert"
+			ref="f7e187af-ee38-49a8-8bb5-ae6258be2d9e"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="a5ece511-191d-435e-adf0-1d68a40bf352"
@@ -1232,6 +1786,18 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			name="ReportToPDFModule"
 			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
 			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="a9dc0cf9-a2d3-442b-9982-82fc1e04f3fb"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="aafbf710-3188-4dd7-95dd-ca6820eb34da"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="ab377f27-66c8-49f2-b477-9cc7015bf9ad"
@@ -1283,6 +1849,30 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="ade9c68b-11e7-49a8-9dd1-5c52a7981423"
 			name="8.23_Filter_results_by_quote_ref,_order_ref_and_filter_by_status">
 			</smartfoldernode>
+			<setup
+			id="ae028bc8-27ad-4875-9ad9-bdf0aeef18dc"
+			name="setup">
+			</setup>
+			<testmodule
+			id="ae3a9625-f52d-4559-9fcd-b9c2234a98dc"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
 			<testmodule
 			id="aef92bf9-43cc-43e7-9770-4b0dd9e7b3be"
 			name="MyHafele_Log_Out_Close_Browser"
@@ -1295,6 +1885,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="b1aab0cc-21d0-4e2c-932b-fa542b724081"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="b1d0acc8-ad7a-4191-914e-5491ac44443a"
 			name="8.35_See_the_dimensions_entered_and_the_material_I_have_selected">
@@ -1303,6 +1899,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="b3beccc3-ac0e-45db-9cfc-2c6257ada32b"
 			name="99_PDF_Report_by_Email">
 			</smartfoldernode>
+			<testmodule
+			id="b4b103ba-3737-497b-be9a-1d3ec19bd5fd"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="b4e35510-34a0-4c65-878f-77c0b317f6c7"
 			name="8.43_Check_quote_successfully_processed,_&amp;_option_to_start_a_new_quote_or_review_existing_quotes">
@@ -1357,6 +1959,32 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="ba4dc6fe-9ebd-4ff2-8472-7065de09419c"
+			name="BTD3_Dimensions_NonDrawer"
+			ref="2f73323e-cd96-46d5-b2d2-d41279ab4fa2"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="ExWidth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="13c88922-273c-4f0c-a2eb-1ebc52028f37"
+					variablename="ExWidth_mm">
+					</var>
+					<var
+					dataname="ExDepth_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="48d1a986-3459-4eb1-9a03-9c2f3f347603"
+					variablename="ExDepth_mm">
+					</var>
+					<var
+					dataname="ExHeight_mm"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="033ca110-3a3c-4942-993f-c0acaf982af0"
+					variablename="ExHeight_mm">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="ba6d8b04-dc2c-46d5-b325-7937776a3945"
 			name="setup">
@@ -1395,6 +2023,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="bc99c4a9-b91a-406a-8c97-524f695adc7b"
 			name="setup">
 			</setup>
+			<testmodule
+			id="bd1eeabb-3b75-4362-86b8-37bc8b4769c0"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="bd9a1c79-aae7-4e58-873d-d38fc9f8a784"
 			name="MyHafele_Log_Out_Close_Browser"
@@ -1487,6 +2121,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="c37e1fa2-a764-4e63-a5c2-7475d9aed231"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="c497f480-e992-49d3-ada5-b560c8b22a2d"
 			name="MyHafele_Login_User"
 			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
@@ -1510,6 +2150,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="c506e7a4-c3b7-4e58-af0a-6cb6f1c06da2"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="c52b168c-7f8b-498a-8bb2-a4200b7ec2b2"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1610,10 +2256,82 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="cba5c4a1-8eb4-45fe-a83e-04d4089b7171"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cd6d8c16-38fd-4070-b8ca-04e8fc0cce35"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="ce439ab6-974f-4187-917e-4b315eefe8f4"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="cf4c941d-869f-40de-abc6-8a89f8431a9b"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<missingdatabinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</missingdatabinding>
+			</testmodule>
+			<testmodule
+			id="d07539ca-3376-452d-8508-c7d2ca4a5d25"
+			name="BTD1_StartNewQuote"
+			ref="c469c6f0-c216-4d68-8493-8c85b3d90e72"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d0b98114-537c-437f-99cf-126d8cf741c4"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -1640,6 +2358,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="d26d9fb1-1556-4234-a015-7e0a56b3f917"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="d372e727-6888-4ba3-96f0-d719688de6eb"
+			name="MyHafelePortal_Page_Load"
+			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="d3ec5d22-6b1b-45dc-8af6-b1922e087bf5"
 			name="MyHafele_Login_User"
@@ -1669,6 +2393,34 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			name="MyHafele_Log_Out_Close_Browser"
 			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
 			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d5ad4b4a-4516-4121-ac58-81624d1e7960"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="d62b527c-b763-40b4-9d6f-7a7a2ea976d4"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="d7c63763-51ca-4c2e-9efe-fbc7d34b41f9"
@@ -1762,10 +2514,36 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="deb2896d-52fc-4794-acc3-6a636f183a00"
 			name="setup">
 			</setup>
+			<testmodule
+			id="df323f68-0188-4aac-a486-65974f0ba1aa"
+			name="BTD4_Material_Ply"
+			ref="82a3c235-1197-42be-b43a-1ac73be29f9f"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="8ad0f429-e886-4ef4-85d0-3b2c36e27678"
+					variablename="Thickness">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="df4ae8d7-c248-440e-9503-05da6a1e9d49"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="e0a945ce-ab85-4846-9ceb-f085fbfdda52"
 			name="8.9_Select_handle_style,_customizations_showing_any_additional_costs_&amp;_specify_the_runner_cut-outs">
 			</smartfoldernode>
+			<testmodule
+			id="e0fb2f56-1ca8-4dc4-92ac-1de8d2f622e7"
+			name="MyHafele_Log_Out_Close_Browser"
+			ref="99582c86-8b11-4ed6-b07a-13d8bab30e4d"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="e2f0b6ec-fd7b-4704-9328-3dc0f845a3cd"
 			name="8.17_Add_a_delivery_address_via_manual_entry">
@@ -1802,6 +2580,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="e69faa8d-5659-49d3-8c47-798540ccfdae"
+			name="teardown">
+			</teardown>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -1816,6 +2598,10 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			<smartfoldernode
 			id="e85ce8bd-8b18-4441-af45-7ba2709c98d8"
 			name="8.42_I_want_to_be_able_to_select_no_engraving_required_&amp;_progress_my_quote">
+			</smartfoldernode>
+			<smartfoldernode
+			id="e8b25fcf-e60e-4e74-9b0f-8293e888ece8"
+			name="8.4.4_After_saving_as_draft_('save_product_and_exit')_(Knife_Block_Insert)">
 			</smartfoldernode>
 			<testmodule
 			id="e92aa19b-d67c-4f38-bd68-e0ee7192cc55"
@@ -1856,12 +2642,38 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					variableid="7a162813-1ade-47b1-b159-c22a0cb82d18"
 					variablename="ExHeight_mm">
 					</var>
+					<var
+					dataname="Thickness"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="3af0079f-9314-4748-9832-b1be220b28b6"
+					variablename="Thickness">
+					</var>
 				</databinding>
 			</testmodule>
 			<setup
 			id="eb258ec2-62e1-47b8-a633-917335806ea9"
 			name="setup">
 			</setup>
+			<testmodule
+			id="eb933419-283d-449a-b022-5ef89bdd3ce9"
+			name="MyHafele_Login_User"
+			ref="4e8f56a9-4524-45ac-a71e-9952ff10ae7a"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="CustomerNumber"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="04e4654f-e358-48ae-8fc5-927c911b8da5"
+					variablename="CustomerNumber">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="653eab63-b44b-43ff-846f-cd75ebad2b85"
+					variableid="c1f65ed6-21d4-4187-93f2-28a9bd533ab4"
+					variablename="Password">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			datarangeactive="True"
 			datasource="BTD_MasterData"
@@ -1909,6 +2721,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			minrange="0"
 			name="99_PDF_Report_by_Email">
 			</testcase>
+			<testmodule
+			id="ef90adee-42c5-406a-adf0-579f70dc77e8"
+			name="BTD2_SelectProduct_TimberDrawer"
+			ref="b8e4be27-3332-4448-8625-1cbd83b80de4"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="f072d7b8-01a4-47b6-a3f3-f2096ba3aceb"
 			name="teardown">
@@ -1934,6 +2752,20 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 				</databinding>
 			</testmodule>
 			<setup
+			id="f2c736dc-9143-4d31-a054-6e15d5aa5750"
+			name="setup">
+			</setup>
+			<teardown
+			id="f3a9edcd-0766-4922-99c3-4129313563ca"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="f42843d5-cc4e-4444-8f53-cee381a256a1"
+			name="MyHafele_Cancel_Quote"
+			ref="f13babb9-e288-4101-8f2f-c7ef985ad74d"
+			type="Recording">
+			</testmodule>
+			<setup
 			id="f6aa3fdc-2ab6-4128-869c-e978583d8787"
 			name="setup">
 			</setup>
@@ -1945,6 +2777,14 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="fa9d5e84-30ca-49be-b505-f721f48d5585"
 			name="teardown">
 			</teardown>
+			<smartfoldernode
+			id="fb6ccf2d-eedd-4ddd-88db-d42f1b93e959"
+			name="8.4.6_After_saving_as_draft_('save_product_and_exit')_(Peg_Board)">
+			</smartfoldernode>
+			<setup
+			id="fc1342d2-e234-4304-9e50-977673457e46"
+			name="setup">
+			</setup>
 			<setup
 			id="fcaed5be-c756-47c7-8e81-16d8f3180d67"
 			name="setup">
@@ -1953,6 +2793,12 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="fe83f16b-c2c7-425b-9e4b-702e5be2344d"
 			name="MyHafelePortal_Page_Load"
 			ref="b8578d26-e022-468a-9231-63daa5f838bd"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ff49a71c-9e44-40b0-971d-0a9fd984b6e8"
+			name="BTD2_SelectProduct_DrawerInsert"
+			ref="1d8ee4a5-84c2-44d9-bbaf-b606181d26ff"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -1969,6 +2815,18 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 				<testcase
 				id="eaa097ae-dc93-4ef3-ae0a-a5718049c37f"
 				name="HUKBespokeTimberDrawers">
+					<setup
+					id="31053c75-aa41-4c70-8490-87bd4a325575"
+					name="setup">
+						<testmodule
+						id="71653569-2faa-44c2-80eb-7314d9d9dd6e"
+						name="MyHafelePortal_Page_Load">
+						</testmodule>
+						<testmodule
+						id="cf4c941d-869f-40de-abc6-8a89f8431a9b"
+						name="MyHafele_Login_User">
+						</testmodule>
+					</setup>
 					<testcase
 					id="3afe5ce7-8640-4900-bdfe-caaa27bbce22"
 					name="8.2_QuotesAfter_adding_bespoke_product_I_expect_to_be_directed_to_the_'add_new_quote'_screen_showing">
@@ -2019,6 +2877,14 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 						<smartfoldernode
 						id="344f3157-9a79-48d4-b404-7e22ff13133e"
 						name="8.3_Click_the_add_address_button_return_to_the_add_new_quote_screen_with_address_details_displayed">
+							<testmodule
+							id="cba5c4a1-8eb4-45fe-a83e-04d4089b7171"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="5bbcf225-d567-4603-95a6-3d7de95a9e91"
+							name="BTD_AddManualDeliveryAddress">
+							</testmodule>
 						</smartfoldernode>
 						<teardown
 						id="25d66370-2f60-4851-ba1a-7e33aea8673a"
@@ -2032,30 +2898,318 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					<testcase
 					id="79a87b42-3a24-4409-a7d2-ef56ed95ef6f"
 					name="8.4_After_saving_as_draft_('save_product_and_exit')">
-						<setup
-						id="06d23765-3d00-400b-9a5b-3fbe75f48c5b"
-						name="setup">
-							<testmodule
-							id="420da87e-99e4-4041-901e-bb7257ac5525"
-							name="MyHafelePortal_Page_Load">
-							</testmodule>
-							<testmodule
-							id="b5987dac-33b1-4f0d-9003-335dc9acee53"
-							name="MyHafele_Login_User">
-							</testmodule>
-						</setup>
 						<smartfoldernode
-						id="9e2300ed-1521-45c4-87d7-f6608dcfd8bc"
-						name="8.4_After_saving_as_draft_('save_product_and_exit')">
-						</smartfoldernode>
-						<teardown
-						id="2bc16447-834e-4118-9b00-5a36e7b8f2e9"
-						name="teardown">
+						id="55172b6b-41a5-47e8-bf0e-dc9223826111"
+						name="8.4.0_After_saving_as_draft_('save_product_and_exit')_(Draw)">
+							<setup
+							id="5979c21e-8aa3-4005-aef6-d7e453a1e77e"
+							name="setup">
+								<testmodule
+								id="420da87e-99e4-4041-901e-bb7257ac5525"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="b5987dac-33b1-4f0d-9003-335dc9acee53"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
 							<testmodule
-							id="943e5de6-154b-46f9-9a82-0040776132db"
-							name="MyHafele_Log_Out_Close_Browser">
+							id="1a001c28-e9ba-48b9-8e49-44f6e4fa56d0"
+							name="BTD1_StartNewQuote">
 							</testmodule>
-						</teardown>
+							<testmodule
+							id="326152ce-777c-4f7a-9a6e-9fc36da94a64"
+							name="BTD2_SelectProduct_TimberDrawer">
+							</testmodule>
+							<testmodule
+							id="51609f52-85de-4d3b-9db2-ba1141ff0551"
+							name="BTD3_Dimensions">
+							</testmodule>
+							<testmodule
+							id="54b10759-32ae-49f7-856a-587a349095ea"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<teardown
+							id="394ee7b0-ab44-49cd-9560-35238b48498c"
+							name="teardown">
+								<testmodule
+								id="f42843d5-cc4e-4444-8f53-cee381a256a1"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="53a7e94e-3c32-49ea-ae84-c46ee4d37196"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="372bab78-bcb4-42dc-ac65-abea385f8ba1"
+						name="8.4.1_After_saving_as_draft_('save_product_and_exit')_(Draw_Insert)">
+							<setup
+							id="f2c736dc-9143-4d31-a054-6e15d5aa5750"
+							name="setup">
+								<testmodule
+								id="b4b103ba-3737-497b-be9a-1d3ec19bd5fd"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="89f329c3-44c7-4581-9395-a42d9d74fa73"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="d07539ca-3376-452d-8508-c7d2ca4a5d25"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="ff49a71c-9e44-40b0-971d-0a9fd984b6e8"
+							name="BTD2_SelectProduct_DrawerInsert">
+							</testmodule>
+							<testmodule
+							id="5d1c78b7-00b3-4624-b01d-bd8e0572ba75"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="9130d751-8f58-4d4d-ad3f-97246c2f8f3f"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<testmodule
+							id="55427f84-987d-4343-9f2f-eeb8a39a5a03"
+							name="BTD5_InsertType_Type1">
+							</testmodule>
+							<teardown
+							id="a04af455-64d9-4849-9302-02707df1b166"
+							name="teardown">
+								<testmodule
+								id="b1aab0cc-21d0-4e2c-932b-fa542b724081"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="9242d199-dd1d-43ec-8a88-55bf077ded5c"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="a45f72c3-2a06-40bc-9130-e8c7082f1258"
+						name="8.4.2_After_saving_as_draft_('save_product_and_exit')_(Wall_Hung_Spice_Rack)">
+							<setup
+							id="10ecef2d-312c-43ea-a751-19661199f192"
+							name="setup">
+								<testmodule
+								id="25a51e58-c507-4440-840d-7357dc809255"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="cd6d8c16-38fd-4070-b8ca-04e8fc0cce35"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="1fc38616-e849-4c28-ac52-3791bc77f9d2"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="244ebf1d-dd5c-4e87-adc4-193628aa2ea6"
+							name="BTD2_SelectProduct_WallHungSpiceRack">
+							</testmodule>
+							<testmodule
+							id="4a25a7b6-7985-46af-8d84-cdd12d98e71f"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="5c73e96a-eaf3-4425-a63f-abcb9e522840"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<teardown
+							id="73737aaa-63e1-4567-b24c-294077284bc5"
+							name="teardown">
+								<testmodule
+								id="2e70c25e-2c02-4a12-a5ae-5edaab11b9f1"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="c52b168c-7f8b-498a-8bb2-a4200b7ec2b2"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="85ba784e-6d9c-44f0-880a-c7d7ddab8a92"
+						name="8.4.3_After_saving_as_draft_('save_product_and_exit')_(Spice_Rack_Insert)">
+							<setup
+							id="4f2dc048-9103-4ba5-9fa3-3aa977cc9c69"
+							name="setup">
+								<testmodule
+								id="006408e9-0856-4c82-b744-dda151ecf8e5"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="eb933419-283d-449a-b022-5ef89bdd3ce9"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="67216b87-24b0-4fd8-886d-0bddd0378756"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="a5ba6e49-8371-47c7-8408-b38034ece55d"
+							name="BTD2_SelectProduct_SpiceRackInsert">
+							</testmodule>
+							<testmodule
+							id="19c628ca-4ca0-4f4d-9162-a6b79556adf0"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="6ca31a8a-9c6f-42a6-8991-3aa02be9119c"
+							name="BTD4_Material_Oak">
+							</testmodule>
+							<teardown
+							id="23618493-ce32-4a61-b07d-4f50d30577a4"
+							name="teardown">
+								<testmodule
+								id="df4ae8d7-c248-440e-9503-05da6a1e9d49"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="bd1eeabb-3b75-4362-86b8-37bc8b4769c0"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="e8b25fcf-e60e-4e74-9b0f-8293e888ece8"
+						name="8.4.4_After_saving_as_draft_('save_product_and_exit')_(Knife_Block_Insert)">
+							<setup
+							id="fc1342d2-e234-4304-9e50-977673457e46"
+							name="setup">
+								<testmodule
+								id="2621497b-641a-45b9-b1a1-087d2c9f52a0"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="d0b98114-537c-437f-99cf-126d8cf741c4"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="c37e1fa2-a764-4e63-a5c2-7475d9aed231"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="85594823-17f1-4dcc-ad18-1261da36b2bd"
+							name="BTD2_SelectProduct_KnifeBlockInsert">
+							</testmodule>
+							<testmodule
+							id="3564b74d-6844-4593-83f7-df9ac3d9b6b6"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="d62b527c-b763-40b4-9d6f-7a7a2ea976d4"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<teardown
+							id="7574b35b-466a-4e7e-a7a2-cb339474c66d"
+							name="teardown">
+								<testmodule
+								id="449a8b4a-82d7-4a09-8eb7-b1240d17bf2c"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="754692bf-ba76-471b-a566-b3ccb6494ef1"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="01904072-c3cf-422c-99d2-24f83afe7b54"
+						name="8.4.5_After_saving_as_draft_('save_product_and_exit')_(Internal_Drawer_Front)">
+							<setup
+							id="0bbcf0da-b826-4d08-89da-bd47dbf2579f"
+							name="setup">
+								<testmodule
+								id="d372e727-6888-4ba3-96f0-d719688de6eb"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="901fc36c-a34c-4682-9ce9-1cd2a3be8181"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="aafbf710-3188-4dd7-95dd-ca6820eb34da"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="949c14d9-b432-44eb-aa8b-81122f47d18e"
+							name="BTD2_SelectProduct_InternalDrawerFront">
+							</testmodule>
+							<testmodule
+							id="ba4dc6fe-9ebd-4ff2-8472-7065de09419c"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="d5ad4b4a-4516-4121-ac58-81624d1e7960"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<teardown
+							id="e69faa8d-5659-49d3-8c47-798540ccfdae"
+							name="teardown">
+								<testmodule
+								id="7b010cbb-2e5a-47e4-a51d-ccb6bdf14820"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="e0fb2f56-1ca8-4dc4-92ac-1de8d2f622e7"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
+						<smartfoldernode
+						id="fb6ccf2d-eedd-4ddd-88db-d42f1b93e959"
+						name="8.4.6_After_saving_as_draft_('save_product_and_exit')_(Peg_Board)">
+							<setup
+							id="ae028bc8-27ad-4875-9ad9-bdf0aeef18dc"
+							name="setup">
+								<testmodule
+								id="323da5cd-aec6-476e-82ab-5e125e7c1946"
+								name="MyHafelePortal_Page_Load">
+								</testmodule>
+								<testmodule
+								id="ae3a9625-f52d-4559-9fcd-b9c2234a98dc"
+								name="MyHafele_Login_User">
+								</testmodule>
+							</setup>
+							<testmodule
+							id="2e1712f0-d46b-4d0d-989a-8821aba99f2e"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="2020b35e-4ff6-43d7-81fb-3a84ea87e6be"
+							name="BTD2_SelectProduct_PegBoard">
+							</testmodule>
+							<testmodule
+							id="3bc5799a-0725-4884-9f62-e354290762ed"
+							name="BTD3_Dimensions_NonDrawer">
+							</testmodule>
+							<testmodule
+							id="47aca462-9764-4b49-b445-2f5be254db40"
+							name="BTD4_Material_Ply">
+							</testmodule>
+							<teardown
+							id="f3a9edcd-0766-4922-99c3-4129313563ca"
+							name="teardown">
+								<testmodule
+								id="8f89cd2f-ea96-43e4-ab4f-5d722dade044"
+								name="MyHafele_Cancel_Quote">
+								</testmodule>
+								<testmodule
+								id="a9dc0cf9-a2d3-442b-9982-82fc1e04f3fb"
+								name="MyHafele_Log_Out_Close_Browser">
+								</testmodule>
+							</teardown>
+						</smartfoldernode>
 					</testcase>
 					<testcase
 					id="3809520d-621c-4faa-87bd-b04567f54ec6"
@@ -2075,10 +3229,30 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 						<smartfoldernode
 						id="be06da0c-341f-48bc-be76-567139ce1f1c"
 						name="8.5_After_saving_draft_return_to_the_'add_new_quote'_screen_with_draft_product_highlighted">
+							<testmodule
+							id="7f9ce701-d84b-42d0-8049-73d8d75be729"
+							name="BTD1_StartNewQuote">
+							</testmodule>
+							<testmodule
+							id="ef90adee-42c5-406a-adf0-579f70dc77e8"
+							name="BTD2_SelectProduct_TimberDrawer">
+							</testmodule>
+							<testmodule
+							id="078e85e5-1b7e-44c9-af82-65c990b948c0"
+							name="BTD3_Dimensions">
+							</testmodule>
+							<testmodule
+							id="df323f68-0188-4aac-a486-65974f0ba1aa"
+							name="BTD4_Material_Ply">
+							</testmodule>
 						</smartfoldernode>
 						<teardown
 						id="46dad6a7-67d6-40ef-9f64-b113755a4133"
 						name="teardown">
+							<testmodule
+							id="05ee79cf-5235-4331-8f5c-cbf0703b63c0"
+							name="MyHafele_Cancel_Quote">
+							</testmodule>
 							<testmodule
 							id="a6f73f7a-6694-4efa-851a-f989a31265a0"
 							name="MyHafele_Log_Out_Close_Browser">
@@ -2917,6 +4091,18 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 							</teardown>
 						</smartfoldernode>
 					</testcase>
+					<smartfoldernode
+					id="5b8bcdd5-6633-4375-8bcc-dabb5ee4ea2a"
+					name="setup">
+					</smartfoldernode>
+					<teardown
+					id="3f6c5889-ea1d-4336-9def-9fbc51c6e35b"
+					name="teardown">
+						<testmodule
+						id="a2fc5643-2b07-4859-978b-43c2bb1bcd21"
+						name="MyHafele_Log_Out_Close_Browser">
+						</testmodule>
+					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -3035,7 +4221,7 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 					Additional_information
 				</column>
 				<column>
-					Upload_Supporting_Files
+					Logo_Upload
 				</column>
 				<column>
 					SubTotalPrice
@@ -3191,6 +4377,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="01904072-c3cf-422c-99d2-24f83afe7b54">
+			</testcontainer>
+			<testcontainer
 			id="025ae315-242f-4377-9eeb-42ddc237d836">
 			</testcontainer>
 			<testcontainer
@@ -3230,6 +4419,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="344f3157-9a79-48d4-b404-7e22ff13133e">
 			</testcontainer>
 			<testcontainer
+			id="372bab78-bcb4-42dc-ac65-abea385f8ba1">
+			</testcontainer>
+			<testcontainer
 			id="37a21f2c-4b39-45f2-b7b8-579583d87d9a">
 			</testcontainer>
 			<testcontainer
@@ -3260,10 +4452,16 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="51a2eec6-2de5-4a55-96f8-43f65fa75e45">
 			</testcontainer>
 			<testcontainer
+			id="55172b6b-41a5-47e8-bf0e-dc9223826111">
+			</testcontainer>
+			<testcontainer
 			id="55f1fe07-de74-48f5-9041-05f6eb59ec15">
 			</testcontainer>
 			<testcontainer
 			id="57c4aa67-9472-4aa0-be60-689cc9bac585">
+			</testcontainer>
+			<testcontainer
+			id="5b8bcdd5-6633-4375-8bcc-dabb5ee4ea2a">
 			</testcontainer>
 			<testcontainer
 			id="5c83bbbd-918c-43a4-90ff-7bc09506bbb8">
@@ -3305,6 +4503,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="84fb9d45-312a-4a4b-a0ef-5a5118fc1f27">
 			</testcontainer>
 			<testcontainer
+			id="85ba784e-6d9c-44f0-880a-c7d7ddab8a92">
+			</testcontainer>
+			<testcontainer
 			id="8f682e39-df00-46f5-9d14-f465637884a7">
 			</testcontainer>
 			<testcontainer
@@ -3317,9 +4518,6 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="98a12a7f-73c0-4edf-836f-ea217a8826b4">
 			</testcontainer>
 			<testcontainer
-			id="9e2300ed-1521-45c4-87d7-f6608dcfd8bc">
-			</testcontainer>
-			<testcontainer
 			id="9ea7946e-2f1e-4bab-965e-9c3e827f7ff5">
 			</testcontainer>
 			<testcontainer
@@ -3327,6 +4525,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			</testcontainer>
 			<testcontainer
 			id="a41a016d-95b4-4857-ac86-ac7d88b4410b">
+			</testcontainer>
+			<testcontainer
+			id="a45f72c3-2a06-40bc-9130-e8c7082f1258">
 			</testcontainer>
 			<testcontainer
 			id="a946aedd-7f5a-475b-b8d1-da585cfb8672">
@@ -3377,6 +4578,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			id="e85ce8bd-8b18-4441-af45-7ba2709c98d8">
 			</testcontainer>
 			<testcontainer
+			id="e8b25fcf-e60e-4e74-9b0f-8293e888ece8">
+			</testcontainer>
+			<testcontainer
 			id="e9bb30fa-645d-47f2-81f2-d40b34955217">
 			</testcontainer>
 			<testcontainer
@@ -3396,6 +4600,9 @@ quote summary</font></span></p><p><font color="#000000" face="Times New Roman" s
 			</testcontainer>
 			<testcontainer
 			id="f6cab1ce-7e8a-495b-8fd5-8fd09d47576c">
+			</testcontainer>
+			<testcontainer
+			id="fb6ccf2d-eedd-4ddd-88db-d42f1b93e959">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

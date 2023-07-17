@@ -44,6 +44,7 @@ namespace HUKBespokeTimberDrawers
             ExWidth_mm = "";
             ExDepth_mm = "";
             ExHeight_mm = "";
+            Thickness = "";
         }
 
         /// <summary>
@@ -78,6 +79,18 @@ namespace HUKBespokeTimberDrawers
         {
             get { return _ExDepth_mm; }
             set { _ExDepth_mm = value; }
+        }
+
+        string _Thickness;
+
+        /// <summary>
+        /// Gets or sets the value of variable Thickness.
+        /// </summary>
+        [TestVariable("3af0079f-9314-4748-9832-b1be220b28b6")]
+        public string Thickness
+        {
+            get { return _Thickness; }
+            set { _Thickness = value; }
         }
 
         /// <summary>
@@ -139,8 +152,8 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.AddProduct.Click();
             Delay.Milliseconds(200);
             
-            // New Module called Timber Drawer
-            Report.Log(ReportLevel.Info, "Section", "New Module called Timber Drawer", new RecordItemIndex(6));
+            // Select Product Timber Drawer
+            Report.Log(ReportLevel.Info, "Section", "Select Product Timber Drawer", new RecordItemIndex(6));
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.TimberDrawer' at Center.", repo.MyHafelePortal.TimberDrawerInfo, new RecordItemIndex(7));
             repo.MyHafelePortal.TimberDrawer.Click();
@@ -162,12 +175,12 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.Close.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text' at 95;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_TextInfo, new RecordItemIndex(12));
+            // Dimensions
+            Report.Log(ReportLevel.Info, "Section", "Dimensions", new RecordItemIndex(12));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text' at 95;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_TextInfo, new RecordItemIndex(13));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text.Click("95;20");
             Delay.Milliseconds(200);
-            
-            // Dimensions
-            Report.Log(ReportLevel.Info, "Section", "Dimensions", new RecordItemIndex(13));
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ExWidth_mm' with focus on 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_TextInfo, new RecordItemIndex(14));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text.PressKeys(ExWidth_mm);
@@ -195,58 +208,186 @@ namespace HUKBespokeTimberDrawers
             // Material
             Report.Log(ReportLevel.Info, "Section", "Material", new RecordItemIndex(20));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.ImgTagPly' at 49;60.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.ImgTagPlyInfo, new RecordItemIndex(21));
-            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.ImgTagPly.Click("49;60");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Material_Oak' at 49;60.", repo.MyHafelePortal.Material_OakInfo, new RecordItemIndex(21));
+            repo.MyHafelePortal.Material_Oak.Click("49;60");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Thickness' at 215;20.", repo.MyHafelePortal.ThicknessInfo, new RecordItemIndex(22));
             repo.MyHafelePortal.Thickness.Click("215;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Pane' at 187;27.", repo.Chrome.PaneInfo, new RecordItemIndex(23));
-            repo.Chrome.Pane.Click("187;27");
-            Delay.Milliseconds(200);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Thickness' with focus on 'MyHafelePortal.SelectThickness'.", repo.MyHafelePortal.SelectThicknessInfo, new RecordItemIndex(23));
+            repo.MyHafelePortal.SelectThickness.PressKeys(Thickness);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.DivTagDot' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.DivTagDotInfo, new RecordItemIndex(24));
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Chrome.Pane' at 187;27.", repo.Chrome.PaneInfo, new RecordItemIndex(24));
+            //repo.Chrome.Pane.Click("187;27");
+            //Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.DivTagDot' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.DivTagDotInfo, new RecordItemIndex(25));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.DivTagDot.Click();
             Delay.Milliseconds(200);
             
-            // Additional lnformation
-            Report.Log(ReportLevel.Info, "Section", "Additional lnformation", new RecordItemIndex(25));
+            // Handles
+            Report.Log(ReportLevel.Info, "Section", "Handles", new RecordItemIndex(26));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe' at 366;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_NoneInfo, new RecordItemIndex(27));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_None.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_None' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_NoneInfo, new RecordItemIndex(28));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_None.Click();
+            Delay.Milliseconds(200);
+            
+            // Notching
+            Report.Log(ReportLevel.Info, "Section", "Notching", new RecordItemIndex(29));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(30));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(31));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None.Click();
+            Delay.Milliseconds(200);
+            
+            // Finish
+            Report.Log(ReportLevel.Info, "Section", "Finish", new RecordItemIndex(32));
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_Lacquered'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_LacqueredInfo, new RecordItemIndex(33));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_Lacquered.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_Lacquered' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_LacqueredInfo, new RecordItemIndex(34));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_Lacquered.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=135,Height=44}) on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_Lacquered'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_LacqueredInfo, new RecordItemIndex(35));
+            Validate.ContainsImage(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_LacqueredInfo, Finish_Body_Lacquered_Screenshot1, Finish_Body_Lacquered_Screenshot1_Options);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfoInfo, new RecordItemIndex(36));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png') on item 'MyHafelePortal.Dimensions'.", repo.MyHafelePortal.DimensionsInfo, new RecordItemIndex(37));
+            Validate.AttributeEqual(repo.MyHafelePortal.DimensionsInfo, "Src", "https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Close' at Center.", repo.MyHafelePortal.CloseInfo, new RecordItemIndex(38));
+            repo.MyHafelePortal.Close.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_No'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_NoInfo, new RecordItemIndex(39));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_No.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_No' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_NoInfo, new RecordItemIndex(40));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_No.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=135,Height=44}) on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_No'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_NoInfo, new RecordItemIndex(41));
+            Validate.ContainsImage(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_NoInfo, Finish_LacqueredBase_Underside_No_Screenshot1, Finish_LacqueredBase_Underside_No_Screenshot1_Options);
+            Delay.Milliseconds(0);
+            
+            // Engraving
+            Report.Log(ReportLevel.Info, "Section", "Engraving", new RecordItemIndex(42));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfoInfo, new RecordItemIndex(43));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png') on item 'MyHafelePortal.Dimensions'.", repo.MyHafelePortal.DimensionsInfo, new RecordItemIndex(44));
+            Validate.AttributeEqual(repo.MyHafelePortal.DimensionsInfo, "Src", "https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png");
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Close' at Center.", repo.MyHafelePortal.CloseInfo, new RecordItemIndex(45));
+            repo.MyHafelePortal.Close.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_NoneInfo, new RecordItemIndex(46));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_None.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_None' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_NoneInfo, new RecordItemIndex(47));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_None.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=135,Height=44}) on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_NoneInfo, new RecordItemIndex(48));
+            Validate.ContainsImage(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_NoneInfo, Engraving_None_Screenshot1, Engraving_None_Screenshot1_Options);
+            Delay.Milliseconds(0);
+            
+            // Additional lnformation
+            Report.Log(ReportLevel.Info, "Section", "Additional lnformation", new RecordItemIndex(49));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe' at 366;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(50));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe.Click("366;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'The quick brown fox jumped over the lazy dog' with focus on 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'The quick brown fox jumped over the lazy dog' with focus on 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(51));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe.PressKeys("The quick brown fox jumped over the lazy dog");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductRe'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo, new RecordItemIndex(52));
             Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.PleaseSpecifyAnyAdditionalProductReInfo);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.SaveProductAndExit' at 79;7.", repo.MyHafelePortal.SaveProductAndExitInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.SaveProductAndExit' at 79;7.", repo.MyHafelePortal.SaveProductAndExitInfo, new RecordItemIndex(53));
             repo.MyHafelePortal.SaveProductAndExit.Click("79;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.QuoteSummary'.", repo.MyHafelePortal.QuoteSummaryInfo, new RecordItemIndex(30));
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.QuoteSummary'.", repo.MyHafelePortal.QuoteSummaryInfo, new RecordItemIndex(54));
             Validate.Exists(repo.MyHafelePortal.QuoteSummaryInfo);
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.QuoteSummary, false, new RecordItemIndex(31));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.QuoteSummary, false, new RecordItemIndex(55));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.CancelQuote' at Center.", repo.MyHafelePortal.CancelQuoteInfo, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.CancelQuote' at Center.", repo.MyHafelePortal.CancelQuoteInfo, new RecordItemIndex(56));
             repo.MyHafelePortal.CancelQuote.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AreYouSure_CancelQuote' at Center.", repo.MyHafelePortal.AreYouSure_CancelQuoteInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AreYouSure_CancelQuote' at Center.", repo.MyHafelePortal.AreYouSure_CancelQuoteInfo, new RecordItemIndex(57));
             repo.MyHafelePortal.AreYouSure_CancelQuote.Click();
             Delay.Milliseconds(200);
             
         }
 
 #region Image Feature Data
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage Finish_Body_Lacquered_Screenshot1
+        { get { return repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_Body_LacqueredInfo.GetScreenshot1(new Rectangle(0, 0, 135, 44)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions Finish_Body_Lacquered_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage Finish_LacqueredBase_Underside_No_Screenshot1
+        { get { return repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_LacqueredBase_Underside_NoInfo.GetScreenshot1(new Rectangle(0, 0, 135, 44)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions Finish_LacqueredBase_Underside_No_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage Engraving_None_Screenshot1
+        { get { return repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Engraving_NoneInfo.GetScreenshot1(new Rectangle(0, 0, 135, 44)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions Engraving_None_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
 #endregion
     }
 #pragma warning restore 0436

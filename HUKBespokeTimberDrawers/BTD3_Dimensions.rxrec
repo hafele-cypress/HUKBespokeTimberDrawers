@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2a29ef17-ba2f-4dce-821b-5fd17102bf2f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BTD3_Dimensions"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+		<var
+		id="c4b9f133-8cf8-4d1f-a97e-c54b46e04a2b"
+		name="ExWidth_mm">
+		</var>
+		<var
+		id="cd5dec60-919e-43fb-b96f-640daccdef6e"
+		name="ExDepth_mm">
+		</var>
+		<var
+		id="0c982358-cbb0-41dd-9e15-5fab2c43eebc"
+		name="ExHeight_mm">
+		</var>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Dimensions
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="67afb82e-e5e7-4088-83b6-d404229416d6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="baa43195-f137-4c48-911b-68eefad3ec6f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="inputtag"
+				rect="730,501,150,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control ng-dirty ng-valid ng-touched
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control ng-dirty ng-touched ng-valid
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						1020000
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Depth (mm)
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						1020000
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-piy-c80"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-gtm-form-interact-field-id"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="formcontrolname"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[1]/div[3]/div/div[2]/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="1aea3eec-6d65-4170-8289-f860e7488ad9">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d3ed5f01-acab-4d80-819e-44daf142c9cd"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="baa43195-f137-4c48-911b-68eefad3ec6f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="200"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="b9ff6666-a93d-45fd-b887-463097b325f7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ExWidth_mm">
+				</binding>
+			</bindings>
+			<info
+			id="baa43195-f137-4c48-911b-68eefad3ec6f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="inputtag"
+				rect="564,501,150,38"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						form-control ng-untouched ng-pristine ng-invalid
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						form-control ng-invalid ng-pristine ng-untouched
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="placeholder"
+					type="System.String">
+						Width (mm)
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-wuj-c76"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="formcontrolname"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']/form[@action='https://qmy.hafele.co.uk/quotes/bespoke-quotes/4533/edit-product/4254']//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="2a1eeba6-fc3c-4e58-be78-eb14a0f7506c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABMAcIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoqKKK
+ACiiigAooooAKKKKACiiigAooooAQ05fuj6U005fuj6UALRRRQA09aKD1ooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKAGCNFkZwMM2Mn1xT6KKACiiigBgjUSGTHzkYJ9qf
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAIac
+v3R9Kaacv3R9KAFooooAaetFB60UAVbtirLtxklVGfc4/rR9kn/57x/9+j/8VSXn34/9+P8A9DFX
+a5YUoTlJyXU1cnGKsU/sk/8Az3j/AO/R/wDiqPsk/wDz3j/79H/4qrUkiRLukdUHqxxR5ieX5m9d
+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
+FFAH/9k=
+			</helperscreenshot>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="27;22"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="36b47728-152c-43b8-9e3b-900aa5ea7fa3"
+		sx="757"
+		sy="523"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6ba18b46-d966-4122-b2ea-3940794fec8f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[1]/div[3]/div/div[2]/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="200"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="94029900-dbdf-4d89-a232-f1bbd1ee3602">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ExDepth_mm">
+				</binding>
+			</bindings>
+			<info
+			id="6ba18b46-d966-4122-b2ea-3940794fec8f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[1]/div[3]/div/div[2]/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="21;21"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a720219b-16da-4143-9547-d6d9d433d143"
+		sx="917"
+		sy="522"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dc3d46fe-0962-4600-92d1-4a6ea4798abd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[1]/div[3]/div/div[3]/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="200"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="0ce934b0-a2d5-45b4-9de5-b99f8ead66e3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ExHeight_mm">
+				</binding>
+			</bindings>
+			<info
+			id="dc3d46fe-0962-4600-92d1-4a6ea4798abd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[1]/div[3]/div/div[3]/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BTD3_Dimensions.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

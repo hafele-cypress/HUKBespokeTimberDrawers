@@ -30,6 +30,8 @@ namespace HUKBespokeTimberDrawers
         HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
         HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder _myhafeleportal;
         HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder _chrome;
+        RepoItemInfo _fileuploadwindowInfo;
+        RepoItemInfo _fileupload_openbuttonInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the HUKBespokeTimberDrawersRepository element repository.
@@ -49,6 +51,8 @@ namespace HUKBespokeTimberDrawers
             _applicationundertest = new HUKBespokeTimberDrawersRepositoryFolders.ApplicationUnderTestAppFolder(this);
             _myhafeleportal = new HUKBespokeTimberDrawersRepositoryFolders.MyHafelePortalAppFolder(this);
             _chrome = new HUKBespokeTimberDrawersRepositoryFolders.ChromeAppFolder(this);
+            _fileuploadwindowInfo = new RepoItemInfo(this, "FileUploadWindow", "/form[@title='Open']/?/?/text[@controlid='1148']", 30000, null, "eaeb4245-342d-451d-bccf-4cdfa3c8412f");
+            _fileupload_openbuttonInfo = new RepoItemInfo(this, "FileUpload_OpenButton", "/form[@title='Open']/button[@text='&Open']", 30000, null, "fadc1c07-c401-4adf-8a65-68fd1cb0dfc0");
         }
 
 #region Variables
@@ -100,6 +104,54 @@ namespace HUKBespokeTimberDrawers
             get
             {
                 return _selfInfo;
+            }
+        }
+
+        /// <summary>
+        /// The FileUploadWindow item.
+        /// </summary>
+        [RepositoryItem("eaeb4245-342d-451d-bccf-4cdfa3c8412f")]
+        public virtual Ranorex.Text FileUploadWindow
+        {
+            get
+            {
+                 return _fileuploadwindowInfo.CreateAdapter<Ranorex.Text>(true);
+            }
+        }
+
+        /// <summary>
+        /// The FileUploadWindow item info.
+        /// </summary>
+        [RepositoryItemInfo("eaeb4245-342d-451d-bccf-4cdfa3c8412f")]
+        public virtual RepoItemInfo FileUploadWindowInfo
+        {
+            get
+            {
+                return _fileuploadwindowInfo;
+            }
+        }
+
+        /// <summary>
+        /// The FileUpload_OpenButton item.
+        /// </summary>
+        [RepositoryItem("fadc1c07-c401-4adf-8a65-68fd1cb0dfc0")]
+        public virtual Ranorex.Button FileUpload_OpenButton
+        {
+            get
+            {
+                 return _fileupload_openbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+            }
+        }
+
+        /// <summary>
+        /// The FileUpload_OpenButton item info.
+        /// </summary>
+        [RepositoryItemInfo("fadc1c07-c401-4adf-8a65-68fd1cb0dfc0")]
+        public virtual RepoItemInfo FileUpload_OpenButtonInfo
+        {
+            get
+            {
+                return _fileupload_openbuttonInfo;
             }
         }
 
@@ -338,13 +390,47 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _material_oakInfo;
             RepoItemInfo _material_plyInfo;
             RepoItemInfo _material_walnutInfo;
+            RepoItemInfo _material_otherInfo;
             RepoItemInfo _selectthicknessInfo;
             RepoItemInfo _materialthickness_13mmInfo;
             RepoItemInfo _materialthickness_15mmInfo;
             RepoItemInfo _materialthickness_16mmInfo;
+            RepoItemInfo _materialthickness_19mmInfo;
             RepoItemInfo _copy_of_materialthickness_16mmInfo;
             RepoItemInfo _producttypesInfo;
             RepoItemInfo _uploadsupportingfilesInfo;
+            RepoItemInfo _engravingleftsideInfo;
+            RepoItemInfo _engraving_rightsideInfo;
+            RepoItemInfo _engraving_leftandrightInfo;
+            RepoItemInfo _engraving_frontInfo;
+            RepoItemInfo _engraving_specialengravinginstructionsInfo;
+            RepoItemInfo _adddeliveryaddressInfo;
+            RepoItemInfo _deliverycontact_contactnameInfo;
+            RepoItemInfo _deliverycontact_telephonenumberInfo;
+            RepoItemInfo _deliveryaddress_addaddressmanuallyInfo;
+            RepoItemInfo _deliveryaddress_companynameInfo;
+            RepoItemInfo _deliveryaddress_addressline1Info;
+            RepoItemInfo _deliveryaddress_addressline2Info;
+            RepoItemInfo _deliveryaddress_towncityInfo;
+            RepoItemInfo _deliveryaddress_countyInfo;
+            RepoItemInfo _deliveryaddress_postcodeInfo;
+            RepoItemInfo _adddeliveryaddressbuttonInfo;
+            RepoItemInfo _deliveryaddress_yourreferenceInfo;
+            RepoItemInfo _deliveryaddress_emailaddressInfo;
+            RepoItemInfo _deliveryaddress_removeInfo;
+            RepoItemInfo _deliveryaddress_editInfo;
+            RepoItemInfo _deliveryaddress_updatedeliveryaddressInfo;
+            RepoItemInfo _yesremoveaddressInfo;
+            RepoItemInfo _revieworderInfo;
+            RepoItemInfo _cancelquotebuttonInfo;
+            RepoItemInfo _cancelquote2buttonInfo;
+            RepoItemInfo _deliveryaddress_namechecksummery_johnsmithInfo;
+            RepoItemInfo _deliveryaddress_addresschecksummeryInfo;
+            RepoItemInfo _deliveryaddresssummeryInfo;
+            RepoItemInfo _materialinformationInfo;
+            RepoItemInfo _quotesummery_overviewInfo;
+            RepoItemInfo _needtofinishthislater_saveproductandexitInfo;
+            RepoItemInfo _rowitemdraftInfo;
 
             /// <summary>
             /// Creates a new MyHafelePortal  folder.
@@ -377,13 +463,47 @@ namespace HUKBespokeTimberDrawers
                 _material_oakInfo = new RepoItemInfo(this, "Material_Oak", ".//img[@alt='Oak']", "element", 30000, null, "e0db7ced-991c-4c32-8f61-68a95cabf399");
                 _material_plyInfo = new RepoItemInfo(this, "Material_Ply", ".//img[@alt='Ply']", "element", 30000, null, "11dbe013-df30-4e86-ba95-3d749641d5a3");
                 _material_walnutInfo = new RepoItemInfo(this, "Material_Walnut", ".//img[@alt='Walnut']", "element", 30000, null, "1548ca19-1279-4870-ad8e-11318e17b13a");
+                _material_otherInfo = new RepoItemInfo(this, "Material_Other", ".//div[#'container']///div/div[2]//img[@alt='material_custom']", ".//div[#'container']//element", 30000, null, "8dd63235-ba03-4020-b821-db4c9b4cd0c3");
                 _selectthicknessInfo = new RepoItemInfo(this, "SelectThickness", ".//select[#'thickness']", "element", 30000, null, "d13582fe-2e09-44a1-8d15-804e21ac204c");
                 _materialthickness_13mmInfo = new RepoItemInfo(this, "MaterialThickness_13mm", ".//*[@id='thickness']/option[2]", "element", 30000, null, "ac9af8b3-bace-4929-b2a6-ceec4e676837");
                 _materialthickness_15mmInfo = new RepoItemInfo(this, "MaterialThickness_15mm", ".//*[@id='thickness']/option[3]", "element", 30000, null, "7a112fb8-ce5a-404e-bfd6-469c505f5b5f");
                 _materialthickness_16mmInfo = new RepoItemInfo(this, "MaterialThickness_16mm", ".//*[@id='thickness']/option[4]", "element", 30000, null, "e0bc08f8-2356-4d3d-875f-e8932ccee648");
+                _materialthickness_19mmInfo = new RepoItemInfo(this, "MaterialThickness_19mm", ".//*[@id='thickness']/option[5]", "element", 30000, null, "99b4fdcb-9247-4f96-a4dd-665d4573ab38");
                 _copy_of_materialthickness_16mmInfo = new RepoItemInfo(this, "Copy_of_MaterialThickness_16mm", ".//select[@tagvalue='213: 16']", "element", 30000, null, "2f7d1f93-ad81-4844-af56-857bb2a0ced4");
                 _producttypesInfo = new RepoItemInfo(this, "ProductTypes", ".//div[#'product_types']//img", "element", 30000, null, "078c9c4d-fafe-4a26-8989-f51f4d9339b0");
                 _uploadsupportingfilesInfo = new RepoItemInfo(this, "UploadSupportingFiles", ".//input[#'generalUpload']", "element", 30000, null, "f52b4a23-15f7-4aca-8654-d46b8c16607a");
+                _engravingleftsideInfo = new RepoItemInfo(this, "EngravingLeftSide", ".//label[@innertext=' Left side ']", "element", 30000, null, "1fddf0c6-4c22-46ef-8a99-1ef97601ddc1");
+                _engraving_rightsideInfo = new RepoItemInfo(this, "Engraving_RightSide", ".//label[@innertext=' Right side ']", "element", 30000, null, "f968fdb1-a188-46b7-a236-282b7db63851");
+                _engraving_leftandrightInfo = new RepoItemInfo(this, "Engraving_LeftAndRight", ".//label[@innertext=' Left & Right ']", "element", 30000, null, "8b26f903-4e87-4c5a-81d6-8ae51e2439d8");
+                _engraving_frontInfo = new RepoItemInfo(this, "Engraving_Front", ".//label[@innertext=' Front ']", "element", 30000, null, "1c09a4b8-565e-49e3-8e59-d607af3b7b0b");
+                _engraving_specialengravinginstructionsInfo = new RepoItemInfo(this, "Engraving_SpecialEngravingInstructions", ".//textarea[@placeholder='Please specify any specific engraving requirements here']", "element", 30000, null, "214fa544-6176-4608-bc31-5e1d573f5e52");
+                _adddeliveryaddressInfo = new RepoItemInfo(this, "AddDeliveryAddress", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]//a[@innertext='Add Delivery Address ']", "element", 30000, null, "c0dbd2db-11db-4e6d-acf2-cda8a9a98f17");
+                _deliverycontact_contactnameInfo = new RepoItemInfo(this, "DeliveryContact_ContactName", ".//div[#'contact_details']/?/?/input[@formcontrolname='contactName']", "element", 30000, null, "eedbd13b-eb51-4f78-8ea8-ce1a19ad92b9");
+                _deliverycontact_telephonenumberInfo = new RepoItemInfo(this, "DeliveryContact_TelephoneNumber", ".//div[#'contact_details']/div[2]/input[@formcontrolname='contactNumber']", "element", 30000, null, "36928660-4092-4a6f-80f1-e2b8543063e1");
+                _deliveryaddress_addaddressmanuallyInfo = new RepoItemInfo(this, "DeliveryAddress_AddAddressManually", ".//p[#'manual_entry']", "element", 30000, null, "c1298e12-d84b-43d2-9340-52509e0aa0eb");
+                _deliveryaddress_companynameInfo = new RepoItemInfo(this, "DeliveryAddress_CompanyName", ".//div[#'address_form']/?/?/input[@formcontrolname='address1']", "element", 30000, null, "ed7db12c-599c-4159-9989-68f68c064f26");
+                _deliveryaddress_addressline1Info = new RepoItemInfo(this, "DeliveryAddress_AddressLine1", ".//div[#'address_form']/div[2]/input[@formcontrolname='address2']", "element", 30000, null, "8bdbd7ec-0102-4b09-8cbb-0aa8c1024a43");
+                _deliveryaddress_addressline2Info = new RepoItemInfo(this, "DeliveryAddress_AddressLine2", ".//div[#'address_form']/div[3]/input[@formcontrolname='address3']", "element", 30000, null, "e29624be-e255-4583-87ea-4cd0d2f3040a");
+                _deliveryaddress_towncityInfo = new RepoItemInfo(this, "DeliveryAddress_TownCity", ".//div[#'address_form']/div[4]/input[@formcontrolname='city']", "element", 30000, null, "6d44b475-e052-4496-8413-5a428b22fa12");
+                _deliveryaddress_countyInfo = new RepoItemInfo(this, "DeliveryAddress_County", ".//div[#'address_form']/div[5]/input[@formcontrolname='county']", "element", 30000, null, "8573d1e0-84a3-4926-b905-f9b0397227af");
+                _deliveryaddress_postcodeInfo = new RepoItemInfo(this, "DeliveryAddress_Postcode", ".//div[#'address_form']/div[6]/input[@formcontrolname='postcode']", "element", 30000, null, "a819ccde-c0fc-4cc2-9eed-372fe0a5a839");
+                _adddeliveryaddressbuttonInfo = new RepoItemInfo(this, "AddDeliveryAddressButton", ".//div[#'cta']/button[@innertext='Add Delivery Address']", "element", 30000, null, "5c471145-fec2-47b1-8ef2-d7acf2ad6b81");
+                _deliveryaddress_yourreferenceInfo = new RepoItemInfo(this, "DeliveryAddress_YourReference", ".//input[#'QuoteReference']", "element", 30000, null, "1f5f10a1-05e2-42da-9f69-a4320688355f");
+                _deliveryaddress_emailaddressInfo = new RepoItemInfo(this, "DeliveryAddress_EmailAddress", ".//input[#'CustomerEmail']", "element", 30000, null, "a0b847d5-ed74-4175-a7dd-55bfdc75161d");
+                _deliveryaddress_removeInfo = new RepoItemInfo(this, "DeliveryAddress_Remove", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Remove ']", "element", 30000, null, "3c54baed-c671-4322-875e-a4793e8d31c6");
+                _deliveryaddress_editInfo = new RepoItemInfo(this, "DeliveryAddress_Edit", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Edit ']", "element", 30000, null, "5abcecad-84ba-4a5d-ac37-b542994736e4");
+                _deliveryaddress_updatedeliveryaddressInfo = new RepoItemInfo(this, "DeliveryAddress_UpdateDeliveryAddress", ".//div[#'cta']/button[@innertext='Update Delivery Address']", "element", 30000, null, "4cfd16bc-f61d-4a51-a854-723edd075d21");
+                _yesremoveaddressInfo = new RepoItemInfo(this, "YesRemoveAddress", "?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Yes, remove address.']", "element", 30000, null, "37383a28-c1b1-4e9e-b210-db1f2ff9a912");
+                _revieworderInfo = new RepoItemInfo(this, "ReviewOrder", "?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[2]/button[@innertext='Review Order']", "element", 30000, null, "bd22ec9e-6911-4f76-b7a3-2bbbc2e1de7a");
+                _cancelquotebuttonInfo = new RepoItemInfo(this, "CancelQuoteButton", ".//div[#'cancel_quote']/span[@innertext='Cancel Quote']", "element", 30000, null, "a22a0966-767c-4fc0-9364-0fe8b1f5e428");
+                _cancelquote2buttonInfo = new RepoItemInfo(this, "CancelQuote2Button", "?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']", "element", 30000, null, "8aa95f4c-4dc3-428f-9443-60255b77f9aa");
+                _deliveryaddress_namechecksummery_johnsmithInfo = new RepoItemInfo(this, "DeliveryAddress_NameCheckSummery_JohnSmith", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[1]/strong[@innertext='John Smith']", "element", 30000, null, "c892259b-f092-4125-bfe1-63bdfd61b664");
+                _deliveryaddress_addresschecksummeryInfo = new RepoItemInfo(this, "DeliveryAddress_AddressCheckSummery", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]//div[@innertext>'Hafele, 1, Rugby, Warikshire,']", "element", 30000, null, "8337879d-cbe9-412f-9620-a24713c92091");
+                _deliveryaddresssummeryInfo = new RepoItemInfo(this, "DeliveryAddressSummery", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[@class='cust-summary']", "element", 30000, null, "12154092-b79e-4ef4-bc62-65f56e14bad6");
+                _materialinformationInfo = new RepoItemInfo(this, "MaterialInformation", ".//div[#'more_info_img']", ".//div[#'container']//element", 30000, null, "758b2d2a-dcee-4a26-beae-3a848b564a04");
+                _quotesummery_overviewInfo = new RepoItemInfo(this, "QuoteSummery_Overview", ".//div[#'summary']", "element", 30000, null, "45911aaf-d86d-4a3a-be87-22684c517dcf");
+                _needtofinishthislater_saveproductandexitInfo = new RepoItemInfo(this, "NeedToFinishThisLater_SaveProductAndExit", ".//div[#'save_draft']/a[@innertext='Save product and exit ']", "element", 30000, null, "b6880976-f749-442b-b0ef-8d82be0d14e5");
+                _rowitemdraftInfo = new RepoItemInfo(this, "RowItemDraft", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[@class='row item draft']", "element", 30000, null, "62282bc9-324a-4716-949b-9040f9cf0b26");
             }
 
             /// <summary>
@@ -1197,6 +1317,30 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
+            /// The Material_Other item.
+            /// </summary>
+            [RepositoryItem("8dd63235-ba03-4020-b821-db4c9b4cd0c3")]
+            public virtual Ranorex.ImgTag Material_Other
+            {
+                get
+                {
+                    return _material_otherInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Material_Other item info.
+            /// </summary>
+            [RepositoryItemInfo("8dd63235-ba03-4020-b821-db4c9b4cd0c3")]
+            public virtual RepoItemInfo Material_OtherInfo
+            {
+                get
+                {
+                    return _material_otherInfo;
+                }
+            }
+
+            /// <summary>
             /// The SelectThickness item.
             /// </summary>
             [RepositoryItem("d13582fe-2e09-44a1-8d15-804e21ac204c")]
@@ -1293,6 +1437,30 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
+            /// The MaterialThickness_19mm item.
+            /// </summary>
+            [RepositoryItem("99b4fdcb-9247-4f96-a4dd-665d4573ab38")]
+            public virtual Ranorex.OptionTag MaterialThickness_19mm
+            {
+                get
+                {
+                    return _materialthickness_19mmInfo.CreateAdapter<Ranorex.OptionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MaterialThickness_19mm item info.
+            /// </summary>
+            [RepositoryItemInfo("99b4fdcb-9247-4f96-a4dd-665d4573ab38")]
+            public virtual RepoItemInfo MaterialThickness_19mmInfo
+            {
+                get
+                {
+                    return _materialthickness_19mmInfo;
+                }
+            }
+
+            /// <summary>
             /// The Copy_of_MaterialThickness_16mm item.
             /// </summary>
             [RepositoryItem("2f7d1f93-ad81-4844-af56-857bb2a0ced4")]
@@ -1365,6 +1533,774 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
+            /// The EngravingLeftSide item.
+            /// </summary>
+            [RepositoryItem("1fddf0c6-4c22-46ef-8a99-1ef97601ddc1")]
+            public virtual Ranorex.LabelTag EngravingLeftSide
+            {
+                get
+                {
+                    return _engravingleftsideInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EngravingLeftSide item info.
+            /// </summary>
+            [RepositoryItemInfo("1fddf0c6-4c22-46ef-8a99-1ef97601ddc1")]
+            public virtual RepoItemInfo EngravingLeftSideInfo
+            {
+                get
+                {
+                    return _engravingleftsideInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_RightSide item.
+            /// </summary>
+            [RepositoryItem("f968fdb1-a188-46b7-a236-282b7db63851")]
+            public virtual Ranorex.LabelTag Engraving_RightSide
+            {
+                get
+                {
+                    return _engraving_rightsideInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_RightSide item info.
+            /// </summary>
+            [RepositoryItemInfo("f968fdb1-a188-46b7-a236-282b7db63851")]
+            public virtual RepoItemInfo Engraving_RightSideInfo
+            {
+                get
+                {
+                    return _engraving_rightsideInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_LeftAndRight item.
+            /// </summary>
+            [RepositoryItem("8b26f903-4e87-4c5a-81d6-8ae51e2439d8")]
+            public virtual Ranorex.LabelTag Engraving_LeftAndRight
+            {
+                get
+                {
+                    return _engraving_leftandrightInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_LeftAndRight item info.
+            /// </summary>
+            [RepositoryItemInfo("8b26f903-4e87-4c5a-81d6-8ae51e2439d8")]
+            public virtual RepoItemInfo Engraving_LeftAndRightInfo
+            {
+                get
+                {
+                    return _engraving_leftandrightInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_Front item.
+            /// </summary>
+            [RepositoryItem("1c09a4b8-565e-49e3-8e59-d607af3b7b0b")]
+            public virtual Ranorex.LabelTag Engraving_Front
+            {
+                get
+                {
+                    return _engraving_frontInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_Front item info.
+            /// </summary>
+            [RepositoryItemInfo("1c09a4b8-565e-49e3-8e59-d607af3b7b0b")]
+            public virtual RepoItemInfo Engraving_FrontInfo
+            {
+                get
+                {
+                    return _engraving_frontInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_SpecialEngravingInstructions item.
+            /// </summary>
+            [RepositoryItem("214fa544-6176-4608-bc31-5e1d573f5e52")]
+            public virtual Ranorex.TextAreaTag Engraving_SpecialEngravingInstructions
+            {
+                get
+                {
+                    return _engraving_specialengravinginstructionsInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_SpecialEngravingInstructions item info.
+            /// </summary>
+            [RepositoryItemInfo("214fa544-6176-4608-bc31-5e1d573f5e52")]
+            public virtual RepoItemInfo Engraving_SpecialEngravingInstructionsInfo
+            {
+                get
+                {
+                    return _engraving_specialengravinginstructionsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddDeliveryAddress item.
+            /// </summary>
+            [RepositoryItem("c0dbd2db-11db-4e6d-acf2-cda8a9a98f17")]
+            public virtual Ranorex.ATag AddDeliveryAddress
+            {
+                get
+                {
+                    return _adddeliveryaddressInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddDeliveryAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("c0dbd2db-11db-4e6d-acf2-cda8a9a98f17")]
+            public virtual RepoItemInfo AddDeliveryAddressInfo
+            {
+                get
+                {
+                    return _adddeliveryaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryContact_ContactName item.
+            /// </summary>
+            [RepositoryItem("eedbd13b-eb51-4f78-8ea8-ce1a19ad92b9")]
+            public virtual Ranorex.InputTag DeliveryContact_ContactName
+            {
+                get
+                {
+                    return _deliverycontact_contactnameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryContact_ContactName item info.
+            /// </summary>
+            [RepositoryItemInfo("eedbd13b-eb51-4f78-8ea8-ce1a19ad92b9")]
+            public virtual RepoItemInfo DeliveryContact_ContactNameInfo
+            {
+                get
+                {
+                    return _deliverycontact_contactnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryContact_TelephoneNumber item.
+            /// </summary>
+            [RepositoryItem("36928660-4092-4a6f-80f1-e2b8543063e1")]
+            public virtual Ranorex.InputTag DeliveryContact_TelephoneNumber
+            {
+                get
+                {
+                    return _deliverycontact_telephonenumberInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryContact_TelephoneNumber item info.
+            /// </summary>
+            [RepositoryItemInfo("36928660-4092-4a6f-80f1-e2b8543063e1")]
+            public virtual RepoItemInfo DeliveryContact_TelephoneNumberInfo
+            {
+                get
+                {
+                    return _deliverycontact_telephonenumberInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddAddressManually item.
+            /// </summary>
+            [RepositoryItem("c1298e12-d84b-43d2-9340-52509e0aa0eb")]
+            public virtual Ranorex.PTag DeliveryAddress_AddAddressManually
+            {
+                get
+                {
+                    return _deliveryaddress_addaddressmanuallyInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddAddressManually item info.
+            /// </summary>
+            [RepositoryItemInfo("c1298e12-d84b-43d2-9340-52509e0aa0eb")]
+            public virtual RepoItemInfo DeliveryAddress_AddAddressManuallyInfo
+            {
+                get
+                {
+                    return _deliveryaddress_addaddressmanuallyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_CompanyName item.
+            /// </summary>
+            [RepositoryItem("ed7db12c-599c-4159-9989-68f68c064f26")]
+            public virtual Ranorex.InputTag DeliveryAddress_CompanyName
+            {
+                get
+                {
+                    return _deliveryaddress_companynameInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_CompanyName item info.
+            /// </summary>
+            [RepositoryItemInfo("ed7db12c-599c-4159-9989-68f68c064f26")]
+            public virtual RepoItemInfo DeliveryAddress_CompanyNameInfo
+            {
+                get
+                {
+                    return _deliveryaddress_companynameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressLine1 item.
+            /// </summary>
+            [RepositoryItem("8bdbd7ec-0102-4b09-8cbb-0aa8c1024a43")]
+            public virtual Ranorex.InputTag DeliveryAddress_AddressLine1
+            {
+                get
+                {
+                    return _deliveryaddress_addressline1Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressLine1 item info.
+            /// </summary>
+            [RepositoryItemInfo("8bdbd7ec-0102-4b09-8cbb-0aa8c1024a43")]
+            public virtual RepoItemInfo DeliveryAddress_AddressLine1Info
+            {
+                get
+                {
+                    return _deliveryaddress_addressline1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressLine2 item.
+            /// </summary>
+            [RepositoryItem("e29624be-e255-4583-87ea-4cd0d2f3040a")]
+            public virtual Ranorex.InputTag DeliveryAddress_AddressLine2
+            {
+                get
+                {
+                    return _deliveryaddress_addressline2Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressLine2 item info.
+            /// </summary>
+            [RepositoryItemInfo("e29624be-e255-4583-87ea-4cd0d2f3040a")]
+            public virtual RepoItemInfo DeliveryAddress_AddressLine2Info
+            {
+                get
+                {
+                    return _deliveryaddress_addressline2Info;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_TownCity item.
+            /// </summary>
+            [RepositoryItem("6d44b475-e052-4496-8413-5a428b22fa12")]
+            public virtual Ranorex.InputTag DeliveryAddress_TownCity
+            {
+                get
+                {
+                    return _deliveryaddress_towncityInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_TownCity item info.
+            /// </summary>
+            [RepositoryItemInfo("6d44b475-e052-4496-8413-5a428b22fa12")]
+            public virtual RepoItemInfo DeliveryAddress_TownCityInfo
+            {
+                get
+                {
+                    return _deliveryaddress_towncityInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_County item.
+            /// </summary>
+            [RepositoryItem("8573d1e0-84a3-4926-b905-f9b0397227af")]
+            public virtual Ranorex.InputTag DeliveryAddress_County
+            {
+                get
+                {
+                    return _deliveryaddress_countyInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_County item info.
+            /// </summary>
+            [RepositoryItemInfo("8573d1e0-84a3-4926-b905-f9b0397227af")]
+            public virtual RepoItemInfo DeliveryAddress_CountyInfo
+            {
+                get
+                {
+                    return _deliveryaddress_countyInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Postcode item.
+            /// </summary>
+            [RepositoryItem("a819ccde-c0fc-4cc2-9eed-372fe0a5a839")]
+            public virtual Ranorex.InputTag DeliveryAddress_Postcode
+            {
+                get
+                {
+                    return _deliveryaddress_postcodeInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Postcode item info.
+            /// </summary>
+            [RepositoryItemInfo("a819ccde-c0fc-4cc2-9eed-372fe0a5a839")]
+            public virtual RepoItemInfo DeliveryAddress_PostcodeInfo
+            {
+                get
+                {
+                    return _deliveryaddress_postcodeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddDeliveryAddressButton item.
+            /// </summary>
+            [RepositoryItem("5c471145-fec2-47b1-8ef2-d7acf2ad6b81")]
+            public virtual Ranorex.Button AddDeliveryAddressButton
+            {
+                get
+                {
+                    return _adddeliveryaddressbuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddDeliveryAddressButton item info.
+            /// </summary>
+            [RepositoryItemInfo("5c471145-fec2-47b1-8ef2-d7acf2ad6b81")]
+            public virtual RepoItemInfo AddDeliveryAddressButtonInfo
+            {
+                get
+                {
+                    return _adddeliveryaddressbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_YourReference item.
+            /// </summary>
+            [RepositoryItem("1f5f10a1-05e2-42da-9f69-a4320688355f")]
+            public virtual Ranorex.InputTag DeliveryAddress_YourReference
+            {
+                get
+                {
+                    return _deliveryaddress_yourreferenceInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_YourReference item info.
+            /// </summary>
+            [RepositoryItemInfo("1f5f10a1-05e2-42da-9f69-a4320688355f")]
+            public virtual RepoItemInfo DeliveryAddress_YourReferenceInfo
+            {
+                get
+                {
+                    return _deliveryaddress_yourreferenceInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_EmailAddress item.
+            /// </summary>
+            [RepositoryItem("a0b847d5-ed74-4175-a7dd-55bfdc75161d")]
+            public virtual Ranorex.InputTag DeliveryAddress_EmailAddress
+            {
+                get
+                {
+                    return _deliveryaddress_emailaddressInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_EmailAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("a0b847d5-ed74-4175-a7dd-55bfdc75161d")]
+            public virtual RepoItemInfo DeliveryAddress_EmailAddressInfo
+            {
+                get
+                {
+                    return _deliveryaddress_emailaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Remove item.
+            /// </summary>
+            [RepositoryItem("3c54baed-c671-4322-875e-a4793e8d31c6")]
+            public virtual Ranorex.DivTag DeliveryAddress_Remove
+            {
+                get
+                {
+                    return _deliveryaddress_removeInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Remove item info.
+            /// </summary>
+            [RepositoryItemInfo("3c54baed-c671-4322-875e-a4793e8d31c6")]
+            public virtual RepoItemInfo DeliveryAddress_RemoveInfo
+            {
+                get
+                {
+                    return _deliveryaddress_removeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Edit item.
+            /// </summary>
+            [RepositoryItem("5abcecad-84ba-4a5d-ac37-b542994736e4")]
+            public virtual Ranorex.DivTag DeliveryAddress_Edit
+            {
+                get
+                {
+                    return _deliveryaddress_editInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_Edit item info.
+            /// </summary>
+            [RepositoryItemInfo("5abcecad-84ba-4a5d-ac37-b542994736e4")]
+            public virtual RepoItemInfo DeliveryAddress_EditInfo
+            {
+                get
+                {
+                    return _deliveryaddress_editInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_UpdateDeliveryAddress item.
+            /// </summary>
+            [RepositoryItem("4cfd16bc-f61d-4a51-a854-723edd075d21")]
+            public virtual Ranorex.Button DeliveryAddress_UpdateDeliveryAddress
+            {
+                get
+                {
+                    return _deliveryaddress_updatedeliveryaddressInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_UpdateDeliveryAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("4cfd16bc-f61d-4a51-a854-723edd075d21")]
+            public virtual RepoItemInfo DeliveryAddress_UpdateDeliveryAddressInfo
+            {
+                get
+                {
+                    return _deliveryaddress_updatedeliveryaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YesRemoveAddress item.
+            /// </summary>
+            [RepositoryItem("37383a28-c1b1-4e9e-b210-db1f2ff9a912")]
+            public virtual Ranorex.Button YesRemoveAddress
+            {
+                get
+                {
+                    return _yesremoveaddressInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YesRemoveAddress item info.
+            /// </summary>
+            [RepositoryItemInfo("37383a28-c1b1-4e9e-b210-db1f2ff9a912")]
+            public virtual RepoItemInfo YesRemoveAddressInfo
+            {
+                get
+                {
+                    return _yesremoveaddressInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ReviewOrder item.
+            /// </summary>
+            [RepositoryItem("bd22ec9e-6911-4f76-b7a3-2bbbc2e1de7a")]
+            public virtual Ranorex.Button ReviewOrder
+            {
+                get
+                {
+                    return _revieworderInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ReviewOrder item info.
+            /// </summary>
+            [RepositoryItemInfo("bd22ec9e-6911-4f76-b7a3-2bbbc2e1de7a")]
+            public virtual RepoItemInfo ReviewOrderInfo
+            {
+                get
+                {
+                    return _revieworderInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CancelQuoteButton item.
+            /// </summary>
+            [RepositoryItem("a22a0966-767c-4fc0-9364-0fe8b1f5e428")]
+            public virtual Ranorex.SpanTag CancelQuoteButton
+            {
+                get
+                {
+                    return _cancelquotebuttonInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CancelQuoteButton item info.
+            /// </summary>
+            [RepositoryItemInfo("a22a0966-767c-4fc0-9364-0fe8b1f5e428")]
+            public virtual RepoItemInfo CancelQuoteButtonInfo
+            {
+                get
+                {
+                    return _cancelquotebuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CancelQuote2Button item.
+            /// </summary>
+            [RepositoryItem("8aa95f4c-4dc3-428f-9443-60255b77f9aa")]
+            public virtual Ranorex.Button CancelQuote2Button
+            {
+                get
+                {
+                    return _cancelquote2buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CancelQuote2Button item info.
+            /// </summary>
+            [RepositoryItemInfo("8aa95f4c-4dc3-428f-9443-60255b77f9aa")]
+            public virtual RepoItemInfo CancelQuote2ButtonInfo
+            {
+                get
+                {
+                    return _cancelquote2buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_NameCheckSummery_JohnSmith item.
+            /// </summary>
+            [RepositoryItem("c892259b-f092-4125-bfe1-63bdfd61b664")]
+            public virtual Ranorex.StrongTag DeliveryAddress_NameCheckSummery_JohnSmith
+            {
+                get
+                {
+                    return _deliveryaddress_namechecksummery_johnsmithInfo.CreateAdapter<Ranorex.StrongTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_NameCheckSummery_JohnSmith item info.
+            /// </summary>
+            [RepositoryItemInfo("c892259b-f092-4125-bfe1-63bdfd61b664")]
+            public virtual RepoItemInfo DeliveryAddress_NameCheckSummery_JohnSmithInfo
+            {
+                get
+                {
+                    return _deliveryaddress_namechecksummery_johnsmithInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressCheckSummery item.
+            /// </summary>
+            [RepositoryItem("8337879d-cbe9-412f-9620-a24713c92091")]
+            public virtual Ranorex.DivTag DeliveryAddress_AddressCheckSummery
+            {
+                get
+                {
+                    return _deliveryaddress_addresschecksummeryInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddress_AddressCheckSummery item info.
+            /// </summary>
+            [RepositoryItemInfo("8337879d-cbe9-412f-9620-a24713c92091")]
+            public virtual RepoItemInfo DeliveryAddress_AddressCheckSummeryInfo
+            {
+                get
+                {
+                    return _deliveryaddress_addresschecksummeryInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddressSummery item.
+            /// </summary>
+            [RepositoryItem("12154092-b79e-4ef4-bc62-65f56e14bad6")]
+            public virtual Ranorex.DivTag DeliveryAddressSummery
+            {
+                get
+                {
+                    return _deliveryaddresssummeryInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeliveryAddressSummery item info.
+            /// </summary>
+            [RepositoryItemInfo("12154092-b79e-4ef4-bc62-65f56e14bad6")]
+            public virtual RepoItemInfo DeliveryAddressSummeryInfo
+            {
+                get
+                {
+                    return _deliveryaddresssummeryInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MaterialInformation item.
+            /// </summary>
+            [RepositoryItem("758b2d2a-dcee-4a26-beae-3a848b564a04")]
+            public virtual Ranorex.DivTag MaterialInformation
+            {
+                get
+                {
+                    return _materialinformationInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MaterialInformation item info.
+            /// </summary>
+            [RepositoryItemInfo("758b2d2a-dcee-4a26-beae-3a848b564a04")]
+            public virtual RepoItemInfo MaterialInformationInfo
+            {
+                get
+                {
+                    return _materialinformationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The QuoteSummery_Overview item.
+            /// </summary>
+            [RepositoryItem("45911aaf-d86d-4a3a-be87-22684c517dcf")]
+            public virtual Ranorex.DivTag QuoteSummery_Overview
+            {
+                get
+                {
+                    return _quotesummery_overviewInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The QuoteSummery_Overview item info.
+            /// </summary>
+            [RepositoryItemInfo("45911aaf-d86d-4a3a-be87-22684c517dcf")]
+            public virtual RepoItemInfo QuoteSummery_OverviewInfo
+            {
+                get
+                {
+                    return _quotesummery_overviewInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NeedToFinishThisLater_SaveProductAndExit item.
+            /// </summary>
+            [RepositoryItem("b6880976-f749-442b-b0ef-8d82be0d14e5")]
+            public virtual Ranorex.ATag NeedToFinishThisLater_SaveProductAndExit
+            {
+                get
+                {
+                    return _needtofinishthislater_saveproductandexitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NeedToFinishThisLater_SaveProductAndExit item info.
+            /// </summary>
+            [RepositoryItemInfo("b6880976-f749-442b-b0ef-8d82be0d14e5")]
+            public virtual RepoItemInfo NeedToFinishThisLater_SaveProductAndExitInfo
+            {
+                get
+                {
+                    return _needtofinishthislater_saveproductandexitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RowItemDraft item.
+            /// </summary>
+            [RepositoryItem("62282bc9-324a-4716-949b-9040f9cf0b26")]
+            public virtual Ranorex.DivTag RowItemDraft
+            {
+                get
+                {
+                    return _rowitemdraftInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RowItemDraft item info.
+            /// </summary>
+            [RepositoryItemInfo("62282bc9-324a-4716-949b-9040f9cf0b26")]
+            public virtual RepoItemInfo RowItemDraftInfo
+            {
+                get
+                {
+                    return _rowitemdraftInfo;
+                }
+            }
+
+            /// <summary>
             /// The HttpsQmyHafeleCoUkQuotesBespoke folder.
             /// </summary>
             [RepositoryFolder("5bbebe9d-e57a-4496-a1fa-04b947652758")]
@@ -1388,16 +2324,17 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _divtagdotInfo;
             RepoItemInfo _pleasespecifyanyadditionalproductreInfo;
             RepoItemInfo _custommaterialtypeInfo;
-            RepoItemInfo _finish_body_unlaqueredInfo;
-            RepoItemInfo _finish_body_lacqueredInfo;
+            Finish_Body_UnlaqueredInfoClass _finish_body_unlaqueredInfo;
+            Finish_Body_LacqueredInfoClass _finish_body_lacqueredInfo;
             RepoItemInfo _uploadsupportingfilesInfo;
             RepoItemInfo _handles_noneInfo;
             RepoItemInfo _handles_externalscallopedInfo;
             RepoItemInfo _handles_internalcutoutInfo;
             RepoItemInfo _customisations_drawertop_flatInfo;
             RepoItemInfo _customisations_drawertop_steppedInfo;
-            RepoItemInfo _customisations_droppedfront_yesInfo;
             RepoItemInfo _customisations_droppedfront_noInfo;
+            RepoItemInfo _customisations_droppedfront_yesInfo;
+            RepoItemInfo _customisations_droppedfront_dropdepthInfo;
             RepoItemInfo _customisations_curvedside_yesInfo;
             RepoItemInfo _customisations_curvedside_noInfo;
             RepoItemInfo _customisations_ushapeddrawer_yesInfo;
@@ -1405,16 +2342,16 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _customisations_drawerbase_standardbaseInfo;
             RepoItemInfo _customisations_drawerbase_flushbaseInfo;
             RepoItemInfo _customisations_drawerbase_slideoutbaseInfo;
-            RepoItemInfo _notching_grassInfo;
-            RepoItemInfo _notching_blumInfo;
-            RepoItemInfo _notching_hettichInfo;
-            RepoItemInfo _notching_noneInfo;
+            Notching_GrassInfoClass _notching_grassInfo;
+            Notching_BlumInfoClass _notching_blumInfo;
+            Notching_HettichInfoClass _notching_hettichInfo;
+            Notching_NoneInfoClass _notching_noneInfo;
             RepoItemInfo _specification_frontandbackInfo;
             RepoItemInfo _specification_backonlyInfo;
             RepoItemInfo _specification_frontonlyInfo;
-            RepoItemInfo _finish_lacqueredbase_underside_yesInfo;
-            RepoItemInfo _finish_lacqueredbase_underside_noInfo;
-            RepoItemInfo _engraving_noneInfo;
+            Finish_LacqueredBase_Underside_YesInfoClass _finish_lacqueredbase_underside_yesInfo;
+            Finish_LacqueredBase_Underside_NoInfoClass _finish_lacqueredbase_underside_noInfo;
+            Engraving_NoneInfoClass _engraving_noneInfo;
             RepoItemInfo _engraving_yesInfo;
             RepoItemInfo _haveyouusedyourlogobefore_yesInfo;
             RepoItemInfo _haveyouusedyourlogobefore_noInfo;
@@ -1429,6 +2366,12 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _inserttype_type2Info;
             RepoItemInfo _inserttype_otherInfo;
             RepoItemInfo _uploadcustominsertdetailsInfo;
+            RepoItemInfo _notching_specificationoptionvalidationInfo;
+            RepoItemInfo _engraving_uploadlogoInfo;
+            RepoItemInfo _moreinfo_materialInfo;
+            RepoItemInfo _insert_depth_textInfo;
+            RepoItemInfo _insert_height_textInfo;
+            RepoItemInfo _insert_width_textInfo;
 
             /// <summary>
             /// Creates a new HttpsQmyHafeleCoUkQuotesBespoke  folder.
@@ -1436,24 +2379,25 @@ namespace HUKBespokeTimberDrawers
             public HttpsQmyHafeleCoUkQuotesBespokeFolder(RepoGenBaseFolder parentFolder) :
                     base("HttpsQmyHafeleCoUkQuotesBespoke", ".//div[#'container']//", parentFolder, 30000, null, false, "5bbebe9d-e57a-4496-a1fa-04b947652758", "")
             {
-                _width_textInfo = new RepoItemInfo(this, "Width_Text", ".//input[@type='text']", "", 30000, null, "baa43195-f137-4c48-911b-68eefad3ec6f");
+                _width_textInfo = new RepoItemInfo(this, "Width_Text", "form//input[@type='text']", "", 30000, null, "baa43195-f137-4c48-911b-68eefad3ec6f");
                 _moreinfoInfo = new RepoItemInfo(this, "MoreInfo", ".//span[@innertext='More info']", "", 30000, null, "627cc52a-35ec-4b1c-bdec-b3b1bef3b8b8");
-                _depth_textInfo = new RepoItemInfo(this, "Depth_Text", "div/div[1]/div[3]/div/div[2]/input[@type='text']", "", 30000, null, "6ba18b46-d966-4122-b2ea-3940794fec8f");
-                _height_textInfo = new RepoItemInfo(this, "Height_Text", "div/div[1]/div[3]/div/div[3]/input[@type='text']", "", 30000, null, "dc3d46fe-0962-4600-92d1-4a6ea4798abd");
+                _depth_textInfo = new RepoItemInfo(this, "Depth_Text", "form/div/div[1]/div[3]/div/div[2]/input[@type='text']", "", 30000, null, "6ba18b46-d966-4122-b2ea-3940794fec8f");
+                _height_textInfo = new RepoItemInfo(this, "Height_Text", "form/div/div[1]/div[3]/div/div[3]/input[@type='text']", "", 30000, null, "dc3d46fe-0962-4600-92d1-4a6ea4798abd");
                 _imgtagplyInfo = new RepoItemInfo(this, "ImgTagPly", "div/div[2]//img[@alt='Ply']", "", 30000, null, "f2c3dfcd-b1f4-44c4-8a1d-a36eac18b76c");
                 _divtagdotInfo = new RepoItemInfo(this, "DivTagDot", "div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']/div", "", 30000, null, "6bb2324d-5b27-4e17-8043-6fb40938c06b");
                 _pleasespecifyanyadditionalproductreInfo = new RepoItemInfo(this, "PleaseSpecifyAnyAdditionalProductRe", ".//textarea[@placeholder='Please specify any additional product requirements here']", "", 30000, null, "64c275d8-8d98-461d-8f9c-553b7a4a647d");
                 _custommaterialtypeInfo = new RepoItemInfo(this, "CustomMaterialType", ".//div[#'container']//input[@type='text']", "", 30000, null, "8b0c5f25-5bff-42b5-ae54-3bdbf2feb3fb");
-                _finish_body_unlaqueredInfo = new RepoItemInfo(this, "Finish_Body_Unlaquered", ".//div[#'container']///label[@innertext=' Unlacquered ']", "element", 30000, null, "4750f120-0a97-4dad-9545-68435e5e77cc");
-                _finish_body_lacqueredInfo = new RepoItemInfo(this, "Finish_Body_Lacquered", ".//div[#'container']//label[@innertext=' Lacquered ']", "element", 30000, null, "91eda056-dee4-43e1-8e5e-6a7b29b62889");
+                _finish_body_unlaqueredInfo = new Finish_Body_UnlaqueredInfoClass(this);
+                _finish_body_lacqueredInfo = new Finish_Body_LacqueredInfoClass(this);
                 _uploadsupportingfilesInfo = new RepoItemInfo(this, "UploadSupportingFiles", ".//input[#'generalUpload']", "element", 30000, null, "0140c466-6007-4d9f-97bf-e1ae27d3959e");
                 _handles_noneInfo = new RepoItemInfo(this, "Handles_None", ".//div[#'container']//label[@innertext=' None ']", "element", 30000, null, "54cf63e9-ea71-444b-9910-36d782136797");
                 _handles_externalscallopedInfo = new RepoItemInfo(this, "Handles_ExternalScalloped", ".//div[#'container']//label[@innertext=' External scalloped ']", "element", 30000, null, "33c99833-d4a8-4a2c-963c-c5ecb2c0f301");
                 _handles_internalcutoutInfo = new RepoItemInfo(this, "Handles_InternalCutOut", ".//div[#'container']//label[@innertext=' Internal cut out ']", "element", 30000, null, "4f574655-b3c4-4cfe-bdf7-a2f4b9620842");
                 _customisations_drawertop_flatInfo = new RepoItemInfo(this, "Customisations_DrawerTop_Flat", ".//div[#'container']//label[@innertext=' Flat ']", "element", 30000, null, "df9c172c-a8a0-4270-924b-41d29d50250a");
                 _customisations_drawertop_steppedInfo = new RepoItemInfo(this, "Customisations_DrawerTop_Stepped", ".//div[#'container']//label[@innertext=' Stepped ']", "element", 30000, null, "f4af3d31-9c5a-483a-9bf0-e7caf4a591ff");
-                _customisations_droppedfront_yesInfo = new RepoItemInfo(this, "Customisations_DroppedFront_Yes", ".//div[#'container']//label[@innertext=' Yes ']", "element", 30000, null, "56bba24e-704d-4f30-8f37-5beb3ba5a1f6");
                 _customisations_droppedfront_noInfo = new RepoItemInfo(this, "Customisations_DroppedFront_No", ".//label[@innertext=' No ']", "element", 30000, null, "75a429e8-9847-4836-bd33-4a61c1483a79");
+                _customisations_droppedfront_yesInfo = new RepoItemInfo(this, "Customisations_DroppedFront_Yes", ".//div[#'container']//label[@innertext=' Yes ']", "element", 30000, null, "56bba24e-704d-4f30-8f37-5beb3ba5a1f6");
+                _customisations_droppedfront_dropdepthInfo = new RepoItemInfo(this, "Customisations_DroppedFront_DropDepth", ".//div/div[4]/div[2]/div[3]/div/div/input[@type='text']", "element", 30000, null, "5649050e-4d6c-4fe7-8b7b-9ef819e09ec3");
                 _customisations_curvedside_yesInfo = new RepoItemInfo(this, "Customisations_CurvedSide_Yes", ".//div[#'container']//div/div[4]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']", "element", 30000, null, "834b41bf-c43a-4250-8bf4-eab552266ba8");
                 _customisations_curvedside_noInfo = new RepoItemInfo(this, "Customisations_CurvedSide_No", ".//div[#'container']//div/div[4]/div[3]//label[@innertext=' No ']", "element", 30000, null, "f151e7ff-f477-4a2f-9b1d-82953061c0cb");
                 _customisations_ushapeddrawer_yesInfo = new RepoItemInfo(this, "Customisations_UShapedDrawer_Yes", ".//div[#'container']//div/div[4]/div[4]//label[@innertext=$UshapedDrawer_Yes]", "element", 30000, null, "dd2875ee-5a80-4240-96ee-5a15034bc1c7");
@@ -1461,16 +2405,16 @@ namespace HUKBespokeTimberDrawers
                 _customisations_drawerbase_standardbaseInfo = new RepoItemInfo(this, "Customisations_DrawerBase_StandardBase", ".//div[#'container']//label[@innertext=' Standard Base ']", "element", 30000, null, "a3ec0e4b-a4c9-4cc5-990c-0a4d8811d3a3");
                 _customisations_drawerbase_flushbaseInfo = new RepoItemInfo(this, "Customisations_DrawerBase_FlushBase", ".//div[#'container']//label[@innertext=' Flush Base ']", "element", 30000, null, "edc50125-7f91-48b6-8950-d14f9fdaf23a");
                 _customisations_drawerbase_slideoutbaseInfo = new RepoItemInfo(this, "Customisations_DrawerBase_SlideOutBase", ".//div[#'container']//label[@innertext=$SlideOutBase]", "", 30000, null, "dec997fb-67d5-48f9-a43a-36bf8c8f1735");
-                _notching_grassInfo = new RepoItemInfo(this, "Notching_Grass", ".//div[#'container']//label[@innertext=' Grass ']", "element", 30000, null, "717e7840-bab4-4d62-a44e-26685dd7f2ba");
-                _notching_blumInfo = new RepoItemInfo(this, "Notching_Blum", ".//label[@innertext=' Blum ']", "element", 30000, null, "6bf3ffde-c4d0-48b2-a9a4-b747bdd36840");
-                _notching_hettichInfo = new RepoItemInfo(this, "Notching_Hettich", ".//label[@innertext=' Hettich ']", "element", 30000, null, "c686afc5-d017-4b25-9a72-da91af4dac47");
-                _notching_noneInfo = new RepoItemInfo(this, "Notching_None", ".//div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']", "element", 30000, null, "53cb38bd-f8b6-4757-96d5-eb2d8c96482c");
+                _notching_grassInfo = new Notching_GrassInfoClass(this);
+                _notching_blumInfo = new Notching_BlumInfoClass(this);
+                _notching_hettichInfo = new Notching_HettichInfoClass(this);
+                _notching_noneInfo = new Notching_NoneInfoClass(this);
                 _specification_frontandbackInfo = new RepoItemInfo(this, "Specification_FrontAndBack", ".//label[@innertext=' Front & back ']", "element", 30000, null, "970f2f94-dc15-4968-abef-5d0503c11528");
                 _specification_backonlyInfo = new RepoItemInfo(this, "Specification_BackOnly", ".//label[@innertext=' Back only ']", "element", 30000, null, "96b8a822-1787-4712-8d19-cd8bb50cc1d9");
                 _specification_frontonlyInfo = new RepoItemInfo(this, "Specification_FrontOnly", ".//label[@innertext=' Front only ']", "element", 30000, null, "2de9f3e6-6752-4de1-a35b-4c74d57196d1");
-                _finish_lacqueredbase_underside_yesInfo = new RepoItemInfo(this, "Finish_LacqueredBase_Underside_Yes", ".//div/div[6]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']", "element", 30000, null, "d8a539f9-095d-40d6-8446-bfd4f61171ce");
-                _finish_lacqueredbase_underside_noInfo = new RepoItemInfo(this, "Finish_LacqueredBase_Underside_No", ".//div/div[6]/div[3]/div[2]/div/div/div[2]/label[@innertext=' No ']", "element", 30000, null, "d1548e13-5f6c-4f8c-96c3-213e01f7427c");
-                _engraving_noneInfo = new RepoItemInfo(this, "Engraving_None", ".//div/div[7]/div[2]/div/div/div[1]/label[@innertext=' None ']", "element", 30000, null, "1a6fe9ce-2a1f-41dd-8c7f-03ff5c53b910");
+                _finish_lacqueredbase_underside_yesInfo = new Finish_LacqueredBase_Underside_YesInfoClass(this);
+                _finish_lacqueredbase_underside_noInfo = new Finish_LacqueredBase_Underside_NoInfoClass(this);
+                _engraving_noneInfo = new Engraving_NoneInfoClass(this);
                 _engraving_yesInfo = new RepoItemInfo(this, "Engraving_Yes", ".//label[@innertext=' Add engraving ']", "element", 30000, null, "b01da1c3-de25-442e-a243-fe8c27748846");
                 _haveyouusedyourlogobefore_yesInfo = new RepoItemInfo(this, "HaveYouUsedYourLogoBefore_Yes", ".//div/div[7]/div[3]/div[1]/div/div/div[1]/label[@innertext=' Yes ']", "element", 30000, null, "0eae3cdf-3685-478a-b6b9-efb712351783");
                 _haveyouusedyourlogobefore_noInfo = new RepoItemInfo(this, "HaveYouUsedYourLogoBefore_No", ".//div/div[7]/div[3]/div[1]/div/div/div[2]/label[@innertext=' No ']", "element", 30000, null, "4629552e-7eae-4904-9e2e-92a8cf5d9fe1");
@@ -1485,6 +2429,327 @@ namespace HUKBespokeTimberDrawers
                 _inserttype_type2Info = new RepoItemInfo(this, "InsertType_Type2", ".//div/div[3]//img[@alt='insert_2']", "element", 30000, null, "9f65db13-399c-4db5-a465-aeb26f457b2b");
                 _inserttype_otherInfo = new RepoItemInfo(this, "InsertType_Other", ".//div/div[3]//img[@alt='insert_other']", "element", 30000, null, "f77a3ca7-fd1d-40bf-b7f3-301ba866b445");
                 _uploadcustominsertdetailsInfo = new RepoItemInfo(this, "UploadCustomInsertDetails", ".//input[#'customInsert']", "element", 30000, null, "6bd8c9b2-b860-40b3-9d00-b5abd571df38");
+                _notching_specificationoptionvalidationInfo = new RepoItemInfo(this, "Notching_SpecificationOptionValidation", ".//div[#'container']/form/div/div[5]", "element", 30000, null, "a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8");
+                _engraving_uploadlogoInfo = new RepoItemInfo(this, "Engraving_UploadLogo", ".//input[#'customLogo']", "element", 30000, null, "68ab3545-4442-487e-ae0b-e583bee95190");
+                _moreinfo_materialInfo = new RepoItemInfo(this, "MoreInfo_Material", "div/div[2]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "f7e45a91-1f59-4e8f-8190-524390969e37");
+                _insert_depth_textInfo = new RepoItemInfo(this, "Insert_Depth_Text", "form//div/div[1]/div[2]/div/div[2]/input[@type='text']", "", 30000, null, "3645cc50-5708-4a4b-bdca-a14a7df27f51");
+                _insert_height_textInfo = new RepoItemInfo(this, "Insert_Height_Text", "form//div/div[1]/div[2]/div/div[3]/input[@type='text']", "element", 30000, null, "82d296d7-5710-4418-8d27-0dd9174ef1ed");
+                _insert_width_textInfo = new RepoItemInfo(this, "Insert_Width_Text", "form//input[@type='text']", "element", 30000, null, "ef723b8f-3edc-47cb-9166-6303e93f3272");
+            }
+
+            /// <summary>
+            /// The Finish_Body_UnlaqueredInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("4750f120-0a97-4dad-9545-68435e5e77cc")]
+            public class Finish_Body_UnlaqueredInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Finish_Body_UnlaqueredInfoClass class constructor.
+                /// </summary>
+                public Finish_Body_UnlaqueredInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Finish_Body_Unlaquered", ".//div[#'container']///label[@innertext=' Unlacquered ']", 30000, null, "4750f120-0a97-4dad-9545-68435e5e77cc")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("bfba499a-8776-4ba5-abe7-9e6805172ee8")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("bfba499a-8776-4ba5-abe7-9e6805172ee8");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("bfba499a-8776-4ba5-abe7-9e6805172ee8")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("bfba499a-8776-4ba5-abe7-9e6805172ee8", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Finish_Body_LacqueredInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("91eda056-dee4-43e1-8e5e-6a7b29b62889")]
+            public class Finish_Body_LacqueredInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Finish_Body_LacqueredInfoClass class constructor.
+                /// </summary>
+                public Finish_Body_LacqueredInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Finish_Body_Lacquered", ".//div[#'container']//label[@innertext=' Lacquered ']", 30000, null, "91eda056-dee4-43e1-8e5e-6a7b29b62889")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("0de4f7ba-f176-4a37-8a1f-295437d0722e")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("0de4f7ba-f176-4a37-8a1f-295437d0722e");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("0de4f7ba-f176-4a37-8a1f-295437d0722e")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("0de4f7ba-f176-4a37-8a1f-295437d0722e", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_GrassInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("717e7840-bab4-4d62-a44e-26685dd7f2ba")]
+            public class Notching_GrassInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Notching_GrassInfoClass class constructor.
+                /// </summary>
+                public Notching_GrassInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Notching_Grass", ".//div[#'container']//label[@innertext=' Grass ']", 30000, null, "717e7840-bab4-4d62-a44e-26685dd7f2ba")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("f5d467e9-47c7-468a-8f2d-194e72b5c036")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("f5d467e9-47c7-468a-8f2d-194e72b5c036");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("f5d467e9-47c7-468a-8f2d-194e72b5c036")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("f5d467e9-47c7-468a-8f2d-194e72b5c036", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_BlumInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("6bf3ffde-c4d0-48b2-a9a4-b747bdd36840")]
+            public class Notching_BlumInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Notching_BlumInfoClass class constructor.
+                /// </summary>
+                public Notching_BlumInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Notching_Blum", ".//label[@innertext=' Blum ']", 30000, null, "6bf3ffde-c4d0-48b2-a9a4-b747bdd36840")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("05bc21b6-5c28-4a65-8b0d-34c2a0e713e3")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("05bc21b6-5c28-4a65-8b0d-34c2a0e713e3");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("05bc21b6-5c28-4a65-8b0d-34c2a0e713e3")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("05bc21b6-5c28-4a65-8b0d-34c2a0e713e3", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_HettichInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("c686afc5-d017-4b25-9a72-da91af4dac47")]
+            public class Notching_HettichInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Notching_HettichInfoClass class constructor.
+                /// </summary>
+                public Notching_HettichInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Notching_Hettich", ".//label[@innertext=' Hettich ']", 30000, null, "c686afc5-d017-4b25-9a72-da91af4dac47")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("18364a24-b408-4421-b170-a6b6cc3e8949")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("18364a24-b408-4421-b170-a6b6cc3e8949");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("18364a24-b408-4421-b170-a6b6cc3e8949")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("18364a24-b408-4421-b170-a6b6cc3e8949", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_NoneInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("53cb38bd-f8b6-4757-96d5-eb2d8c96482c")]
+            public class Notching_NoneInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Notching_NoneInfoClass class constructor.
+                /// </summary>
+                public Notching_NoneInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Notching_None", ".//div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']", 30000, null, "53cb38bd-f8b6-4757-96d5-eb2d8c96482c")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("9dafbdf0-2a5d-49e9-a5ec-75c4debef0d0")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("9dafbdf0-2a5d-49e9-a5ec-75c4debef0d0");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("9dafbdf0-2a5d-49e9-a5ec-75c4debef0d0")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("9dafbdf0-2a5d-49e9-a5ec-75c4debef0d0", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Finish_LacqueredBase_Underside_YesInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("d8a539f9-095d-40d6-8446-bfd4f61171ce")]
+            public class Finish_LacqueredBase_Underside_YesInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Finish_LacqueredBase_Underside_YesInfoClass class constructor.
+                /// </summary>
+                public Finish_LacqueredBase_Underside_YesInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Finish_LacqueredBase_Underside_Yes", ".//div/div[6]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']", 30000, null, "d8a539f9-095d-40d6-8446-bfd4f61171ce")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("bea8bd76-3f80-4017-9213-11373d1a7b5b")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("bea8bd76-3f80-4017-9213-11373d1a7b5b");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("bea8bd76-3f80-4017-9213-11373d1a7b5b")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("bea8bd76-3f80-4017-9213-11373d1a7b5b", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Finish_LacqueredBase_Underside_NoInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("d1548e13-5f6c-4f8c-96c3-213e01f7427c")]
+            public class Finish_LacqueredBase_Underside_NoInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Finish_LacqueredBase_Underside_NoInfoClass class constructor.
+                /// </summary>
+                public Finish_LacqueredBase_Underside_NoInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Finish_LacqueredBase_Underside_No", ".//div/div[6]/div[3]/div[2]/div/div/div[2]/label[@innertext=' No ']", 30000, null, "d1548e13-5f6c-4f8c-96c3-213e01f7427c")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("ac243bd3-2710-46dc-9498-617489c78b74")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("ac243bd3-2710-46dc-9498-617489c78b74");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("ac243bd3-2710-46dc-9498-617489c78b74")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("ac243bd3-2710-46dc-9498-617489c78b74", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_NoneInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("1a6fe9ce-2a1f-41dd-8c7f-03ff5c53b910")]
+            public class Engraving_NoneInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// Engraving_NoneInfoClass class constructor.
+                /// </summary>
+                public Engraving_NoneInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "Engraving_None", ".//div/div[7]/div[2]/div/div/div[1]/label[@innertext=' None ']", 30000, null, "1a6fe9ce-2a1f-41dd-8c7f-03ff5c53b910")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("1024a9c4-8992-4231-b8b5-68c00755361c")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("1024a9c4-8992-4231-b8b5-68c00755361c");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("1024a9c4-8992-4231-b8b5-68c00755361c")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("1024a9c4-8992-4231-b8b5-68c00755361c", cropRect);
+                }
             }
 
             /// <summary>
@@ -1719,7 +2984,7 @@ namespace HUKBespokeTimberDrawers
             /// The Finish_Body_Unlaquered item info.
             /// </summary>
             [RepositoryItemInfo("4750f120-0a97-4dad-9545-68435e5e77cc")]
-            public virtual RepoItemInfo Finish_Body_UnlaqueredInfo
+            public virtual Finish_Body_UnlaqueredInfoClass Finish_Body_UnlaqueredInfo
             {
                 get
                 {
@@ -1743,7 +3008,7 @@ namespace HUKBespokeTimberDrawers
             /// The Finish_Body_Lacquered item info.
             /// </summary>
             [RepositoryItemInfo("91eda056-dee4-43e1-8e5e-6a7b29b62889")]
-            public virtual RepoItemInfo Finish_Body_LacqueredInfo
+            public virtual Finish_Body_LacqueredInfoClass Finish_Body_LacqueredInfo
             {
                 get
                 {
@@ -1896,6 +3161,30 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
+            /// The Customisations_DroppedFront_No item.
+            /// </summary>
+            [RepositoryItem("75a429e8-9847-4836-bd33-4a61c1483a79")]
+            public virtual Ranorex.LabelTag Customisations_DroppedFront_No
+            {
+                get
+                {
+                    return _customisations_droppedfront_noInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Customisations_DroppedFront_No item info.
+            /// </summary>
+            [RepositoryItemInfo("75a429e8-9847-4836-bd33-4a61c1483a79")]
+            public virtual RepoItemInfo Customisations_DroppedFront_NoInfo
+            {
+                get
+                {
+                    return _customisations_droppedfront_noInfo;
+                }
+            }
+
+            /// <summary>
             /// The Customisations_DroppedFront_Yes item.
             /// </summary>
             [RepositoryItem("56bba24e-704d-4f30-8f37-5beb3ba5a1f6")]
@@ -1920,26 +3209,26 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
-            /// The Customisations_DroppedFront_No item.
+            /// The Customisations_DroppedFront_DropDepth item.
             /// </summary>
-            [RepositoryItem("75a429e8-9847-4836-bd33-4a61c1483a79")]
-            public virtual Ranorex.LabelTag Customisations_DroppedFront_No
+            [RepositoryItem("5649050e-4d6c-4fe7-8b7b-9ef819e09ec3")]
+            public virtual Ranorex.InputTag Customisations_DroppedFront_DropDepth
             {
                 get
                 {
-                    return _customisations_droppedfront_noInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                    return _customisations_droppedfront_dropdepthInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Customisations_DroppedFront_No item info.
+            /// The Customisations_DroppedFront_DropDepth item info.
             /// </summary>
-            [RepositoryItemInfo("75a429e8-9847-4836-bd33-4a61c1483a79")]
-            public virtual RepoItemInfo Customisations_DroppedFront_NoInfo
+            [RepositoryItemInfo("5649050e-4d6c-4fe7-8b7b-9ef819e09ec3")]
+            public virtual RepoItemInfo Customisations_DroppedFront_DropDepthInfo
             {
                 get
                 {
-                    return _customisations_droppedfront_noInfo;
+                    return _customisations_droppedfront_dropdepthInfo;
                 }
             }
 
@@ -2127,7 +3416,7 @@ namespace HUKBespokeTimberDrawers
             /// The Notching_Grass item info.
             /// </summary>
             [RepositoryItemInfo("717e7840-bab4-4d62-a44e-26685dd7f2ba")]
-            public virtual RepoItemInfo Notching_GrassInfo
+            public virtual Notching_GrassInfoClass Notching_GrassInfo
             {
                 get
                 {
@@ -2151,7 +3440,7 @@ namespace HUKBespokeTimberDrawers
             /// The Notching_Blum item info.
             /// </summary>
             [RepositoryItemInfo("6bf3ffde-c4d0-48b2-a9a4-b747bdd36840")]
-            public virtual RepoItemInfo Notching_BlumInfo
+            public virtual Notching_BlumInfoClass Notching_BlumInfo
             {
                 get
                 {
@@ -2175,7 +3464,7 @@ namespace HUKBespokeTimberDrawers
             /// The Notching_Hettich item info.
             /// </summary>
             [RepositoryItemInfo("c686afc5-d017-4b25-9a72-da91af4dac47")]
-            public virtual RepoItemInfo Notching_HettichInfo
+            public virtual Notching_HettichInfoClass Notching_HettichInfo
             {
                 get
                 {
@@ -2199,7 +3488,7 @@ namespace HUKBespokeTimberDrawers
             /// The Notching_None item info.
             /// </summary>
             [RepositoryItemInfo("53cb38bd-f8b6-4757-96d5-eb2d8c96482c")]
-            public virtual RepoItemInfo Notching_NoneInfo
+            public virtual Notching_NoneInfoClass Notching_NoneInfo
             {
                 get
                 {
@@ -2295,7 +3584,7 @@ namespace HUKBespokeTimberDrawers
             /// The Finish_LacqueredBase_Underside_Yes item info.
             /// </summary>
             [RepositoryItemInfo("d8a539f9-095d-40d6-8446-bfd4f61171ce")]
-            public virtual RepoItemInfo Finish_LacqueredBase_Underside_YesInfo
+            public virtual Finish_LacqueredBase_Underside_YesInfoClass Finish_LacqueredBase_Underside_YesInfo
             {
                 get
                 {
@@ -2319,7 +3608,7 @@ namespace HUKBespokeTimberDrawers
             /// The Finish_LacqueredBase_Underside_No item info.
             /// </summary>
             [RepositoryItemInfo("d1548e13-5f6c-4f8c-96c3-213e01f7427c")]
-            public virtual RepoItemInfo Finish_LacqueredBase_Underside_NoInfo
+            public virtual Finish_LacqueredBase_Underside_NoInfoClass Finish_LacqueredBase_Underside_NoInfo
             {
                 get
                 {
@@ -2343,7 +3632,7 @@ namespace HUKBespokeTimberDrawers
             /// The Engraving_None item info.
             /// </summary>
             [RepositoryItemInfo("1a6fe9ce-2a1f-41dd-8c7f-03ff5c53b910")]
-            public virtual RepoItemInfo Engraving_NoneInfo
+            public virtual Engraving_NoneInfoClass Engraving_NoneInfo
             {
                 get
                 {
@@ -2684,6 +3973,150 @@ namespace HUKBespokeTimberDrawers
                 get
                 {
                     return _uploadcustominsertdetailsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Notching_SpecificationOptionValidation item.
+            /// </summary>
+            [RepositoryItem("a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8")]
+            public virtual Ranorex.DivTag Notching_SpecificationOptionValidation
+            {
+                get
+                {
+                    return _notching_specificationoptionvalidationInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_SpecificationOptionValidation item info.
+            /// </summary>
+            [RepositoryItemInfo("a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8")]
+            public virtual RepoItemInfo Notching_SpecificationOptionValidationInfo
+            {
+                get
+                {
+                    return _notching_specificationoptionvalidationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_UploadLogo item.
+            /// </summary>
+            [RepositoryItem("68ab3545-4442-487e-ae0b-e583bee95190")]
+            public virtual Ranorex.InputTag Engraving_UploadLogo
+            {
+                get
+                {
+                    return _engraving_uploadlogoInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Engraving_UploadLogo item info.
+            /// </summary>
+            [RepositoryItemInfo("68ab3545-4442-487e-ae0b-e583bee95190")]
+            public virtual RepoItemInfo Engraving_UploadLogoInfo
+            {
+                get
+                {
+                    return _engraving_uploadlogoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MoreInfo_Material item.
+            /// </summary>
+            [RepositoryItem("f7e45a91-1f59-4e8f-8190-524390969e37")]
+            public virtual Ranorex.SpanTag MoreInfo_Material
+            {
+                get
+                {
+                    return _moreinfo_materialInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MoreInfo_Material item info.
+            /// </summary>
+            [RepositoryItemInfo("f7e45a91-1f59-4e8f-8190-524390969e37")]
+            public virtual RepoItemInfo MoreInfo_MaterialInfo
+            {
+                get
+                {
+                    return _moreinfo_materialInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Depth_Text item.
+            /// </summary>
+            [RepositoryItem("3645cc50-5708-4a4b-bdca-a14a7df27f51")]
+            public virtual Ranorex.InputTag Insert_Depth_Text
+            {
+                get
+                {
+                    return _insert_depth_textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Depth_Text item info.
+            /// </summary>
+            [RepositoryItemInfo("3645cc50-5708-4a4b-bdca-a14a7df27f51")]
+            public virtual RepoItemInfo Insert_Depth_TextInfo
+            {
+                get
+                {
+                    return _insert_depth_textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Height_Text item.
+            /// </summary>
+            [RepositoryItem("82d296d7-5710-4418-8d27-0dd9174ef1ed")]
+            public virtual Ranorex.InputTag Insert_Height_Text
+            {
+                get
+                {
+                    return _insert_height_textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Height_Text item info.
+            /// </summary>
+            [RepositoryItemInfo("82d296d7-5710-4418-8d27-0dd9174ef1ed")]
+            public virtual RepoItemInfo Insert_Height_TextInfo
+            {
+                get
+                {
+                    return _insert_height_textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Width_Text item.
+            /// </summary>
+            [RepositoryItem("ef723b8f-3edc-47cb-9166-6303e93f3272")]
+            public virtual Ranorex.InputTag Insert_Width_Text
+            {
+                get
+                {
+                    return _insert_width_textInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Insert_Width_Text item info.
+            /// </summary>
+            [RepositoryItemInfo("ef723b8f-3edc-47cb-9166-6303e93f3272")]
+            public virtual RepoItemInfo Insert_Width_TextInfo
+            {
+                get
+                {
+                    return _insert_width_textInfo;
                 }
             }
         }

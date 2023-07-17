@@ -126,41 +126,449 @@
     <Compile Include="AssemblyInfo.cs">
       <id>7eb865c5-e02c-4f84-8216-c5cc9a1bfff1</id>
     </Compile>
-    <Compile Include="Dimensions.cs">
+    <Compile Include="BTD2_SelectProduct_InternalDrawerFront.cs">
+      <BoundTo>6615f905-fb20-4eb6-ba20-44d4ab916dd2</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_InternalDrawerFront.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a97d5ebf-78cb-4c16-a55c-bb58563502e7</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_InternalDrawerFront.UserCode.cs">
+      <BoundTo>6615f905-fb20-4eb6-ba20-44d4ab916dd2</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_InternalDrawerFront.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4992eb0c-5682-45e9-a429-1671863d6a9b</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_KnifeBlockInsert.cs">
+      <BoundTo>1b5d8d34-38cf-48c4-bca8-5b2b50a857ee</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_KnifeBlockInsert.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5061b61e-0d23-4e2e-a468-29972f66dde8</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_KnifeBlockInsert.UserCode.cs">
+      <BoundTo>1b5d8d34-38cf-48c4-bca8-5b2b50a857ee</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_KnifeBlockInsert.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6b48d20-0b87-4167-9bc3-cc070936cbc3</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_PegBoard.cs">
+      <BoundTo>dc469e3d-4b8b-4878-b355-31650f75ec05</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_PegBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c8c4ef4-7ab5-4adb-b0a1-099f0aa982b4</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_PegBoard.UserCode.cs">
+      <BoundTo>dc469e3d-4b8b-4878-b355-31650f75ec05</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_PegBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1eb9777c-855a-408e-b66d-545aa08f13da</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_WallHungSpiceRack.cs">
+      <BoundTo>f5d46e38-12b5-445e-950c-7a7bb018df03</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_WallHungSpiceRack.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d65df09-ae42-4748-bf58-98996df065dd</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_WallHungSpiceRack.UserCode.cs">
+      <BoundTo>f5d46e38-12b5-445e-950c-7a7bb018df03</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_WallHungSpiceRack.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6507ce03-bbde-4c26-a73a-d2e0619aac9d</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_SpiceRackInsert.cs">
+      <BoundTo>158007f7-e451-4fb3-89cc-6a501038452b</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_SpiceRackInsert.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c2c167f-408a-49d7-95f9-f433f2a9aadb</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_SpiceRackInsert.UserCode.cs">
+      <BoundTo>158007f7-e451-4fb3-89cc-6a501038452b</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_SpiceRackInsert.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb2c76a2-e4e4-4c22-ac2e-befbe8a22aba</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions.cs">
+      <BoundTo>3a8342e9-30a1-412b-b002-e3b395bc4177</BoundTo>
+      <DependentUpon>BTD3_Dimensions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>29298304-e0d7-4836-814b-d957608c4f4b</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions.UserCode.cs">
+      <BoundTo>3a8342e9-30a1-412b-b002-e3b395bc4177</BoundTo>
+      <DependentUpon>BTD3_Dimensions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f6ab9bf-cc3c-413b-97c3-ba7a3fcc031a</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_DrawerInsert.cs">
+      <BoundTo>15647bd4-40a2-449a-a227-56150cf8f24b</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_DrawerInsert.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7d4091d9-7987-4c9d-a286-201caaebaf73</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_DrawerInsert.UserCode.cs">
+      <BoundTo>15647bd4-40a2-449a-a227-56150cf8f24b</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_DrawerInsert.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8230ba63-80f7-4152-8a9d-86a3ff5cd180</id>
+    </Compile>
+    <Compile Include="BTD_AddManualDeliveryAddress.cs">
+      <BoundTo>7817a9c8-83ec-4e32-8daa-10a8276a2865</BoundTo>
+      <DependentUpon>BTD_AddManualDeliveryAddress.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f4c1ad06-6194-47c1-b5ef-973b0ac7c21b</id>
+    </Compile>
+    <Compile Include="BTD_AddManualDeliveryAddress.UserCode.cs">
+      <BoundTo>7817a9c8-83ec-4e32-8daa-10a8276a2865</BoundTo>
+      <DependentUpon>BTD_AddManualDeliveryAddress.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24eac2e4-0822-45f8-9235-f8da28fb003f</id>
+    </Compile>
+    <Compile Include="BTD1_StartNewQuote.cs">
+      <BoundTo>c8f29fad-4fff-4338-82a5-24ee81611651</BoundTo>
+      <DependentUpon>BTD1_StartNewQuote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8ecc6633-37a7-4276-9e66-3003e76eaa86</id>
+    </Compile>
+    <Compile Include="BTD1_StartNewQuote.UserCode.cs">
+      <BoundTo>c8f29fad-4fff-4338-82a5-24ee81611651</BoundTo>
+      <DependentUpon>BTD1_StartNewQuote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>416e3bbb-dd32-4de6-880d-598fd897c42d</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions_NonDrawer.cs">
       <BoundTo>89e2c64e-b238-41b1-91b4-88e2f00ae12a</BoundTo>
-      <DependentUpon>Dimensions.rxrec</DependentUpon>
+      <DependentUpon>BTD3_Dimensions_NonDrawer.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>b14f8f1c-9bfd-490a-b722-4ec714714edb</id>
     </Compile>
-    <Compile Include="Dimensions.UserCode.cs">
+    <Compile Include="BTD3_Dimensions_NonDrawer.UserCode.cs">
       <BoundTo>89e2c64e-b238-41b1-91b4-88e2f00ae12a</BoundTo>
-      <DependentUpon>Dimensions.rxrec</DependentUpon>
+      <DependentUpon>BTD3_Dimensions_NonDrawer.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>f83ff9e8-8783-475a-b5e1-6e21e50ee653</id>
     </Compile>
-    <Compile Include="DrawerDimensions.cs">
-      <BoundTo>572f0936-76c2-4bb7-9c51-c62bc415e0af</BoundTo>
-      <DependentUpon>DrawerDimensions.rxrec</DependentUpon>
+    <Compile Include="BTD5_InsertType_Other.cs">
+      <BoundTo>c266aa64-72c9-4d69-bcba-6ecaca0cfe42</BoundTo>
+      <DependentUpon>BTD5_InsertType_Other.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>036c1331-5840-4e5c-bc4d-36f80d1bd599</id>
+      <id>181cf463-6f51-4c47-ad5e-7006672d4f1b</id>
     </Compile>
-    <Compile Include="DrawerDimensions.UserCode.cs">
-      <BoundTo>572f0936-76c2-4bb7-9c51-c62bc415e0af</BoundTo>
-      <DependentUpon>DrawerDimensions.rxrec</DependentUpon>
+    <Compile Include="BTD5_InsertType_Other.UserCode.cs">
+      <BoundTo>c266aa64-72c9-4d69-bcba-6ecaca0cfe42</BoundTo>
+      <DependentUpon>BTD5_InsertType_Other.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>048dc726-f003-4853-a32c-fe91c213aab1</id>
+      <id>039b61f6-6636-4785-a8d6-c97ec6ff1b6f</id>
     </Compile>
-    <Compile Include="Material_Oak.cs">
+    <Compile Include="BTD5_InsertType_Type1.cs">
+      <BoundTo>ae738788-3cf7-42b9-8ea9-fa127a9babde</BoundTo>
+      <DependentUpon>BTD5_InsertType_Type1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>23eed211-45cd-486a-bdc8-a03bd5caccae</id>
+    </Compile>
+    <Compile Include="BTD5_InsertType_Type1.UserCode.cs">
+      <BoundTo>ae738788-3cf7-42b9-8ea9-fa127a9babde</BoundTo>
+      <DependentUpon>BTD5_InsertType_Type1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>77d5bec6-d641-4fed-93c7-62b31ebf7fd3</id>
+    </Compile>
+    <Compile Include="BTD5_InsertType_Type2.cs">
+      <BoundTo>818016be-e36a-46c6-8e93-605857fcb773</BoundTo>
+      <DependentUpon>BTD5_InsertType_Type2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3024aa84-163a-49dc-abe4-f39ede275b9c</id>
+    </Compile>
+    <Compile Include="BTD5_InsertType_Type2.UserCode.cs">
+      <BoundTo>818016be-e36a-46c6-8e93-605857fcb773</BoundTo>
+      <DependentUpon>BTD5_InsertType_Type2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40db1413-40b7-4b4d-a3ae-bf528f9af1a5</id>
+    </Compile>
+    <Compile Include="BTD_SaveProductAnExit.cs">
+      <BoundTo>62dd806e-7f4c-44df-9f62-9b33588b7ed1</BoundTo>
+      <DependentUpon>BTD_SaveProductAnExit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c0e682e-5748-4d5c-84cf-62a82d4f9aab</id>
+    </Compile>
+    <Compile Include="BTD_SaveProductAnExit.UserCode.cs">
+      <BoundTo>62dd806e-7f4c-44df-9f62-9b33588b7ed1</BoundTo>
+      <DependentUpon>BTD_SaveProductAnExit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>62ff3128-aab0-42f1-98c2-da2acc90cde0</id>
+    </Compile>
+    <Compile Include="MyHafele_Cancel_Quote.cs">
+      <BoundTo>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</BoundTo>
+      <DependentUpon>MyHafele_Cancel_Quote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>00e4f407-e313-4436-a3a1-18b4d8df8e97</id>
+    </Compile>
+    <Compile Include="MyHafele_Cancel_Quote.UserCode.cs">
+      <BoundTo>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</BoundTo>
+      <DependentUpon>MyHafele_Cancel_Quote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>253bc67a-b5e8-4828-aedb-057b58666627</id>
+    </Compile>
+    <Compile Include="Engraving_AddEngraving.cs">
+      <BoundTo>929c26c8-588f-45f5-8f87-988eef26947c</BoundTo>
+      <DependentUpon>Engraving_AddEngraving.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f80960e3-8daa-4633-948b-befcbaebc7b8</id>
+    </Compile>
+    <Compile Include="Engraving_AddEngraving.UserCode.cs">
+      <BoundTo>929c26c8-588f-45f5-8f87-988eef26947c</BoundTo>
+      <DependentUpon>Engraving_AddEngraving.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>59bf23df-2c8b-4f93-8d08-f8a6f7e3e910</id>
+    </Compile>
+    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_No.cs">
+      <BoundTo>a4234a00-8016-4953-aad4-440fe8e9b44e</BoundTo>
+      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef605c3b-ec28-4cdf-8e59-4a5100bad651</id>
+    </Compile>
+    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_No.UserCode.cs">
+      <BoundTo>a4234a00-8016-4953-aad4-440fe8e9b44e</BoundTo>
+      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a59f01d5-ba58-4d51-a686-a122b4063cb1</id>
+    </Compile>
+    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_Yes.cs">
+      <BoundTo>46020710-d7b5-4fd3-ad35-b6d08d04aea6</BoundTo>
+      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aeba56e7-edd3-403f-970b-2252b3c41d98</id>
+    </Compile>
+    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_Yes.UserCode.cs">
+      <BoundTo>46020710-d7b5-4fd3-ad35-b6d08d04aea6</BoundTo>
+      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73ae68e4-4e74-43a8-993f-69c3caadc536</id>
+    </Compile>
+    <Compile Include="Engraving_None.cs">
+      <BoundTo>4246a411-aa04-492d-ba22-3521f1ab5b60</BoundTo>
+      <DependentUpon>Engraving_None.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a073f1de-ce75-4d4a-a809-4d89dc537bd2</id>
+    </Compile>
+    <Compile Include="Engraving_None.UserCode.cs">
+      <BoundTo>4246a411-aa04-492d-ba22-3521f1ab5b60</BoundTo>
+      <DependentUpon>Engraving_None.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8c897fb9-e472-4057-b612-86c48d2c0445</id>
+    </Compile>
+    <Compile Include="Engraving_SelectEngravingType_Laser.cs">
+      <BoundTo>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</BoundTo>
+      <DependentUpon>Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>beeadbc3-0faa-4484-bd87-3d7619c404f1</id>
+    </Compile>
+    <Compile Include="Engraving_SelectEngravingType_Laser.UserCode.cs">
+      <BoundTo>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</BoundTo>
+      <DependentUpon>Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64a55ba3-e724-42b4-82a8-0ec6ab3cbe50</id>
+    </Compile>
+    <Compile Include="Engraving_SelectEngravingType_Router.cs">
+      <BoundTo>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</BoundTo>
+      <DependentUpon>Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37f1c090-2325-4fae-a09f-016f14774652</id>
+    </Compile>
+    <Compile Include="Engraving_SelectEngravingType_Router.UserCode.cs">
+      <BoundTo>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</BoundTo>
+      <DependentUpon>Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>063782b5-e385-48c3-9d99-4010d1872a05</id>
+    </Compile>
+    <Compile Include="Engraving_UploadLogo.cs">
+      <BoundTo>d857143f-55cb-4d64-b572-f2cad368a3c3</BoundTo>
+      <DependentUpon>Engraving_UploadLogo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ee8e1fa2-a7a5-49dc-ab75-242ca784a34e</id>
+    </Compile>
+    <Compile Include="Engraving_UploadLogo.UserCode.cs">
+      <BoundTo>d857143f-55cb-4d64-b572-f2cad368a3c3</BoundTo>
+      <DependentUpon>Engraving_UploadLogo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ec2c1df-de5f-4e94-9ecb-7068572a676a</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.cs">
+      <BoundTo>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>28377e17-0271-49a3-95e7-76c7b35bfa22</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.UserCode.cs">
+      <BoundTo>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e3f559c-4773-4962-ada0-d08f254cb84a</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.cs">
+      <BoundTo>bab8d9dc-41ca-40a2-927b-36856a1cae1f</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6936bc8-ba88-4c90-9eea-0b64ff0bc17c</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.UserCode.cs">
+      <BoundTo>bab8d9dc-41ca-40a2-927b-36856a1cae1f</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c7d52aad-186e-4901-b5b9-244fd642d230</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.cs">
+      <BoundTo>f502721c-6fb0-412f-8d63-d207fc79e523</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dbe16e0a-2117-41ee-936a-3b504c8e3bd5</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.UserCode.cs">
+      <BoundTo>f502721c-6fb0-412f-8d63-d207fc79e523</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d498d38-92b8-4106-997b-e44ee5190cff</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.cs">
+      <BoundTo>f2bffc01-5ead-4da0-b3da-bf2876d953e3</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9c02f55-adc9-44c8-8fc5-583003c55616</id>
+    </Compile>
+    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.UserCode.cs">
+      <BoundTo>f2bffc01-5ead-4da0-b3da-bf2876d953e3</BoundTo>
+      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1d9a8b81-a5fe-4057-bfdc-02952775c074</id>
+    </Compile>
+    <Compile Include="Finish_Body_Lacquered.cs">
+      <BoundTo>cb3ad424-175b-4e25-a682-9c6e063e1208</BoundTo>
+      <DependentUpon>Finish_Body_Lacquered.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>594a6d08-1b3f-4977-b4af-f45bfcfddb35</id>
+    </Compile>
+    <Compile Include="Finish_Body_Lacquered.UserCode.cs">
+      <BoundTo>cb3ad424-175b-4e25-a682-9c6e063e1208</BoundTo>
+      <DependentUpon>Finish_Body_Lacquered.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af63940a-62e4-4067-8b59-b5278ca88ead</id>
+    </Compile>
+    <Compile Include="Finish_Body_UnLacquered.cs">
+      <BoundTo>19b1591a-2734-4ecd-be65-07560ad673a1</BoundTo>
+      <DependentUpon>Finish_Body_UnLacquered.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e52dc81e-8b78-43fb-b44c-d4dabf56ad26</id>
+    </Compile>
+    <Compile Include="Finish_Body_UnLacquered.UserCode.cs">
+      <BoundTo>19b1591a-2734-4ecd-be65-07560ad673a1</BoundTo>
+      <DependentUpon>Finish_Body_UnLacquered.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d0f73572-42b7-4eeb-87f6-8f69b1d21d9b</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBaseUnderside_No.cs">
+      <BoundTo>c1935fe2-008c-4921-8ce6-44e08528cba2</BoundTo>
+      <DependentUpon>Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1b684805-3011-4589-977e-941733a62f01</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBaseUnderside_No.UserCode.cs">
+      <BoundTo>c1935fe2-008c-4921-8ce6-44e08528cba2</BoundTo>
+      <DependentUpon>Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bc010ae8-9b72-4d56-a2ca-1a6cfb49f700</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBaseUnderside_Yes.cs">
+      <BoundTo>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</BoundTo>
+      <DependentUpon>Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>83366a94-8eb9-4b59-954d-b2ecc19440ac</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBaseUnderside_Yes.UserCode.cs">
+      <BoundTo>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</BoundTo>
+      <DependentUpon>Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>908f4ec5-124e-485f-b076-f562e0781e93</id>
+    </Compile>
+    <Compile Include="Handles_Externalscalloped.cs">
+      <BoundTo>f312ddca-badc-4976-802f-8927168040b4</BoundTo>
+      <DependentUpon>Handles_Externalscalloped.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5755162b-59e7-4bad-b44b-339f35ae70d1</id>
+    </Compile>
+    <Compile Include="Handles_Externalscalloped.UserCode.cs">
+      <BoundTo>f312ddca-badc-4976-802f-8927168040b4</BoundTo>
+      <DependentUpon>Handles_Externalscalloped.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c84c3b9-5d6e-46cd-a9a7-2096bb70ae63</id>
+    </Compile>
+    <Compile Include="Handles_InternalCutOut.cs">
+      <BoundTo>dd8721ee-49fa-4aca-992d-53807e444293</BoundTo>
+      <DependentUpon>Handles_InternalCutOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f82b35be-7ecc-40aa-813f-4b741c7b5303</id>
+    </Compile>
+    <Compile Include="Handles_InternalCutOut.UserCode.cs">
+      <BoundTo>dd8721ee-49fa-4aca-992d-53807e444293</BoundTo>
+      <DependentUpon>Handles_InternalCutOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dca00d98-962f-4608-9163-1dd55e140680</id>
+    </Compile>
+    <Compile Include="Handles_None.cs">
+      <BoundTo>75c8b300-715d-482b-8639-4fcc5554b366</BoundTo>
+      <DependentUpon>Handles_None.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f6fa989-20d8-44b6-9ec2-85ce00d5def9</id>
+    </Compile>
+    <Compile Include="Handles_None.UserCode.cs">
+      <BoundTo>75c8b300-715d-482b-8639-4fcc5554b366</BoundTo>
+      <DependentUpon>Handles_None.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>387f8f47-f6bc-485c-9407-97b378f296b5</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Oak.cs">
       <BoundTo>6653c192-d3a0-414d-9af6-e5b411f88e4d</BoundTo>
-      <DependentUpon>Material_Oak.rxrec</DependentUpon>
+      <DependentUpon>BTD4_Material_Oak.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>5378bf73-16c3-45ce-8350-1b127876758b</id>
     </Compile>
-    <Compile Include="Material_Oak.UserCode.cs">
+    <Compile Include="BTD4_Material_Oak.UserCode.cs">
       <BoundTo>6653c192-d3a0-414d-9af6-e5b411f88e4d</BoundTo>
-      <DependentUpon>Material_Oak.rxrec</DependentUpon>
+      <DependentUpon>BTD4_Material_Oak.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>3c6ffa60-20c1-41eb-8025-eb9049de65f1</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Other.cs">
+      <BoundTo>fec0ba6b-09e5-4e5a-b7cf-9ed1c1630575</BoundTo>
+      <DependentUpon>BTD4_Material_Other.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>52af4748-63fe-4b18-b80a-5265d6758d02</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Other.UserCode.cs">
+      <BoundTo>fec0ba6b-09e5-4e5a-b7cf-9ed1c1630575</BoundTo>
+      <DependentUpon>BTD4_Material_Other.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>49a26f9f-e856-4bfe-b950-7176f89d5a41</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Ply.cs">
+      <BoundTo>c7964b7a-435a-4da3-8a8e-db7750a2f205</BoundTo>
+      <DependentUpon>BTD4_Material_Ply.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>de8a16d5-10bb-47b6-ad86-43198265cd13</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Ply.UserCode.cs">
+      <BoundTo>c7964b7a-435a-4da3-8a8e-db7750a2f205</BoundTo>
+      <DependentUpon>BTD4_Material_Ply.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fa7dde59-3a47-4c90-ab2d-c20f046d0905</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Walnut.cs">
+      <BoundTo>de043ddf-c713-439d-a067-d87cefcd8640</BoundTo>
+      <DependentUpon>BTD4_Material_Walnut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>19689253-f81c-4e00-ba4a-5a5a453bef94</id>
+    </Compile>
+    <Compile Include="BTD4_Material_Walnut.UserCode.cs">
+      <BoundTo>de043ddf-c713-439d-a067-d87cefcd8640</BoundTo>
+      <DependentUpon>BTD4_Material_Walnut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe8732b5-1cbd-494e-b147-4c8c235ce330</id>
     </Compile>
     <Compile Include="MyHafele_Login_CoUser.cs">
       <BoundTo>537f0873-792e-48d5-a115-789472e7873e</BoundTo>
@@ -216,6 +624,54 @@
       <UserCode>true</UserCode>
       <id>40611afc-80b4-41ca-bfb3-7f8424f7d591</id>
     </Compile>
+    <Compile Include="Notching_Blum.cs">
+      <BoundTo>0c15a752-0de1-4887-bcd7-5c79769f54eb</BoundTo>
+      <DependentUpon>Notching_Blum.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9accb6f1-f75f-4290-be25-b2ab568758ea</id>
+    </Compile>
+    <Compile Include="Notching_Blum.UserCode.cs">
+      <BoundTo>0c15a752-0de1-4887-bcd7-5c79769f54eb</BoundTo>
+      <DependentUpon>Notching_Blum.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0b72ce80-26b4-4c3b-afe3-3b99b9058db0</id>
+    </Compile>
+    <Compile Include="Notching_Grass.cs">
+      <BoundTo>d40a8798-17ae-4b82-a63a-95bf7f6bf600</BoundTo>
+      <DependentUpon>Notching_Grass.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ad305570-f3e9-4353-a753-c26424976718</id>
+    </Compile>
+    <Compile Include="Notching_Grass.UserCode.cs">
+      <BoundTo>d40a8798-17ae-4b82-a63a-95bf7f6bf600</BoundTo>
+      <DependentUpon>Notching_Grass.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d492637f-a72e-4555-823f-86ecb20c67f9</id>
+    </Compile>
+    <Compile Include="Notching_Hettich.cs">
+      <BoundTo>a11d5340-7fad-4f39-9066-80e4a0f727a2</BoundTo>
+      <DependentUpon>Notching_Hettich.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4cbd4aa-8204-4a89-8e1d-5bf82c14b1d5</id>
+    </Compile>
+    <Compile Include="Notching_Hettich.UserCode.cs">
+      <BoundTo>a11d5340-7fad-4f39-9066-80e4a0f727a2</BoundTo>
+      <DependentUpon>Notching_Hettich.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>24146681-b9fa-4316-8154-e52a04c36436</id>
+    </Compile>
+    <Compile Include="Notching_None.cs">
+      <BoundTo>cffe9a23-be9f-476b-a724-de35bf6cdd93</BoundTo>
+      <DependentUpon>Notching_None.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3e209fe-3e45-4514-acfc-859ea8b2cd07</id>
+    </Compile>
+    <Compile Include="Notching_None.UserCode.cs">
+      <BoundTo>cffe9a23-be9f-476b-a724-de35bf6cdd93</BoundTo>
+      <DependentUpon>Notching_None.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8a42951a-9e3a-4c43-ad46-f8cb48c497c7</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>8820c9be-c679-4e15-ab9e-2714d195264e</id>
     </Compile>
@@ -231,25 +687,207 @@
       <UserCode>true</UserCode>
       <id>9ed1e112-719d-42d2-92ff-cb739e6684b6</id>
     </Compile>
+    <Compile Include="BTD2_SelectProduct_TimberDrawer.cs">
+      <BoundTo>184e8bb6-9df5-4194-a18b-dc9f421f6288</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_TimberDrawer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c74c0360-636e-422c-8e47-c543a707559d</id>
+    </Compile>
+    <Compile Include="BTD2_SelectProduct_TimberDrawer.UserCode.cs">
+      <BoundTo>184e8bb6-9df5-4194-a18b-dc9f421f6288</BoundTo>
+      <DependentUpon>BTD2_SelectProduct_TimberDrawer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5ecbe19-f875-4388-aaa5-f247cf39140d</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>d2dce9d0-d9ae-4e0e-b29f-c6cba9147d08</id>
     </None>
-    <None Include="Dimensions.rxrec">
+    <None Include="BTD2_SelectProduct_InternalDrawerFront.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>6615f905-fb20-4eb6-ba20-44d4ab916dd2</id>
+      <recordtableid>1a575a81-926f-4bd7-b349-1a7099520fc6</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_KnifeBlockInsert.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1b5d8d34-38cf-48c4-bca8-5b2b50a857ee</id>
+      <recordtableid>ebdff063-ca53-41ec-9d4b-3b18b5b39a93</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_PegBoard.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>dc469e3d-4b8b-4878-b355-31650f75ec05</id>
+      <recordtableid>7f97ceb1-e4c6-4e9b-a5e3-6ed760daf580</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_WallHungSpiceRack.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>f5d46e38-12b5-445e-950c-7a7bb018df03</id>
+      <recordtableid>a3b7618b-9c61-4a07-aa67-8e9fbfbe2fbf</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_SpiceRackInsert.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>158007f7-e451-4fb3-89cc-6a501038452b</id>
+      <recordtableid>f7e187af-ee38-49a8-8bb5-ae6258be2d9e</recordtableid>
+    </None>
+    <None Include="BTD3_Dimensions.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>3a8342e9-30a1-412b-b002-e3b395bc4177</id>
+      <recordtableid>2a29ef17-ba2f-4dce-821b-5fd17102bf2f</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_DrawerInsert.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>15647bd4-40a2-449a-a227-56150cf8f24b</id>
+      <recordtableid>1d8ee4a5-84c2-44d9-bbaf-b606181d26ff</recordtableid>
+    </None>
+    <None Include="BTD_AddManualDeliveryAddress.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>7817a9c8-83ec-4e32-8daa-10a8276a2865</id>
+      <recordtableid>ce1551dd-aadb-4529-814b-16d6dd954b66</recordtableid>
+    </None>
+    <None Include="BTD1_StartNewQuote.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c8f29fad-4fff-4338-82a5-24ee81611651</id>
+      <recordtableid>c469c6f0-c216-4d68-8493-8c85b3d90e72</recordtableid>
+    </None>
+    <None Include="BTD3_Dimensions_NonDrawer.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>89e2c64e-b238-41b1-91b4-88e2f00ae12a</id>
       <recordtableid>2f73323e-cd96-46d5-b2d2-d41279ab4fa2</recordtableid>
     </None>
-    <None Include="DrawerDimensions.rxrec">
+    <None Include="BTD5_InsertType_Other.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
-      <id>572f0936-76c2-4bb7-9c51-c62bc415e0af</id>
-      <recordtableid>1e96cd0d-708c-4ae6-a89d-1d889bf00de9</recordtableid>
+      <id>c266aa64-72c9-4d69-bcba-6ecaca0cfe42</id>
+      <recordtableid>49fe5079-3552-4123-9093-32da25d8b0ed</recordtableid>
     </None>
-    <None Include="Material_Oak.rxrec">
+    <None Include="BTD5_InsertType_Type1.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>ae738788-3cf7-42b9-8ea9-fa127a9babde</id>
+      <recordtableid>4d9cae16-9e71-44e6-82a3-7b303f8016ab</recordtableid>
+    </None>
+    <None Include="BTD5_InsertType_Type2.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>818016be-e36a-46c6-8e93-605857fcb773</id>
+      <recordtableid>020a8cf9-0423-4e09-af08-f55663ef5406</recordtableid>
+    </None>
+    <None Include="BTD_SaveProductAnExit.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>62dd806e-7f4c-44df-9f62-9b33588b7ed1</id>
+      <recordtableid>362a54d6-9529-4412-8f89-827170a584b7</recordtableid>
+    </None>
+    <None Include="MyHafele_Cancel_Quote.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</id>
+      <recordtableid>f13babb9-e288-4101-8f2f-c7ef985ad74d</recordtableid>
+    </None>
+    <None Include="Engraving_AddEngraving.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>929c26c8-588f-45f5-8f87-988eef26947c</id>
+      <recordtableid>68075922-3de1-469f-8306-e2b0dad96448</recordtableid>
+    </None>
+    <None Include="Engraving_HaveYouUsedTheLogoBefore_No.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>a4234a00-8016-4953-aad4-440fe8e9b44e</id>
+      <recordtableid>46ac2ede-b67d-4512-a3d0-3a21b273a14f</recordtableid>
+    </None>
+    <None Include="Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>46020710-d7b5-4fd3-ad35-b6d08d04aea6</id>
+      <recordtableid>fa0c41a6-1cf1-4e73-9cb8-e5a8a3509325</recordtableid>
+    </None>
+    <None Include="Engraving_None.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>4246a411-aa04-492d-ba22-3521f1ab5b60</id>
+      <recordtableid>6177105e-20cc-4b78-b52d-4b8340d9c5fb</recordtableid>
+    </None>
+    <None Include="Engraving_SelectEngravingType_Laser.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</id>
+      <recordtableid>2132b29f-c6bf-466e-add6-85818398deeb</recordtableid>
+    </None>
+    <None Include="Engraving_SelectEngravingType_Router.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</id>
+      <recordtableid>dca91f4c-aa25-40c3-85c5-472aec8dbbef</recordtableid>
+    </None>
+    <None Include="Engraving_UploadLogo.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>d857143f-55cb-4d64-b572-f2cad368a3c3</id>
+      <recordtableid>aca0f41d-3b46-4f42-acdd-c61f0cdf93a0</recordtableid>
+    </None>
+    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</id>
+      <recordtableid>fea70c6a-3816-4e74-94ef-2dce34a25e1a</recordtableid>
+    </None>
+    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>bab8d9dc-41ca-40a2-927b-36856a1cae1f</id>
+      <recordtableid>a7ba51e0-839d-4425-94e8-8df49d8aac4c</recordtableid>
+    </None>
+    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>f502721c-6fb0-412f-8d63-d207fc79e523</id>
+      <recordtableid>4882f91a-1725-411b-b6a9-bf45ec5f2bd8</recordtableid>
+    </None>
+    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>f2bffc01-5ead-4da0-b3da-bf2876d953e3</id>
+      <recordtableid>8459b02c-da3b-4dd7-a1a0-d94328f9f235</recordtableid>
+    </None>
+    <None Include="Finish_Body_Lacquered.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>cb3ad424-175b-4e25-a682-9c6e063e1208</id>
+      <recordtableid>353cc33e-555e-4aa8-bdde-6c4457034734</recordtableid>
+    </None>
+    <None Include="Finish_Body_UnLacquered.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>19b1591a-2734-4ecd-be65-07560ad673a1</id>
+      <recordtableid>019c7f55-1dd6-435a-bb98-abb08169b40e</recordtableid>
+    </None>
+    <None Include="Finish_LacqueredBaseUnderside_No.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c1935fe2-008c-4921-8ce6-44e08528cba2</id>
+      <recordtableid>b87725a8-9e3d-4454-a16b-85ae5e306104</recordtableid>
+    </None>
+    <None Include="Finish_LacqueredBaseUnderside_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</id>
+      <recordtableid>7f0fc87b-6672-45e4-8af9-72bb6884a204</recordtableid>
+    </None>
+    <None Include="Handles_Externalscalloped.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>f312ddca-badc-4976-802f-8927168040b4</id>
+      <recordtableid>5a5053fa-a7a7-4306-b3be-393881147d63</recordtableid>
+    </None>
+    <None Include="Handles_InternalCutOut.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>dd8721ee-49fa-4aca-992d-53807e444293</id>
+      <recordtableid>e0451283-792d-4471-b033-b53b41d84ba9</recordtableid>
+    </None>
+    <None Include="Handles_None.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>75c8b300-715d-482b-8639-4fcc5554b366</id>
+      <recordtableid>c76c73b9-4c8e-444a-803c-cd5bf9ebb009</recordtableid>
+    </None>
+    <None Include="BTD4_Material_Oak.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>6653c192-d3a0-414d-9af6-e5b411f88e4d</id>
       <recordtableid>c9c2eb17-58f4-44c3-9dea-bb2d5511885d</recordtableid>
+    </None>
+    <None Include="BTD4_Material_Other.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>fec0ba6b-09e5-4e5a-b7cf-9ed1c1630575</id>
+      <recordtableid>fcf7907e-1706-4cef-8740-c1695402a0df</recordtableid>
+    </None>
+    <None Include="BTD4_Material_Ply.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c7964b7a-435a-4da3-8a8e-db7750a2f205</id>
+      <recordtableid>82a3c235-1197-42be-b43a-1ac73be29f9f</recordtableid>
+    </None>
+    <None Include="BTD4_Material_Walnut.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>de043ddf-c713-439d-a067-d87cefcd8640</id>
+      <recordtableid>250a7b9f-064e-4b7e-a244-9383d2968798</recordtableid>
     </None>
     <None Include="MyHafele_Login_CoUser.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
@@ -286,6 +924,31 @@
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>5863d138-7761-47b4-a821-7e23c5be7de7</id>
       <recordtableid>1ee65b38-ab6b-45c3-9f60-6ab7cfd1c8cf</recordtableid>
+    </None>
+    <None Include="Notching_Blum.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>0c15a752-0de1-4887-bcd7-5c79769f54eb</id>
+      <recordtableid>87c1139c-13d0-4df0-8874-09cd43cbb461</recordtableid>
+    </None>
+    <None Include="Notching_Grass.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>d40a8798-17ae-4b82-a63a-95bf7f6bf600</id>
+      <recordtableid>05ee3f88-331b-4700-98b4-7ac69af7263d</recordtableid>
+    </None>
+    <None Include="Notching_Hettich.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>a11d5340-7fad-4f39-9066-80e4a0f727a2</id>
+      <recordtableid>eb375849-9332-4060-913b-dc0bf2e1e3d2</recordtableid>
+    </None>
+    <None Include="Notching_None.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>cffe9a23-be9f-476b-a724-de35bf6cdd93</id>
+      <recordtableid>6fab2d9b-23ce-4d17-a1fd-fc17c26497b9</recordtableid>
+    </None>
+    <None Include="BTD2_SelectProduct_TimberDrawer.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>184e8bb6-9df5-4194-a18b-dc9f421f6288</id>
+      <recordtableid>b8e4be27-3332-4448-8625-1cbd83b80de4</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
