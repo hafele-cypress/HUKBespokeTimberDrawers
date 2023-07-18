@@ -123,6 +123,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddToQuote.cs">
+      <BoundTo>74081b33-0bb7-4811-883b-8971fbe6b201</BoundTo>
+      <DependentUpon>AddToQuote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>51b4e5d7-8ff2-4de5-99ba-911991c23f6c</id>
+    </Compile>
+    <Compile Include="AddToQuote.UserCode.cs">
+      <BoundTo>74081b33-0bb7-4811-883b-8971fbe6b201</BoundTo>
+      <DependentUpon>AddToQuote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ead8deeb-7127-4a79-ad3f-a2753eccfca8</id>
+    </Compile>
+    <Compile Include="BTD10_Add_Delivery_Addrerss.cs">
+      <BoundTo>3dc2bb80-596c-49f0-8d1e-288885e08d69</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Addrerss.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>79740855-9840-4293-8247-5ad9af0136be</id>
+    </Compile>
+    <Compile Include="BTD10_Add_Delivery_Addrerss.UserCode.cs">
+      <BoundTo>3dc2bb80-596c-49f0-8d1e-288885e08d69</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Addrerss.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7e40f55e-9656-468c-8636-157fbc9f7fec</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>7eb865c5-e02c-4f84-8216-c5cc9a1bfff1</id>
     </Compile>
@@ -294,6 +318,114 @@
       <UserCode>true</UserCode>
       <id>62ff3128-aab0-42f1-98c2-da2acc90cde0</id>
     </Compile>
+    <Compile Include="BTD7_Customisations_DroppedFront_Yes.cs">
+      <BoundTo>7d1ab39c-234b-4b6e-96c9-b31056a678c8</BoundTo>
+      <DependentUpon>BTD7_Customisations_DroppedFront_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>392f7d59-20a0-42f0-968d-7a73b99875a7</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_DroppedFront_Yes.UserCode.cs">
+      <BoundTo>7d1ab39c-234b-4b6e-96c9-b31056a678c8</BoundTo>
+      <DependentUpon>BTD7_Customisations_DroppedFront_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>47222600-0991-4a9b-af1f-65ffaebff34e</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_DrawerBase_Flush.cs">
+      <BoundTo>3c568804-ee02-4641-a3a1-56d91529a780</BoundTo>
+      <DependentUpon>BTD7_Customisations_DrawerBase_Flush.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ece7fc2d-a3e0-48a2-a8dd-ddd44da1c488</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_DrawerBase_Flush.UserCode.cs">
+      <BoundTo>3c568804-ee02-4641-a3a1-56d91529a780</BoundTo>
+      <DependentUpon>BTD7_Customisations_DrawerBase_Flush.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9f475b6f-8a98-45b1-8a88-551593ee70d9</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_UShapedDrawer_Yes.cs">
+      <BoundTo>b8e44bda-cd07-4b21-b5c0-cfd1a621903d</BoundTo>
+      <DependentUpon>BTD7_Customisations_UShapedDrawer_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>83d4a8af-b8a8-4d56-9c39-9450078f97a6</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_UShapedDrawer_Yes.UserCode.cs">
+      <BoundTo>b8e44bda-cd07-4b21-b5c0-cfd1a621903d</BoundTo>
+      <DependentUpon>BTD7_Customisations_UShapedDrawer_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe4d4b68-c26c-4bc7-afbd-fbb0d5e2f666</id>
+    </Compile>
+    <Compile Include="BTD7_Customisation_DrawerBase_Flush.cs">
+      <BoundTo>9c80dd93-2bae-44ef-ac60-1d86ea4250f0</BoundTo>
+      <DependentUpon>BTD7_Customisation_DrawerBase_Flush.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f26c0081-41f5-4049-86c7-6c887ece3ff3</id>
+    </Compile>
+    <Compile Include="BTD7_Customisation_DrawerBase_Flush.UserCode.cs">
+      <BoundTo>9c80dd93-2bae-44ef-ac60-1d86ea4250f0</BoundTo>
+      <DependentUpon>BTD7_Customisation_DrawerBase_Flush.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0c5e50a-c1c3-45ae-a88b-21fb942f74e9</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_CurvedSides_Yes.cs">
+      <BoundTo>49896bf4-d6e1-4f27-9eaf-bf3ffc621577</BoundTo>
+      <DependentUpon>BTD7_Customisations_CurvedSides_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c6fc09b8-f0de-4869-b27b-4cce390eb96c</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_CurvedSides_Yes.UserCode.cs">
+      <BoundTo>49896bf4-d6e1-4f27-9eaf-bf3ffc621577</BoundTo>
+      <DependentUpon>BTD7_Customisations_CurvedSides_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b6eb4de1-bf44-4cb5-a85c-f50aafde7d64</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_SlideOut.cs">
+      <BoundTo>af573b53-3f20-48ff-9910-7874fbc4089f</BoundTo>
+      <DependentUpon>BTD7_Customisations_SlideOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7f143871-a23c-45a2-aa17-96eef37ebe36</id>
+    </Compile>
+    <Compile Include="BTD7_Customisations_SlideOut.UserCode.cs">
+      <BoundTo>af573b53-3f20-48ff-9910-7874fbc4089f</BoundTo>
+      <DependentUpon>BTD7_Customisations_SlideOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7696bd94-fcad-4523-862a-700e83bd3d4d</id>
+    </Compile>
+    <Compile Include="DraftProductHighlighted.cs">
+      <BoundTo>a0b7f440-3950-4af1-bc04-2b481e9f967e</BoundTo>
+      <DependentUpon>DraftProductHighlighted.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61b0bf09-28de-4326-9e8d-92d3ad6a206a</id>
+    </Compile>
+    <Compile Include="DraftProductHighlighted.UserCode.cs">
+      <BoundTo>a0b7f440-3950-4af1-bc04-2b481e9f967e</BoundTo>
+      <DependentUpon>DraftProductHighlighted.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>52ca9c57-07e2-42f6-8d7d-8c2367b3512a</id>
+    </Compile>
+    <Compile Include="BTD9_FinishBody_Unlacquered.cs">
+      <BoundTo>20daeedb-d51c-46da-b656-828e8badc473</BoundTo>
+      <DependentUpon>BTD9_FinishBody_Unlacquered.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7caf8c50-5a5e-4f7d-949d-46675c3f44ef</id>
+    </Compile>
+    <Compile Include="BTD9_FinishBody_Unlacquered.UserCode.cs">
+      <BoundTo>20daeedb-d51c-46da-b656-828e8badc473</BoundTo>
+      <DependentUpon>BTD9_FinishBody_Unlacquered.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0c34f8c2-f148-4d87-8dbc-9480633e5f30</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBase.cs">
+      <BoundTo>1e8b2c64-4ad3-4a06-a2a7-33bb6ad4d60b</BoundTo>
+      <DependentUpon>Finish_LacqueredBase.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cc051a8e-375f-4a17-b679-fd209d68cc9c</id>
+    </Compile>
+    <Compile Include="Finish_LacqueredBase.UserCode.cs">
+      <BoundTo>1e8b2c64-4ad3-4a06-a2a7-33bb6ad4d60b</BoundTo>
+      <DependentUpon>Finish_LacqueredBase.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1f232b0-8104-4829-a374-46f21bc9ab65</id>
+    </Compile>
     <Compile Include="MyHafele_Cancel_Quote.cs">
       <BoundTo>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</BoundTo>
       <DependentUpon>MyHafele_Cancel_Quote.rxrec</DependentUpon>
@@ -438,15 +570,15 @@
       <UserCode>true</UserCode>
       <id>1d9a8b81-a5fe-4057-bfdc-02952775c074</id>
     </Compile>
-    <Compile Include="Finish_Body_Lacquered.cs">
+    <Compile Include="BTD9_Finish_Body_Lacquered.cs">
       <BoundTo>cb3ad424-175b-4e25-a682-9c6e063e1208</BoundTo>
-      <DependentUpon>Finish_Body_Lacquered.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_Body_Lacquered.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>594a6d08-1b3f-4977-b4af-f45bfcfddb35</id>
     </Compile>
-    <Compile Include="Finish_Body_Lacquered.UserCode.cs">
+    <Compile Include="BTD9_Finish_Body_Lacquered.UserCode.cs">
       <BoundTo>cb3ad424-175b-4e25-a682-9c6e063e1208</BoundTo>
-      <DependentUpon>Finish_Body_Lacquered.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_Body_Lacquered.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>af63940a-62e4-4067-8b59-b5278ca88ead</id>
     </Compile>
@@ -462,63 +594,63 @@
       <UserCode>true</UserCode>
       <id>d0f73572-42b7-4eeb-87f6-8f69b1d21d9b</id>
     </Compile>
-    <Compile Include="Finish_LacqueredBaseUnderside_No.cs">
+    <Compile Include="BTD9_Finish_LacqueredBaseUnderside_No.cs">
       <BoundTo>c1935fe2-008c-4921-8ce6-44e08528cba2</BoundTo>
-      <DependentUpon>Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1b684805-3011-4589-977e-941733a62f01</id>
     </Compile>
-    <Compile Include="Finish_LacqueredBaseUnderside_No.UserCode.cs">
+    <Compile Include="BTD9_Finish_LacqueredBaseUnderside_No.UserCode.cs">
       <BoundTo>c1935fe2-008c-4921-8ce6-44e08528cba2</BoundTo>
-      <DependentUpon>Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_LacqueredBaseUnderside_No.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>bc010ae8-9b72-4d56-a2ca-1a6cfb49f700</id>
     </Compile>
-    <Compile Include="Finish_LacqueredBaseUnderside_Yes.cs">
+    <Compile Include="BTD9_Finish_LacqueredBaseUnderside_Yes.cs">
       <BoundTo>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</BoundTo>
-      <DependentUpon>Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>83366a94-8eb9-4b59-954d-b2ecc19440ac</id>
     </Compile>
-    <Compile Include="Finish_LacqueredBaseUnderside_Yes.UserCode.cs">
+    <Compile Include="BTD9_Finish_LacqueredBaseUnderside_Yes.UserCode.cs">
       <BoundTo>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</BoundTo>
-      <DependentUpon>Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
+      <DependentUpon>BTD9_Finish_LacqueredBaseUnderside_Yes.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>908f4ec5-124e-485f-b076-f562e0781e93</id>
     </Compile>
-    <Compile Include="Handles_Externalscalloped.cs">
+    <Compile Include="BTD6_Handles_Externalscalloped.cs">
       <BoundTo>f312ddca-badc-4976-802f-8927168040b4</BoundTo>
-      <DependentUpon>Handles_Externalscalloped.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_Externalscalloped.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>5755162b-59e7-4bad-b44b-339f35ae70d1</id>
     </Compile>
-    <Compile Include="Handles_Externalscalloped.UserCode.cs">
+    <Compile Include="BTD6_Handles_Externalscalloped.UserCode.cs">
       <BoundTo>f312ddca-badc-4976-802f-8927168040b4</BoundTo>
-      <DependentUpon>Handles_Externalscalloped.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_Externalscalloped.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7c84c3b9-5d6e-46cd-a9a7-2096bb70ae63</id>
     </Compile>
-    <Compile Include="Handles_InternalCutOut.cs">
+    <Compile Include="BTD6_Handles_InternalCutOut.cs">
       <BoundTo>dd8721ee-49fa-4aca-992d-53807e444293</BoundTo>
-      <DependentUpon>Handles_InternalCutOut.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_InternalCutOut.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f82b35be-7ecc-40aa-813f-4b741c7b5303</id>
     </Compile>
-    <Compile Include="Handles_InternalCutOut.UserCode.cs">
+    <Compile Include="BTD6_Handles_InternalCutOut.UserCode.cs">
       <BoundTo>dd8721ee-49fa-4aca-992d-53807e444293</BoundTo>
-      <DependentUpon>Handles_InternalCutOut.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_InternalCutOut.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>dca00d98-962f-4608-9163-1dd55e140680</id>
     </Compile>
-    <Compile Include="Handles_None.cs">
+    <Compile Include="BTD6_Handles_None.cs">
       <BoundTo>75c8b300-715d-482b-8639-4fcc5554b366</BoundTo>
-      <DependentUpon>Handles_None.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_None.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>1f6fa989-20d8-44b6-9ec2-85ce00d5def9</id>
     </Compile>
-    <Compile Include="Handles_None.UserCode.cs">
+    <Compile Include="BTD6_Handles_None.UserCode.cs">
       <BoundTo>75c8b300-715d-482b-8639-4fcc5554b366</BoundTo>
-      <DependentUpon>Handles_None.rxrec</DependentUpon>
+      <DependentUpon>BTD6_Handles_None.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>387f8f47-f6bc-485c-9407-97b378f296b5</id>
     </Compile>
@@ -624,51 +756,51 @@
       <UserCode>true</UserCode>
       <id>40611afc-80b4-41ca-bfb3-7f8424f7d591</id>
     </Compile>
-    <Compile Include="Notching_Blum.cs">
+    <Compile Include="BTD8_Notching_Blum.cs">
       <BoundTo>0c15a752-0de1-4887-bcd7-5c79769f54eb</BoundTo>
-      <DependentUpon>Notching_Blum.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Blum.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>9accb6f1-f75f-4290-be25-b2ab568758ea</id>
     </Compile>
-    <Compile Include="Notching_Blum.UserCode.cs">
+    <Compile Include="BTD8_Notching_Blum.UserCode.cs">
       <BoundTo>0c15a752-0de1-4887-bcd7-5c79769f54eb</BoundTo>
-      <DependentUpon>Notching_Blum.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Blum.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0b72ce80-26b4-4c3b-afe3-3b99b9058db0</id>
     </Compile>
-    <Compile Include="Notching_Grass.cs">
+    <Compile Include="BTD8_Notching_Grass.cs">
       <BoundTo>d40a8798-17ae-4b82-a63a-95bf7f6bf600</BoundTo>
-      <DependentUpon>Notching_Grass.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Grass.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>ad305570-f3e9-4353-a753-c26424976718</id>
     </Compile>
-    <Compile Include="Notching_Grass.UserCode.cs">
+    <Compile Include="BTD8_Notching_Grass.UserCode.cs">
       <BoundTo>d40a8798-17ae-4b82-a63a-95bf7f6bf600</BoundTo>
-      <DependentUpon>Notching_Grass.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Grass.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d492637f-a72e-4555-823f-86ecb20c67f9</id>
     </Compile>
-    <Compile Include="Notching_Hettich.cs">
+    <Compile Include="BTD8_Notching_Hettich.cs">
       <BoundTo>a11d5340-7fad-4f39-9066-80e4a0f727a2</BoundTo>
-      <DependentUpon>Notching_Hettich.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Hettich.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a4cbd4aa-8204-4a89-8e1d-5bf82c14b1d5</id>
     </Compile>
-    <Compile Include="Notching_Hettich.UserCode.cs">
+    <Compile Include="BTD8_Notching_Hettich.UserCode.cs">
       <BoundTo>a11d5340-7fad-4f39-9066-80e4a0f727a2</BoundTo>
-      <DependentUpon>Notching_Hettich.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_Hettich.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>24146681-b9fa-4316-8154-e52a04c36436</id>
     </Compile>
-    <Compile Include="Notching_None.cs">
+    <Compile Include="BTD8_Notching_None.cs">
       <BoundTo>cffe9a23-be9f-476b-a724-de35bf6cdd93</BoundTo>
-      <DependentUpon>Notching_None.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_None.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f3e209fe-3e45-4514-acfc-859ea8b2cd07</id>
     </Compile>
-    <Compile Include="Notching_None.UserCode.cs">
+    <Compile Include="BTD8_Notching_None.UserCode.cs">
       <BoundTo>cffe9a23-be9f-476b-a724-de35bf6cdd93</BoundTo>
-      <DependentUpon>Notching_None.rxrec</DependentUpon>
+      <DependentUpon>BTD8_Notching_None.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8a42951a-9e3a-4c43-ad46-f8cb48c497c7</id>
     </Compile>
@@ -699,8 +831,54 @@
       <UserCode>true</UserCode>
       <id>a5ecbe19-f875-4388-aaa5-f247cf39140d</id>
     </Compile>
+    <Compile Include="BTD8_Specification_BackOnly.cs">
+      <BoundTo>05d1ddd0-090c-4178-a2f3-8a9a3895e348</BoundTo>
+      <DependentUpon>BTD8_Specification_BackOnly.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8b96f62f-a1c9-4466-873e-caaf99ce2a4e</id>
+    </Compile>
+    <Compile Include="BTD8_Specification_BackOnly.UserCode.cs">
+      <BoundTo>05d1ddd0-090c-4178-a2f3-8a9a3895e348</BoundTo>
+      <DependentUpon>BTD8_Specification_BackOnly.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4034815e-cee0-459f-81c3-cef8de261afb</id>
+    </Compile>
+    <Compile Include="BTD8_Specification_FrontAndBack.cs">
+      <BoundTo>29c7994b-386d-4e9e-a856-58838c5ee66e</BoundTo>
+      <DependentUpon>BTD8_Specification_FrontAndBack.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d5c38a2-da68-4609-bb76-6987a91452f9</id>
+    </Compile>
+    <Compile Include="BTD8_Specification_FrontAndBack.UserCode.cs">
+      <BoundTo>29c7994b-386d-4e9e-a856-58838c5ee66e</BoundTo>
+      <DependentUpon>BTD8_Specification_FrontAndBack.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>89fbc968-095c-483e-9302-f4b96dde1190</id>
+    </Compile>
+    <Compile Include="BTD8_Specification_FrontOnly.cs">
+      <BoundTo>0f34c94e-f6a6-4abc-aa80-297ab5cf2a72</BoundTo>
+      <DependentUpon>BTD8_Specification_FrontOnly.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a75acd5e-7f37-48d0-b003-5457680fbb2e</id>
+    </Compile>
+    <Compile Include="BTD8_Specification_FrontOnly.UserCode.cs">
+      <BoundTo>0f34c94e-f6a6-4abc-aa80-297ab5cf2a72</BoundTo>
+      <DependentUpon>BTD8_Specification_FrontOnly.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48bf9902-dc36-4de0-aa37-936164932d22</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AddToQuote.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>74081b33-0bb7-4811-883b-8971fbe6b201</id>
+      <recordtableid>c94100cf-ad2c-4d18-b567-1d3609b87921</recordtableid>
+    </None>
+    <None Include="BTD10_Add_Delivery_Addrerss.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>3dc2bb80-596c-49f0-8d1e-288885e08d69</id>
+      <recordtableid>ebe72804-3520-486a-8583-4600f7f8f4de</recordtableid>
+    </None>
     <None Include="app.config">
       <id>d2dce9d0-d9ae-4e0e-b29f-c6cba9147d08</id>
     </None>
@@ -774,6 +952,51 @@
       <id>62dd806e-7f4c-44df-9f62-9b33588b7ed1</id>
       <recordtableid>362a54d6-9529-4412-8f89-827170a584b7</recordtableid>
     </None>
+    <None Include="BTD7_Customisations_DroppedFront_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>7d1ab39c-234b-4b6e-96c9-b31056a678c8</id>
+      <recordtableid>13b6e499-f1d3-4fd5-a399-7ae8ddb650db</recordtableid>
+    </None>
+    <None Include="BTD7_Customisations_DrawerBase_Flush.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>3c568804-ee02-4641-a3a1-56d91529a780</id>
+      <recordtableid>9939faae-707f-4598-9943-43f6cae78222</recordtableid>
+    </None>
+    <None Include="BTD7_Customisations_UShapedDrawer_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>b8e44bda-cd07-4b21-b5c0-cfd1a621903d</id>
+      <recordtableid>a85e1fc6-3154-4fb2-9f65-e4094823a8a2</recordtableid>
+    </None>
+    <None Include="BTD7_Customisation_DrawerBase_Flush.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>9c80dd93-2bae-44ef-ac60-1d86ea4250f0</id>
+      <recordtableid>77ee40ce-c1cd-4520-aeff-cd27d8d560b9</recordtableid>
+    </None>
+    <None Include="BTD7_Customisations_CurvedSides_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>49896bf4-d6e1-4f27-9eaf-bf3ffc621577</id>
+      <recordtableid>31f36edc-4d6e-46ba-8d9c-2e195ceeb7ed</recordtableid>
+    </None>
+    <None Include="BTD7_Customisations_SlideOut.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>af573b53-3f20-48ff-9910-7874fbc4089f</id>
+      <recordtableid>b6eb7f64-a05f-4ec4-bd3d-f736731460d2</recordtableid>
+    </None>
+    <None Include="DraftProductHighlighted.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>a0b7f440-3950-4af1-bc04-2b481e9f967e</id>
+      <recordtableid>6b9b2640-b887-476a-95c7-848cc8ebe88b</recordtableid>
+    </None>
+    <None Include="BTD9_FinishBody_Unlacquered.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>20daeedb-d51c-46da-b656-828e8badc473</id>
+      <recordtableid>a5789302-a7f6-472b-9ed2-e44dcdaa66b5</recordtableid>
+    </None>
+    <None Include="Finish_LacqueredBase.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1e8b2c64-4ad3-4a06-a2a7-33bb6ad4d60b</id>
+      <recordtableid>0b193810-b1ce-4da1-9621-9dc39d5b2c04</recordtableid>
+    </None>
     <None Include="MyHafele_Cancel_Quote.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</id>
@@ -834,7 +1057,7 @@
       <id>f2bffc01-5ead-4da0-b3da-bf2876d953e3</id>
       <recordtableid>8459b02c-da3b-4dd7-a1a0-d94328f9f235</recordtableid>
     </None>
-    <None Include="Finish_Body_Lacquered.rxrec">
+    <None Include="BTD9_Finish_Body_Lacquered.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>cb3ad424-175b-4e25-a682-9c6e063e1208</id>
       <recordtableid>353cc33e-555e-4aa8-bdde-6c4457034734</recordtableid>
@@ -844,27 +1067,27 @@
       <id>19b1591a-2734-4ecd-be65-07560ad673a1</id>
       <recordtableid>019c7f55-1dd6-435a-bb98-abb08169b40e</recordtableid>
     </None>
-    <None Include="Finish_LacqueredBaseUnderside_No.rxrec">
+    <None Include="BTD9_Finish_LacqueredBaseUnderside_No.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>c1935fe2-008c-4921-8ce6-44e08528cba2</id>
       <recordtableid>b87725a8-9e3d-4454-a16b-85ae5e306104</recordtableid>
     </None>
-    <None Include="Finish_LacqueredBaseUnderside_Yes.rxrec">
+    <None Include="BTD9_Finish_LacqueredBaseUnderside_Yes.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>fab5a03d-f4cf-42ad-87aa-cb1633f251f6</id>
       <recordtableid>7f0fc87b-6672-45e4-8af9-72bb6884a204</recordtableid>
     </None>
-    <None Include="Handles_Externalscalloped.rxrec">
+    <None Include="BTD6_Handles_Externalscalloped.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>f312ddca-badc-4976-802f-8927168040b4</id>
       <recordtableid>5a5053fa-a7a7-4306-b3be-393881147d63</recordtableid>
     </None>
-    <None Include="Handles_InternalCutOut.rxrec">
+    <None Include="BTD6_Handles_InternalCutOut.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>dd8721ee-49fa-4aca-992d-53807e444293</id>
       <recordtableid>e0451283-792d-4471-b033-b53b41d84ba9</recordtableid>
     </None>
-    <None Include="Handles_None.rxrec">
+    <None Include="BTD6_Handles_None.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>75c8b300-715d-482b-8639-4fcc5554b366</id>
       <recordtableid>c76c73b9-4c8e-444a-803c-cd5bf9ebb009</recordtableid>
@@ -925,22 +1148,22 @@
       <id>5863d138-7761-47b4-a821-7e23c5be7de7</id>
       <recordtableid>1ee65b38-ab6b-45c3-9f60-6ab7cfd1c8cf</recordtableid>
     </None>
-    <None Include="Notching_Blum.rxrec">
+    <None Include="BTD8_Notching_Blum.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>0c15a752-0de1-4887-bcd7-5c79769f54eb</id>
       <recordtableid>87c1139c-13d0-4df0-8874-09cd43cbb461</recordtableid>
     </None>
-    <None Include="Notching_Grass.rxrec">
+    <None Include="BTD8_Notching_Grass.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>d40a8798-17ae-4b82-a63a-95bf7f6bf600</id>
       <recordtableid>05ee3f88-331b-4700-98b4-7ac69af7263d</recordtableid>
     </None>
-    <None Include="Notching_Hettich.rxrec">
+    <None Include="BTD8_Notching_Hettich.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>a11d5340-7fad-4f39-9066-80e4a0f727a2</id>
       <recordtableid>eb375849-9332-4060-913b-dc0bf2e1e3d2</recordtableid>
     </None>
-    <None Include="Notching_None.rxrec">
+    <None Include="BTD8_Notching_None.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>cffe9a23-be9f-476b-a724-de35bf6cdd93</id>
       <recordtableid>6fab2d9b-23ce-4d17-a1fd-fc17c26497b9</recordtableid>
@@ -949,6 +1172,21 @@
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>184e8bb6-9df5-4194-a18b-dc9f421f6288</id>
       <recordtableid>b8e4be27-3332-4448-8625-1cbd83b80de4</recordtableid>
+    </None>
+    <None Include="BTD8_Specification_BackOnly.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>05d1ddd0-090c-4178-a2f3-8a9a3895e348</id>
+      <recordtableid>fd8e930d-93bf-4941-91d2-67de628457db</recordtableid>
+    </None>
+    <None Include="BTD8_Specification_FrontAndBack.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>29c7994b-386d-4e9e-a856-58838c5ee66e</id>
+      <recordtableid>4bb684e5-d8d3-458b-97cc-0efac3a49daf</recordtableid>
+    </None>
+    <None Include="BTD8_Specification_FrontOnly.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>0f34c94e-f6a6-4abc-aa80-297ab5cf2a72</id>
+      <recordtableid>5ee36a1d-90d3-4fe9-be40-5c55af949218</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

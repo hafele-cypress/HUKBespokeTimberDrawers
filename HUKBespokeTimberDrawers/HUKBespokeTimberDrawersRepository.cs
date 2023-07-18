@@ -57,30 +57,6 @@ namespace HUKBespokeTimberDrawers
 
 #region Variables
 
-        string _ExHeight_mm = "";
-
-        /// <summary>
-        /// Gets or sets the value of variable ExHeight_mm.
-        /// </summary>
-        [TestVariable("57a3965c-ddcc-4cb4-a6b0-9103e9fbdcc3")]
-        public string ExHeight_mm
-        {
-            get { return _ExHeight_mm; }
-            set { _ExHeight_mm = value; }
-        }
-
-        string _UshapedDrawer_Yes = " Yes ";
-
-        /// <summary>
-        /// Gets or sets the value of variable UshapedDrawer_Yes.
-        /// </summary>
-        [TestVariable("72ddf564-c5a7-42f3-9c0c-4a894ba18121")]
-        public string UshapedDrawer_Yes
-        {
-            get { return _UshapedDrawer_Yes; }
-            set { _UshapedDrawer_Yes = value; }
-        }
-
         string _SlideOutBase = " Slide out Base ";
 
         /// <summary>
@@ -431,6 +407,12 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _quotesummery_overviewInfo;
             RepoItemInfo _needtofinishthislater_saveproductandexitInfo;
             RepoItemInfo _rowitemdraftInfo;
+            RepoItemInfo _moreinfo_imgInfo;
+            RepoItemInfo _addtoquote_buttonInfo;
+            RepoItemInfo _placeorder_buttonInfo;
+            RepoItemInfo _before_you_place_your_order_dialogueboxInfo;
+            RepoItemInfo _aggreeandconfirmorder_buttonInfo;
+            RepoItemInfo _returntoquotes_buttonInfo;
 
             /// <summary>
             /// Creates a new MyHafelePortal  folder.
@@ -504,6 +486,12 @@ namespace HUKBespokeTimberDrawers
                 _quotesummery_overviewInfo = new RepoItemInfo(this, "QuoteSummery_Overview", ".//div[#'summary']", "element", 30000, null, "45911aaf-d86d-4a3a-be87-22684c517dcf");
                 _needtofinishthislater_saveproductandexitInfo = new RepoItemInfo(this, "NeedToFinishThisLater_SaveProductAndExit", ".//div[#'save_draft']/a[@innertext='Save product and exit ']", "element", 30000, null, "b6880976-f749-442b-b0ef-8d82be0d14e5");
                 _rowitemdraftInfo = new RepoItemInfo(this, "RowItemDraft", ".//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[@class='row item draft']", "element", 30000, null, "62282bc9-324a-4716-949b-9040f9cf0b26");
+                _moreinfo_imgInfo = new RepoItemInfo(this, "MoreInfo_img", ".//div[@id='more_info_img']", "element", 30000, null, "7b8b5a39-df66-4c48-8f3b-036280a47f10");
+                _addtoquote_buttonInfo = new RepoItemInfo(this, "AddToQuote_Button", ".//div[#'summary']/?/?/a[@innertext='Add To Quote']", "element", 30000, null, "62dd3108-dda2-4f7c-84b1-d0afd3323d64");
+                _placeorder_buttonInfo = new RepoItemInfo(this, "PlaceOrder_Button", ".//div[#'summary']/?/?/a[@innertext='Place Order']", "element", 30000, null, "996fb4bd-bdba-413b-bd5a-4724a97916e7");
+                _before_you_place_your_order_dialogueboxInfo = new RepoItemInfo(this, "Before_you_place_your_order_DialogueBox", "?/?/tag[@tagname='ngb-modal-window']/div/div", ".//div[#'container']//element", 30000, null, "ea8b662a-b724-4666-8361-8bdbeabb39ac");
+                _aggreeandconfirmorder_buttonInfo = new RepoItemInfo(this, "AggreeAndConfirmOrder_Button", "?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Agree and confirm order']", "element", 30000, null, "1d9d0de6-aa65-4dd7-9c10-0629fd54f084");
+                _returntoquotes_buttonInfo = new RepoItemInfo(this, "ReturnToQuotes_Button", "?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Return to quotes']", "element", 30000, null, "b6685cde-a1a1-4008-b884-8786fb306cc2");
             }
 
             /// <summary>
@@ -2301,6 +2289,150 @@ namespace HUKBespokeTimberDrawers
             }
 
             /// <summary>
+            /// The MoreInfo_img item.
+            /// </summary>
+            [RepositoryItem("7b8b5a39-df66-4c48-8f3b-036280a47f10")]
+            public virtual Ranorex.DivTag MoreInfo_img
+            {
+                get
+                {
+                    return _moreinfo_imgInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MoreInfo_img item info.
+            /// </summary>
+            [RepositoryItemInfo("7b8b5a39-df66-4c48-8f3b-036280a47f10")]
+            public virtual RepoItemInfo MoreInfo_imgInfo
+            {
+                get
+                {
+                    return _moreinfo_imgInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddToQuote_Button item.
+            /// </summary>
+            [RepositoryItem("62dd3108-dda2-4f7c-84b1-d0afd3323d64")]
+            public virtual Ranorex.ATag AddToQuote_Button
+            {
+                get
+                {
+                    return _addtoquote_buttonInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddToQuote_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("62dd3108-dda2-4f7c-84b1-d0afd3323d64")]
+            public virtual RepoItemInfo AddToQuote_ButtonInfo
+            {
+                get
+                {
+                    return _addtoquote_buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PlaceOrder_Button item.
+            /// </summary>
+            [RepositoryItem("996fb4bd-bdba-413b-bd5a-4724a97916e7")]
+            public virtual Ranorex.ATag PlaceOrder_Button
+            {
+                get
+                {
+                    return _placeorder_buttonInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PlaceOrder_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("996fb4bd-bdba-413b-bd5a-4724a97916e7")]
+            public virtual RepoItemInfo PlaceOrder_ButtonInfo
+            {
+                get
+                {
+                    return _placeorder_buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Before_you_place_your_order_DialogueBox item.
+            /// </summary>
+            [RepositoryItem("ea8b662a-b724-4666-8361-8bdbeabb39ac")]
+            public virtual Ranorex.DivTag Before_you_place_your_order_DialogueBox
+            {
+                get
+                {
+                    return _before_you_place_your_order_dialogueboxInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Before_you_place_your_order_DialogueBox item info.
+            /// </summary>
+            [RepositoryItemInfo("ea8b662a-b724-4666-8361-8bdbeabb39ac")]
+            public virtual RepoItemInfo Before_you_place_your_order_DialogueBoxInfo
+            {
+                get
+                {
+                    return _before_you_place_your_order_dialogueboxInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AggreeAndConfirmOrder_Button item.
+            /// </summary>
+            [RepositoryItem("1d9d0de6-aa65-4dd7-9c10-0629fd54f084")]
+            public virtual Ranorex.Button AggreeAndConfirmOrder_Button
+            {
+                get
+                {
+                    return _aggreeandconfirmorder_buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AggreeAndConfirmOrder_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("1d9d0de6-aa65-4dd7-9c10-0629fd54f084")]
+            public virtual RepoItemInfo AggreeAndConfirmOrder_ButtonInfo
+            {
+                get
+                {
+                    return _aggreeandconfirmorder_buttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ReturnToQuotes_Button item.
+            /// </summary>
+            [RepositoryItem("b6685cde-a1a1-4008-b884-8786fb306cc2")]
+            public virtual Ranorex.Button ReturnToQuotes_Button
+            {
+                get
+                {
+                    return _returntoquotes_buttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ReturnToQuotes_Button item info.
+            /// </summary>
+            [RepositoryItemInfo("b6685cde-a1a1-4008-b884-8786fb306cc2")]
+            public virtual RepoItemInfo ReturnToQuotes_ButtonInfo
+            {
+                get
+                {
+                    return _returntoquotes_buttonInfo;
+                }
+            }
+
+            /// <summary>
             /// The HttpsQmyHafeleCoUkQuotesBespoke folder.
             /// </summary>
             [RepositoryFolder("5bbebe9d-e57a-4496-a1fa-04b947652758")]
@@ -2335,6 +2467,7 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _customisations_droppedfront_noInfo;
             RepoItemInfo _customisations_droppedfront_yesInfo;
             RepoItemInfo _customisations_droppedfront_dropdepthInfo;
+            RepoItemInfo _customisations_droppedfront_dropdepth15Info;
             RepoItemInfo _customisations_curvedside_yesInfo;
             RepoItemInfo _customisations_curvedside_noInfo;
             RepoItemInfo _customisations_ushapeddrawer_yesInfo;
@@ -2372,6 +2505,15 @@ namespace HUKBespokeTimberDrawers
             RepoItemInfo _insert_depth_textInfo;
             RepoItemInfo _insert_height_textInfo;
             RepoItemInfo _insert_width_textInfo;
+            RepoItemInfo _droppedfront_moreinfoInfo;
+            RepoItemInfo _curvedside_moreinfoInfo;
+            RepoItemInfo _ushapeddrawer_moreinfoInfo;
+            RepoItemInfo _drawerbase_moreinfoInfo;
+            RepoItemInfo _notching_moreinfoInfo;
+            RepoItemInfo _finishbody_moreinfoInfo;
+            FinishBody_UnlacqueredInfoClass _finishbody_unlacqueredInfo;
+            RepoItemInfo _finish_bodyoptionvalidationInfo;
+            RepoItemInfo _finishlacquered_moreinfoInfo;
 
             /// <summary>
             /// Creates a new HttpsQmyHafeleCoUkQuotesBespoke  folder.
@@ -2398,9 +2540,10 @@ namespace HUKBespokeTimberDrawers
                 _customisations_droppedfront_noInfo = new RepoItemInfo(this, "Customisations_DroppedFront_No", ".//label[@innertext=' No ']", "element", 30000, null, "75a429e8-9847-4836-bd33-4a61c1483a79");
                 _customisations_droppedfront_yesInfo = new RepoItemInfo(this, "Customisations_DroppedFront_Yes", ".//div[#'container']//label[@innertext=' Yes ']", "element", 30000, null, "56bba24e-704d-4f30-8f37-5beb3ba5a1f6");
                 _customisations_droppedfront_dropdepthInfo = new RepoItemInfo(this, "Customisations_DroppedFront_DropDepth", ".//div/div[4]/div[2]/div[3]/div/div/input[@type='text']", "element", 30000, null, "5649050e-4d6c-4fe7-8b7b-9ef819e09ec3");
+                _customisations_droppedfront_dropdepth15Info = new RepoItemInfo(this, "Customisations_DroppedFront_DropDepth15", ".//div/div[4]/div[2]/div[3]/div/div/input[@value='15']", "element", 30000, null, "8a38d1e9-a9f3-41ec-843e-047c9c6c5976");
                 _customisations_curvedside_yesInfo = new RepoItemInfo(this, "Customisations_CurvedSide_Yes", ".//div[#'container']//div/div[4]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']", "element", 30000, null, "834b41bf-c43a-4250-8bf4-eab552266ba8");
                 _customisations_curvedside_noInfo = new RepoItemInfo(this, "Customisations_CurvedSide_No", ".//div[#'container']//div/div[4]/div[3]//label[@innertext=' No ']", "element", 30000, null, "f151e7ff-f477-4a2f-9b1d-82953061c0cb");
-                _customisations_ushapeddrawer_yesInfo = new RepoItemInfo(this, "Customisations_UShapedDrawer_Yes", ".//div[#'container']//div/div[4]/div[4]//label[@innertext=$UshapedDrawer_Yes]", "element", 30000, null, "dd2875ee-5a80-4240-96ee-5a15034bc1c7");
+                _customisations_ushapeddrawer_yesInfo = new RepoItemInfo(this, "Customisations_UShapedDrawer_Yes", "form/div/div[4]/div[4]/div[2]/div/div/div[1]/label[@innertext=' Yes ']", "element", 30000, null, "dd2875ee-5a80-4240-96ee-5a15034bc1c7");
                 _customisations_ushapeddrawer_noInfo = new RepoItemInfo(this, "Customisations_UshapedDrawer_No", ".//div[#'container']//div/div[4]/div[4]/div[2]/div/div/div[2]/label[@innertext=' No ']", "element", 30000, null, "be892c0a-4b62-49b5-8e65-f15c342c343e");
                 _customisations_drawerbase_standardbaseInfo = new RepoItemInfo(this, "Customisations_DrawerBase_StandardBase", ".//div[#'container']//label[@innertext=' Standard Base ']", "element", 30000, null, "a3ec0e4b-a4c9-4cc5-990c-0a4d8811d3a3");
                 _customisations_drawerbase_flushbaseInfo = new RepoItemInfo(this, "Customisations_DrawerBase_FlushBase", ".//div[#'container']//label[@innertext=' Flush Base ']", "element", 30000, null, "edc50125-7f91-48b6-8950-d14f9fdaf23a");
@@ -2435,6 +2578,15 @@ namespace HUKBespokeTimberDrawers
                 _insert_depth_textInfo = new RepoItemInfo(this, "Insert_Depth_Text", "form//div/div[1]/div[2]/div/div[2]/input[@type='text']", "", 30000, null, "3645cc50-5708-4a4b-bdca-a14a7df27f51");
                 _insert_height_textInfo = new RepoItemInfo(this, "Insert_Height_Text", "form//div/div[1]/div[2]/div/div[3]/input[@type='text']", "element", 30000, null, "82d296d7-5710-4418-8d27-0dd9174ef1ed");
                 _insert_width_textInfo = new RepoItemInfo(this, "Insert_Width_Text", "form//input[@type='text']", "element", 30000, null, "ef723b8f-3edc-47cb-9166-6303e93f3272");
+                _droppedfront_moreinfoInfo = new RepoItemInfo(this, "DroppedFront_MoreInfo", "form/div/div[4]/div[2]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "6e87ccf6-c026-4199-bb32-a165e8ba48b1");
+                _curvedside_moreinfoInfo = new RepoItemInfo(this, "CurvedSide_MoreInfo", "form/div/div[4]/div[3]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "a14007f8-e6c1-4cf8-99bc-666db16bfd58");
+                _ushapeddrawer_moreinfoInfo = new RepoItemInfo(this, "UShapedDrawer_MoreInfo", "form/div/div[4]/div[4]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "d1bac71f-b354-4b23-b4a1-50aa6288a25b");
+                _drawerbase_moreinfoInfo = new RepoItemInfo(this, "DrawerBase_MoreInfo", "form/div/div[4]/div[5]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "f84266c2-e0cc-4912-bde7-0f6de177a8ff");
+                _notching_moreinfoInfo = new RepoItemInfo(this, "Notching_MoreInfo", "form/div/div[5]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "fbb61b11-e28e-47e0-9706-bb1da397cc68");
+                _finishbody_moreinfoInfo = new RepoItemInfo(this, "FinishBody_MoreInfo", "form/div/div[6]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "ebfc7c9e-1676-4486-a15c-0f03280a47d8");
+                _finishbody_unlacqueredInfo = new FinishBody_UnlacqueredInfoClass(this);
+                _finish_bodyoptionvalidationInfo = new RepoItemInfo(this, "Finish_BodyOptionValidation", ".//div[#'container']/form/div/div[6]", "element", 30000, null, "133e5e1a-0891-46c0-85c1-214aa91af86f");
+                _finishlacquered_moreinfoInfo = new RepoItemInfo(this, "FinishLacquered_MoreInfo", "form/div/div[6]/div[3]/div[1]/div/span[@innertext='More info']", "element", 30000, null, "e07a0709-e0ca-4ab8-8b34-986f71e326c7");
             }
 
             /// <summary>
@@ -2574,6 +2726,27 @@ namespace HUKBespokeTimberDrawers
                 public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
                 {
                     return GetImage("05bc21b6-5c28-4a65-8b0d-34c2a0e713e3", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("9d241b70-dd30-4e0c-aa03-e8e9308bb52d")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("9d241b70-dd30-4e0c-aa03-e8e9308bb52d");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("9d241b70-dd30-4e0c-aa03-e8e9308bb52d")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("9d241b70-dd30-4e0c-aa03-e8e9308bb52d", cropRect);
                 }
             }
 
@@ -2749,6 +2922,62 @@ namespace HUKBespokeTimberDrawers
                 public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
                 {
                     return GetImage("1024a9c4-8992-4231-b8b5-68c00755361c", cropRect);
+                }
+            }
+
+            /// <summary>
+            /// The FinishBody_UnlacqueredInfoClass folder.
+            /// </summary>
+            [RepositoryItemInfo("bf49c61f-1fb1-449c-afff-e69a844480f8")]
+            public class FinishBody_UnlacqueredInfoClass : RepoItemInfo
+            {
+                /// <summary>
+                /// FinishBody_UnlacqueredInfoClass class constructor.
+                /// </summary>
+                public FinishBody_UnlacqueredInfoClass(RepoGenBaseFolder parentFolder)
+                    : base(parentFolder, "FinishBody_Unlacquered", "form//label[@innertext=' Unlacquered ']", 30000, null, "bf49c61f-1fb1-449c-afff-e69a844480f8")
+                { }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <returns>The Screenshot1 image.</returns>
+                [RepositoryImage("fc2e45e8-4cc5-4df8-b83f-074fc141696c")]
+                public CompressedImage GetScreenshot1()
+                {
+                    return GetImage("fc2e45e8-4cc5-4df8-b83f-074fc141696c");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot1 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("fc2e45e8-4cc5-4df8-b83f-074fc141696c")]
+                public CompressedImage GetScreenshot1(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("fc2e45e8-4cc5-4df8-b83f-074fc141696c", cropRect);
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <returns>The Screenshot2 image.</returns>
+                [RepositoryImage("1db8f633-365f-4722-b632-916043e9dd70")]
+                public CompressedImage GetScreenshot2()
+                {
+                    return GetImage("1db8f633-365f-4722-b632-916043e9dd70");
+                }
+
+                /// <summary>
+                /// Gets the Screenshot2 item image.
+                /// </summary>
+                /// <param name="cropRect">The bounds of the sub-image to return.</param>
+                /// <returns>The cropped image.</returns>
+                [RepositoryImage("1db8f633-365f-4722-b632-916043e9dd70")]
+                public CompressedImage GetScreenshot2(System.Drawing.Rectangle cropRect)
+                {
+                    return GetImage("1db8f633-365f-4722-b632-916043e9dd70", cropRect);
                 }
             }
 
@@ -3229,6 +3458,30 @@ namespace HUKBespokeTimberDrawers
                 get
                 {
                     return _customisations_droppedfront_dropdepthInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Customisations_DroppedFront_DropDepth15 item.
+            /// </summary>
+            [RepositoryItem("8a38d1e9-a9f3-41ec-843e-047c9c6c5976")]
+            public virtual Ranorex.InputTag Customisations_DroppedFront_DropDepth15
+            {
+                get
+                {
+                    return _customisations_droppedfront_dropdepth15Info.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Customisations_DroppedFront_DropDepth15 item info.
+            /// </summary>
+            [RepositoryItemInfo("8a38d1e9-a9f3-41ec-843e-047c9c6c5976")]
+            public virtual RepoItemInfo Customisations_DroppedFront_DropDepth15Info
+            {
+                get
+                {
+                    return _customisations_droppedfront_dropdepth15Info;
                 }
             }
 
@@ -4117,6 +4370,222 @@ namespace HUKBespokeTimberDrawers
                 get
                 {
                     return _insert_width_textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DroppedFront_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("6e87ccf6-c026-4199-bb32-a165e8ba48b1")]
+            public virtual Ranorex.SpanTag DroppedFront_MoreInfo
+            {
+                get
+                {
+                    return _droppedfront_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DroppedFront_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("6e87ccf6-c026-4199-bb32-a165e8ba48b1")]
+            public virtual RepoItemInfo DroppedFront_MoreInfoInfo
+            {
+                get
+                {
+                    return _droppedfront_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CurvedSide_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("a14007f8-e6c1-4cf8-99bc-666db16bfd58")]
+            public virtual Ranorex.SpanTag CurvedSide_MoreInfo
+            {
+                get
+                {
+                    return _curvedside_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CurvedSide_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("a14007f8-e6c1-4cf8-99bc-666db16bfd58")]
+            public virtual RepoItemInfo CurvedSide_MoreInfoInfo
+            {
+                get
+                {
+                    return _curvedside_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UShapedDrawer_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("d1bac71f-b354-4b23-b4a1-50aa6288a25b")]
+            public virtual Ranorex.SpanTag UShapedDrawer_MoreInfo
+            {
+                get
+                {
+                    return _ushapeddrawer_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UShapedDrawer_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("d1bac71f-b354-4b23-b4a1-50aa6288a25b")]
+            public virtual RepoItemInfo UShapedDrawer_MoreInfoInfo
+            {
+                get
+                {
+                    return _ushapeddrawer_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DrawerBase_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("f84266c2-e0cc-4912-bde7-0f6de177a8ff")]
+            public virtual Ranorex.SpanTag DrawerBase_MoreInfo
+            {
+                get
+                {
+                    return _drawerbase_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DrawerBase_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("f84266c2-e0cc-4912-bde7-0f6de177a8ff")]
+            public virtual RepoItemInfo DrawerBase_MoreInfoInfo
+            {
+                get
+                {
+                    return _drawerbase_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Notching_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("fbb61b11-e28e-47e0-9706-bb1da397cc68")]
+            public virtual Ranorex.SpanTag Notching_MoreInfo
+            {
+                get
+                {
+                    return _notching_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Notching_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("fbb61b11-e28e-47e0-9706-bb1da397cc68")]
+            public virtual RepoItemInfo Notching_MoreInfoInfo
+            {
+                get
+                {
+                    return _notching_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FinishBody_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("ebfc7c9e-1676-4486-a15c-0f03280a47d8")]
+            public virtual Ranorex.SpanTag FinishBody_MoreInfo
+            {
+                get
+                {
+                    return _finishbody_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishBody_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("ebfc7c9e-1676-4486-a15c-0f03280a47d8")]
+            public virtual RepoItemInfo FinishBody_MoreInfoInfo
+            {
+                get
+                {
+                    return _finishbody_moreinfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FinishBody_Unlacquered item.
+            /// </summary>
+            [RepositoryItem("bf49c61f-1fb1-449c-afff-e69a844480f8")]
+            public virtual Ranorex.LabelTag FinishBody_Unlacquered
+            {
+                get
+                {
+                    return _finishbody_unlacqueredInfo.CreateAdapter<Ranorex.LabelTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishBody_Unlacquered item info.
+            /// </summary>
+            [RepositoryItemInfo("bf49c61f-1fb1-449c-afff-e69a844480f8")]
+            public virtual FinishBody_UnlacqueredInfoClass FinishBody_UnlacqueredInfo
+            {
+                get
+                {
+                    return _finishbody_unlacqueredInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Finish_BodyOptionValidation item.
+            /// </summary>
+            [RepositoryItem("133e5e1a-0891-46c0-85c1-214aa91af86f")]
+            public virtual Ranorex.DivTag Finish_BodyOptionValidation
+            {
+                get
+                {
+                    return _finish_bodyoptionvalidationInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Finish_BodyOptionValidation item info.
+            /// </summary>
+            [RepositoryItemInfo("133e5e1a-0891-46c0-85c1-214aa91af86f")]
+            public virtual RepoItemInfo Finish_BodyOptionValidationInfo
+            {
+                get
+                {
+                    return _finish_bodyoptionvalidationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FinishLacquered_MoreInfo item.
+            /// </summary>
+            [RepositoryItem("e07a0709-e0ca-4ab8-8b34-986f71e326c7")]
+            public virtual Ranorex.SpanTag FinishLacquered_MoreInfo
+            {
+                get
+                {
+                    return _finishlacquered_moreinfoInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FinishLacquered_MoreInfo item info.
+            /// </summary>
+            [RepositoryItemInfo("e07a0709-e0ca-4ab8-8b34-986f71e326c7")]
+            public virtual RepoItemInfo FinishLacquered_MoreInfoInfo
+            {
+                get
+                {
+                    return _finishlacquered_moreinfoInfo;
                 }
             }
         }

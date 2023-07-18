@@ -101,6 +101,9 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.Close.Click();
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(6));
+            Delay.Duration(3000, false);
+            
         }
 
 #region Image Feature Data

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fd8e930d-93bf-4941-91d2-67de628457db"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BTD8_Specification_BackOnly"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4608b43b-7e0b-4120-8469-f1d14b4f9421">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="96b8a822-1787-4712-8d19-cd8bb50cc1d9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Back only ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="cc45b9fe-2aa0-4230-ae56-afb1a35181df">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3bda8a55-98e3-40ca-ad57-a41e9031e3f3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="96b8a822-1787-4712-8d19-cd8bb50cc1d9"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Back only ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BTD8_Specification_BackOnly.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

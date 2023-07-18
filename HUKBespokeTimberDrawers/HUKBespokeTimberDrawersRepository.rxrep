@@ -2484,6 +2484,15 @@ AABJRU5ErkJggg==
 					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@type='text']
 				</item>
 				<item
+				capname="inputtag"
+				id="8a38d1e9-a9f3-41ec-843e-047c9c6c5976"
+				name="Customisations_DroppedFront_DropDepth15"
+				refimgid="b979cafd-cf70-4500-905b-59c8cf820ba9"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@value='15']
+				</item>
+				<item
 				capname="labeltag"
 				id="834b41bf-c43a-4250-8bf4-eab552266ba8"
 				name="Customisations_CurvedSide_Yes"
@@ -2508,7 +2517,7 @@ AABJRU5ErkJggg==
 				refimgid="df0d6120-c399-4cc2-bfca-9092997b5e2c"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[4]//label[@innertext=$UshapedDrawer_Yes]
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2598,6 +2607,25 @@ D0L4sSH2Q8giBy+3HtmIths5yJW6R5rUyrFzZRFJ0HHlaMpP6/wm9kN4Qzlq4omVHA+TRY5XlxXJ
 +N9/fS76JJscoD/e3ouscgCTzCpwT4khhliJMUyyywGUB/YPrAjk5hGVFQI4po9rxKiUDJde5Agw
 8UECXm5BkEZSDJ9e5RD/N5JDmEgOYSI5hInkECaSQ5hIDmEiOYSJ5BAmkkOYeDn0kVrRpvlIrT5v
 LdrgQ1VV7g/KJNGPlxa58AAAAABJRU5ErkJggg==
+					</image>
+					<image
+					guid="9d241b70-dd30-4e0c-aa03-e8e9308bb52d"
+					name="Screenshot2">
+						iVBORw0KGgoAAAANSUhEUgAAAIcAAAAsCAYAAABPPKsnAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALPSURBVHhe7ZwxahtBFIZFILW73CBlSOsmF0jr
+Q/gWrg05gMBNsKqgA6iVIZUhhSMXQpgURgisJqBGkEaT/UYeaXY9D0vaXXst/QMf7M6+GUl+n+bt
+rEGth4uuu/3wxd28+ySEBx/wosXB35+/3Hw+F8KDD3jRwpRUgDhs8EJyiCSSQ5hIDmEiOYSJ5BAm
+kkOYSA5hIjmEieQQJrXKMRgMXK/Xc51Ox7XbbQ/H9HEtNUY0h1rkIPFBgtFo5GazmVssFh6O6QvS
+SJLmUrkc/X7fdbtdN5lM3HONGGIZk5pLvC6VykGSWRFYITZtxDJGgjSPyuSgPLAKFMWYfvvuhh+/
+ut/vP3s4pi9ujGHs9iXm2g2z9877z3F2vY65Os/6zt19bpzYBP6WlcjB/UNcSv79GXsRbo+O84nL
+oI9rxITGWOZIzW2zlGN49bRvcDlenkuOnSFXpeXgG09piBvJj4VIQUzcmGO71SMlx9zdn2Xzh9VD
+cuwMOSotB0llBxIaZSO1YhQhJi4xYReTeo009sqx6ovkyEmTMb08dTcnP9w0iruj7/H9MYcfE52v
+X2f/4TOXloNywBY1tE1WjUC8ejDHdqVlKUJxzlVJga3kWI/117LzIIQfG2IPBD5/aTl4uBXfiHLj
+yZybQGxozMFcqddIk1o5xu7uJJs7UVY2WTlW5adwnos9EMjPnsmRESdWcuwM+XnzZUVy1AP52bMb
+Urus+ASvEv4YJzlMyFFpOV57K/tk7jiJuSTH8afZziS7JjlM+DuVlgMoBy//EEzUCbmqRA6+8S//
++FzUSWVygP7xtl9UKgeQZFaBuMRYjRhiJUYzqVwOoDxw/8CKwA6ELSorBHAcdiXEqJQ0l1rkCJD4
+IAEPtyBIIymaT61yiLeN5BAmkkOYSA5hIjmEieQQJpJDmEgOYSI5hInkECZeDv1IrSiy+pFa/by1
+KIIPDxdd9x9jtLXjgoUnlAAAAABJRU5ErkJggg==
 					</image>
 					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Blum ']
 				</item>
@@ -2950,6 +2978,130 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
 					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//input[@type='text']
+				</item>
+				<item
+				capname="spantag"
+				id="6e87ccf6-c026-4199-bb32-a165e8ba48b1"
+				name="DroppedFront_MoreInfo"
+				refimgid="9f76e870-c7d7-4963-9950-dc8bfbf8be67"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[2]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="spantag"
+				id="a14007f8-e6c1-4cf8-99bc-666db16bfd58"
+				name="CurvedSide_MoreInfo"
+				refimgid="d341239c-1cfc-42ed-8b89-817ce340dc1f"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[3]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="spantag"
+				id="d1bac71f-b354-4b23-b4a1-50aa6288a25b"
+				name="UShapedDrawer_MoreInfo"
+				refimgid="26db914f-81d1-4513-a876-444f36f8c5a1"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="spantag"
+				id="f84266c2-e0cc-4912-bde7-0f6de177a8ff"
+				name="DrawerBase_MoreInfo"
+				refimgid="3323a330-8467-43db-9da3-37a9e0fe83f9"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[5]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="spantag"
+				id="fbb61b11-e28e-47e0-9706-bb1da397cc68"
+				name="Notching_MoreInfo"
+				refimgid="dbac32dd-88b3-4274-97fe-b55942af99fe"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[5]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="spantag"
+				id="ebfc7c9e-1676-4486-a15c-0f03280a47d8"
+				name="FinishBody_MoreInfo"
+				refimgid="255b7e4c-fcc7-45ac-8e00-c51f349f0766"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[6]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="labeltag"
+				id="bf49c61f-1fb1-449c-afff-e69a844480f8"
+				name="FinishBody_Unlacquered"
+				refimgid="3bf6affb-b20f-4e75-9508-054d1bf2a2e4"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					<image
+					guid="fc2e45e8-4cc5-4df8-b83f-074fc141696c"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAIcAAAAsCAYAAABPPKsnAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMnSURBVHhe7Zwxr7IwFIb96fwDRkduHB0ZXB2v
+s5sxuU5OLLo42o+3UGxLj7coSr3fS/IkSNsD9DxtQRNnVVWp/X6vdrsdIRr4AC9m2DmdTupyuRCi
+gQ/wYgZTQhXI/w28oBwkCOUgIpSDiFAOIkI5iAjlICKUg4hQDiJCOYjIS+XYbrdqtVqpxWKh5vO5
+Bvs4hrJQG5IOL5EDiTcSIPb5fFbX61WDfRwz0lCSdBldjvV6rZbLpToej+q3DXVQF21Csci0jCoH
+kowZATNE7Ia6aENB0mM0ObA8YBYYIobZ0AZthy8xG1VkmSq+Y4/32XxlKvvaBMs+mu9CZVmhNqGy
+SEaTA88PMUuJtKEtYoRiy1AOkVTkwIjH0vDshhjDZg/KIZKKHEgqYjy7IQZihc4RJk6ORoBCH8s0
+uSp/7LKbHPpzoJ7mp1R5sOygytwcL1RZ5irLS3Uw8az4B6vsbkx9vL7m9nqcezH1PantsqK+3yTk
+wHKAV9RnN8QYtrQMkMMXIpQ8jDYrcU6Zfy5rZNrxTL04OeSYRpq8PAhtGyG7cmemMLImIAe+3Hrk
+QdTfEAOxQucIM0AOIUF+2Y22g21xgp3dv4Z78Z0EezKac+pYWo7+7OTcq9W+dx/i9cbz4XJ4o6fj
+QTm8KT635HBHrc3jcuj97nw39P305GjO068PAQL90C5Lk8sx3bIiyOF1bKwcfj3n81tmDouYmcPC
+P08yM8d0D6Rm9Nmd2HaU1en3EmSXOe3MLNK18ySwkuck3Izw9nNzfSZJTYL9um7M9nNPDv883vVq
+GbwBkYIc073KNjQJQGe0WB0IYuXohGhjbLxkOOU19ihukgHy+k3BbmcvB3XySm+28GJ2s2BADvc8
+wE2+3Q95/baSxLICsBy8/0uwNPFH+KcymhwY8e//+jxNKEcA/vDWQDkEkGTMAjFLDOqgLn+RTZPR
+5QBYHvD8gBkBsfGKihkCYB/HUIY6f2Up+Yu8RA4DEm8kwJdbwEhDKdLnpXKQz4ZyEBHKQUQoBxGh
+HESEchARykFEKAcRoRxEhHIQES0H/6SW+HR/Usu/tyY+8KGqKvUPOScU7KQeEfgAAAAASUVORK5C
+YII=
+					</image>
+					<image
+					guid="1db8f633-365f-4722-b632-916043e9dd70"
+					name="Screenshot2">
+						iVBORw0KGgoAAAANSUhEUgAAAIcAAAAsCAYAAABPPKsnAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOJSURBVHhe7Zw9ihsxGIZNIHW63CDlkjZNLpB2
+D+FbbG3IAQzbBLtafAC3Xki1kGIzWxhjUhhjWDcBN4Y0VubVjMafNPqc8eIfefMKHhiP/mbmeySN
+bHDr+XZgnt5/No9vrgixwAd40cLB7+8/zHq9JsQCH+BFC6bECpD/G3hBOUgUykFUKAdRoRxEhXIQ
+FcpBVCgHUaEcRIVyEJWjypFlmRkOh6bf75tut2vBMc4hL1aHpMNR5EDgnQSTycSsViuz2WwsOMY5
+Jw0lSZeDyzEajcxgMDCLxcL8K6EMyqJOrC1yXg4qB4KMGQEzRNOEsqhDQdLjYHJgecAsEIqx/PrN
+jD98MT/ffrTgGOdkQh3U3X+JeTDj/NrH903P15ndXJnHm4do3kVz38mD2zGzWF5DDiYH3h/kUvLn
+19yK8PTuk+1EgnPIQxmXUBdtxNrWoRwqqciBEY+lQSYEXwoRA2VkQhv7zR6UQyUVORBU7EBcwrIR
+mzFCUEYuMW4XE+sjTjM5CgE69lzRd9tMpzJvK4f9HClnmd6ZLJo3N9Nrd75jpr22eby+M0vXnmh/
+KfJ2tmnP59dcXo93L658ILXMG+f3m4QcWA6wRXWpyazhkLMH2thvadlDjlCIWPAw2kTgvLywLzEy
+ZXuuXDM59DadNFlvrtQthKzyvZnCyZqAHPhyS76I4sVTCrALlHUJbaCtWB9x9pBDCVCYt6V8wFKc
+6MOuX8Ou9r0ABzK6Pm1bVo767OTdq6hfuw/1epuD+FywHMHoqXihHMEUnwk5/FErebkc9rjqb4u9
+n5ocRT/18hAg8hzKZenscpxvWVHkCB5sUznCct7nk8wcgiYzhyDsJ5mZ43wvpG70yYdYPijx0HcF
+SOZ59dwsUtULJBDB8wLuRnj5ubg+F6QiwGFZv83yc02OsJ/geq0MwYBIQY7zbWULigCItsUDBE3l
+qIQo25gFwfDyc+QoLoIB2vlOQdaTy0EevF4wWwRtVrNgRA6/H+AHXz6HLN+tJLGsACwHp/8SLE3C
+EX6pIFYHkQMj/vRfn6cJ5YjAH94KKIcCgoxZQC4xWkIZlOUvsmlycDkAlge8P2BGwA4EW1TMEADH
+bleCMq9lKXmNHEUOBwLvJMCXW8BJQynS56hykMuGchAVykFUKAdRoRxEhXIQFcpBVCgHUaEcRIVy
+EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//label[@innertext=' Unlacquered ']
+				</item>
+				<item
+				capname="divtag"
+				id="133e5e1a-0891-46c0-85c1-214aa91af86f"
+				name="Finish_BodyOptionValidation"
+				refimgid="78c7ecf2-6030-4b89-a5ed-8921409c2c09"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[6]
+				</item>
+				<item
+				capname="spantag"
+				id="e07a0709-e0ca-4ab8-8b34-986f71e326c7"
+				name="FinishLacquered_MoreInfo"
+				refimgid="f803a95e-1cf2-402d-ade3-1113e35c98d3"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[6]/div[3]/div[1]/div/span[@innertext='More info']
 				</item>
 				<basepath>
 					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//
@@ -3407,6 +3559,60 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 			searchtimeout="30000ms">
 				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[@class='row item draft']
 			</item>
+			<item
+			capname="divtag"
+			id="7b8b5a39-df66-4c48-8f3b-036280a47f10"
+			name="MoreInfo_img"
+			refimgid="4f9e950c-34b6-48ef-9a90-29f1c9c1670a"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']//div[@id='more_info_img']
+			</item>
+			<item
+			capname="atag"
+			id="62dd3108-dda2-4f7c-84b1-d0afd3323d64"
+			name="AddToQuote_Button"
+			refimgid="a9077cbb-f099-4a4e-b7df-2b8410b4c8f5"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Add To Quote']
+			</item>
+			<item
+			capname="atag"
+			id="996fb4bd-bdba-413b-bd5a-4724a97916e7"
+			name="PlaceOrder_Button"
+			refimgid="fab1aa7e-e4f3-4256-a040-ef95e081048d"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Place Order']
+			</item>
+			<item
+			capname="divtag"
+			id="ea8b662a-b724-4666-8361-8bdbeabb39ac"
+			name="Before_you_place_your_order_DialogueBox"
+			refimgid="40a41e16-939c-4c1a-908d-3088cd892ac0"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
+			</item>
+			<item
+			capname="button"
+			id="1d9d0de6-aa65-4dd7-9c10-0629fd54f084"
+			name="AggreeAndConfirmOrder_Button"
+			refimgid="440db38c-7856-45f2-9577-60c46bd95442"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Agree and confirm order']
+			</item>
+			<item
+			capname="button"
+			id="b6685cde-a1a1-4008-b884-8786fb306cc2"
+			name="ReturnToQuotes_Button"
+			refimgid="3b6b09c7-198f-480f-aaae-38ba12b348f1"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Return to quotes']
+			</item>
 			<basepath>
 				/dom[@domain='qmy.hafele.co.uk']
 			</basepath>
@@ -3470,15 +3676,6 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 		</basepath>
 	</rootfolder>
 	<variables>
-		<var
-		id="57a3965c-ddcc-4cb4-a6b0-9103e9fbdcc3"
-		name="ExHeight_mm">
-		</var>
-		<var
-		id="72ddf564-c5a7-42f3-9c0c-4a894ba18121"
-		name="UshapedDrawer_Yes">
-			&#32;Yes&#32;
-		</var>
 		<var
 		id="72e158f5-e396-4eb7-99fa-834cbe0ceaf8"
 		name="SlideOutBase">

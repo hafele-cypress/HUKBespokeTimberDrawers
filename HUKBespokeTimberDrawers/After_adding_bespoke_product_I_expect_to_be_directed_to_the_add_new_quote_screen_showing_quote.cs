@@ -81,6 +81,18 @@ namespace HUKBespokeTimberDrawers
             set { _ExDepth_mm = value; }
         }
 
+        string _ExHeight_mm;
+
+        /// <summary>
+        /// Gets or sets the value of variable ExHeight_mm.
+        /// </summary>
+        [TestVariable("7a162813-1ade-47b1-b159-c22a0cb82d18")]
+        public string ExHeight_mm
+        {
+            get { return _ExHeight_mm; }
+            set { _ExHeight_mm = value; }
+        }
+
         string _Thickness;
 
         /// <summary>
@@ -91,16 +103,6 @@ namespace HUKBespokeTimberDrawers
         {
             get { return _Thickness; }
             set { _Thickness = value; }
-        }
-
-        /// <summary>
-        /// Gets or sets the value of variable ExHeight_mm.
-        /// </summary>
-        [TestVariable("7a162813-1ade-47b1-b159-c22a0cb82d18")]
-        public string ExHeight_mm
-        {
-            get { return repo.ExHeight_mm; }
-            set { repo.ExHeight_mm = value; }
         }
 
 #endregion
