@@ -385,6 +385,28 @@ gAooooAKKKKAP//Z
 				</robustPath>
 			</info>
 		</keysequenceitem>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="391d3eee-1d6e-4e3c-95d4-40cf91662861">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c1298e12-d84b-43d2-9340-52509e0aa0eb"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//p[#'manual_entry']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="cb1bd1ed-d8d3-459d-b4a5-1a649fd7aea1">
+			</arguments>
+		</invokeactionrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -411,6 +433,32 @@ gAooooAKKKKAP//Z
 				</robustPath>
 			</info>
 		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="32a254b6-475d-4dba-9315-0c7265babde4"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ed7db12c-599c-4159-9989-68f68c064f26"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'hafele.co.uk']//div[#'address_form']/?/?/input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
 		<keysequenceitem
 		KeySequence="yourtext"
 		duration="100ms"
@@ -427,10 +475,10 @@ gAooooAKKKKAP//Z
 				</binding>
 			</bindings>
 			<info
-			id="c1298e12-d84b-43d2-9340-52509e0aa0eb"
+			id="ed7db12c-599c-4159-9989-68f68c064f26"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qmy.hafele.co.uk']//p[#'manual_entry']
+					/dom[@domain~'hafele.co.uk']//div[#'address_form']/?/?/input[@type='text']
 				</path>
 				<robustPath>
 				</robustPath>

@@ -385,6 +385,28 @@ FFFABRRRQAh++Pof6UtFFABSL0/E/wA6KKAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKRe
 rfX+lFFAC0j/AHG+lFFAC0UUUAf/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="c8221220-387f-4a7f-acad-22ec41dac6e0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b4b968a8-6fa9-4f7c-87cb-2db602cbe8a7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Timber Drawer']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

@@ -94,11 +94,7 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.StartNewQuote.PerformClick();
             Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.StartNewQuote' at Center.", repo.MyHafelePortal.StartNewQuoteInfo, new RecordItemIndex(4));
-            //repo.MyHafelePortal.StartNewQuote.Click();
-            //Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AddProduct' at Center.", repo.MyHafelePortal.AddProductInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AddProduct' at Center.", repo.MyHafelePortal.AddProductInfo, new RecordItemIndex(4));
             repo.MyHafelePortal.AddProduct.Click();
             Delay.Milliseconds(200);
             

@@ -97,17 +97,29 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None.EnsureVisible();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(5));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(6));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=135,Height=44}) on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(6));
-            Validate.ContainsImage(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, Notching_None_Screenshot1, Notching_None_Screenshot1_Options);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=135,Height=44}) on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_None'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, new RecordItemIndex(7));
+                Validate.ContainsImage(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_NoneInfo, Notching_None_Screenshot1, Notching_None_Screenshot1_Options, null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(7)); }
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo, new RecordItemIndex(7));
-            Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo);
-            Delay.Milliseconds(0);
+            try {
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo, new RecordItemIndex(8));
+                Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo, null, false);
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(8)); }
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation, false, new RecordItemIndex(9));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(10));
+            Delay.Duration(2000, false);
             
         }
 

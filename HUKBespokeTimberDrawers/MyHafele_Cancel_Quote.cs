@@ -79,19 +79,29 @@ namespace HUKBespokeTimberDrawers
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.SaveProductAndExit' at Center.", repo.MyHafelePortal.SaveProductAndExitInfo, new RecordItemIndex(0));
-            repo.MyHafelePortal.SaveProductAndExit.Click();
-            Delay.Milliseconds(200);
+            try {
+                Report.Log(ReportLevel.Info, "Invoke action", "(Optional Action)\r\nInvoking EnsureVisible() on item 'MyHafelePortal.SaveProductAndExit'.", repo.MyHafelePortal.SaveProductAndExitInfo, new RecordItemIndex(0));
+                repo.MyHafelePortal.SaveProductAndExit.EnsureVisible();
+                Delay.Milliseconds(0);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(0)); }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.CancelQuote' at Center.", repo.MyHafelePortal.CancelQuoteInfo, new RecordItemIndex(1));
+            try {
+                Report.Log(ReportLevel.Info, "Mouse", "(Optional Action)\r\nMouse Left Click item 'MyHafelePortal.SaveProductAndExit' at Center.", repo.MyHafelePortal.SaveProductAndExitInfo, new RecordItemIndex(1));
+                repo.MyHafelePortal.SaveProductAndExit.Click();
+                Delay.Milliseconds(200);
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(1)); }
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.CancelQuote' at Center.", repo.MyHafelePortal.CancelQuoteInfo, new RecordItemIndex(2));
             repo.MyHafelePortal.CancelQuote.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AreYouSure_CancelQuote' at Center.", repo.MyHafelePortal.AreYouSure_CancelQuoteInfo, new RecordItemIndex(2));
-            repo.MyHafelePortal.AreYouSure_CancelQuote.Click();
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.AreYouSure_DialogueBox, false, new RecordItemIndex(3));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AreYouSure_DialogueBox' at Center.", repo.MyHafelePortal.AreYouSure_DialogueBoxInfo, new RecordItemIndex(4));
+            repo.MyHafelePortal.AreYouSure_DialogueBox.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'MyHafelePortal'.", repo.MyHafelePortal.SelfInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'MyHafelePortal'.", repo.MyHafelePortal.SelfInfo, new RecordItemIndex(5));
             repo.MyHafelePortal.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             

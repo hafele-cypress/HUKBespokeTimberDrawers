@@ -311,6 +311,28 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 				yourValue
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="b0644b85-fffd-421a-8a44-ffb2af824fb3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="133e5e1a-0891-46c0-85c1-214aa91af86f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[6]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"

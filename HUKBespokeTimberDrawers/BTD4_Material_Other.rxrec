@@ -176,7 +176,7 @@ mode="Global">
 			</info>
 		</keysequenceitem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="3000ms"
 		enabled="True"
 		optional="False">
 			<comment>

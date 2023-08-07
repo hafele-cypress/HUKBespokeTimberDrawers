@@ -226,87 +226,95 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.DeliveryContact_TelephoneNumber.PressKeys(TelephoneNumber);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddAddressManually' at Center.", repo.MyHafelePortal.DeliveryAddress_AddAddressManuallyInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.DeliveryAddress_AddAddressManually'.", repo.MyHafelePortal.DeliveryAddress_AddAddressManuallyInfo, new RecordItemIndex(11));
+            repo.MyHafelePortal.DeliveryAddress_AddAddressManually.EnsureVisible();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddAddressManually' at Center.", repo.MyHafelePortal.DeliveryAddress_AddAddressManuallyInfo, new RecordItemIndex(12));
             repo.MyHafelePortal.DeliveryAddress_AddAddressManually.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CompanyName' with focus on 'MyHafelePortal.DeliveryAddress_AddAddressManually'.", repo.MyHafelePortal.DeliveryAddress_AddAddressManuallyInfo, new RecordItemIndex(12));
-            repo.MyHafelePortal.DeliveryAddress_AddAddressManually.PressKeys(CompanyName);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_CompanyName' at Center.", repo.MyHafelePortal.DeliveryAddress_CompanyNameInfo, new RecordItemIndex(13));
+            repo.MyHafelePortal.DeliveryAddress_CompanyName.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$CompanyName' with focus on 'MyHafelePortal.DeliveryAddress_CompanyName'.", repo.MyHafelePortal.DeliveryAddress_CompanyNameInfo, new RecordItemIndex(14));
+            repo.MyHafelePortal.DeliveryAddress_CompanyName.PressKeys(CompanyName);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddressLine1' at Center.", repo.MyHafelePortal.DeliveryAddress_AddressLine1Info, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddressLine1' at Center.", repo.MyHafelePortal.DeliveryAddress_AddressLine1Info, new RecordItemIndex(15));
             repo.MyHafelePortal.DeliveryAddress_AddressLine1.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine1' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine1'.", repo.MyHafelePortal.DeliveryAddress_AddressLine1Info, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine1' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine1'.", repo.MyHafelePortal.DeliveryAddress_AddressLine1Info, new RecordItemIndex(16));
             repo.MyHafelePortal.DeliveryAddress_AddressLine1.PressKeys(AddressLine1);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddressLine2' at Center.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(15));
-            repo.MyHafelePortal.DeliveryAddress_AddressLine2.Click();
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine1' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine2'.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(16));
-            repo.MyHafelePortal.DeliveryAddress_AddressLine2.PressKeys(AddressLine1);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddressLine2' at Center.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(17));
             repo.MyHafelePortal.DeliveryAddress_AddressLine2.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine2' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine2'.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(18));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine1' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine2'.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(18));
+            repo.MyHafelePortal.DeliveryAddress_AddressLine2.PressKeys(AddressLine1);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_AddressLine2' at Center.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(19));
+            repo.MyHafelePortal.DeliveryAddress_AddressLine2.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$AddressLine2' with focus on 'MyHafelePortal.DeliveryAddress_AddressLine2'.", repo.MyHafelePortal.DeliveryAddress_AddressLine2Info, new RecordItemIndex(20));
             repo.MyHafelePortal.DeliveryAddress_AddressLine2.PressKeys(AddressLine2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_TownCity' at Center.", repo.MyHafelePortal.DeliveryAddress_TownCityInfo, new RecordItemIndex(19));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_TownCity' at Center.", repo.MyHafelePortal.DeliveryAddress_TownCityInfo, new RecordItemIndex(21));
             repo.MyHafelePortal.DeliveryAddress_TownCity.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Town_City' with focus on 'MyHafelePortal.DeliveryAddress_TownCity'.", repo.MyHafelePortal.DeliveryAddress_TownCityInfo, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Town_City' with focus on 'MyHafelePortal.DeliveryAddress_TownCity'.", repo.MyHafelePortal.DeliveryAddress_TownCityInfo, new RecordItemIndex(22));
             repo.MyHafelePortal.DeliveryAddress_TownCity.PressKeys(Town_City);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_County' at Center.", repo.MyHafelePortal.DeliveryAddress_CountyInfo, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_County' at Center.", repo.MyHafelePortal.DeliveryAddress_CountyInfo, new RecordItemIndex(23));
             repo.MyHafelePortal.DeliveryAddress_County.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$County' with focus on 'MyHafelePortal.DeliveryAddress_County'.", repo.MyHafelePortal.DeliveryAddress_CountyInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$County' with focus on 'MyHafelePortal.DeliveryAddress_County'.", repo.MyHafelePortal.DeliveryAddress_CountyInfo, new RecordItemIndex(24));
             repo.MyHafelePortal.DeliveryAddress_County.PressKeys(County);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_Postcode' at Center.", repo.MyHafelePortal.DeliveryAddress_PostcodeInfo, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.DeliveryAddress_Postcode' at Center.", repo.MyHafelePortal.DeliveryAddress_PostcodeInfo, new RecordItemIndex(25));
             repo.MyHafelePortal.DeliveryAddress_Postcode.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Postcode' with focus on 'MyHafelePortal.DeliveryAddress_Postcode'.", repo.MyHafelePortal.DeliveryAddress_PostcodeInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Postcode' with focus on 'MyHafelePortal.DeliveryAddress_Postcode'.", repo.MyHafelePortal.DeliveryAddress_PostcodeInfo, new RecordItemIndex(26));
             repo.MyHafelePortal.DeliveryAddress_Postcode.PressKeys(Postcode);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AddDeliveryAddressButton' at Center.", repo.MyHafelePortal.AddDeliveryAddressButtonInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.AddDeliveryAddressButton' at Center.", repo.MyHafelePortal.AddDeliveryAddressButtonInfo, new RecordItemIndex(27));
             repo.MyHafelePortal.AddDeliveryAddressButton.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'MyHafelePortal'.", repo.MyHafelePortal.SelfInfo, new RecordItemIndex(26));
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking WaitForDocumentLoaded() on item 'MyHafelePortal'.", repo.MyHafelePortal.SelfInfo, new RecordItemIndex(28));
             repo.MyHafelePortal.Self.WaitForDocumentLoaded();
             Delay.Milliseconds(0);
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddress_NameCheckSummery_JohnSmith'.", repo.MyHafelePortal.DeliveryAddress_NameCheckSummery_JohnSmithInfo, new RecordItemIndex(27));
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddress_NameCheckSummery_JohnSmith'.", repo.MyHafelePortal.DeliveryAddress_NameCheckSummery_JohnSmithInfo, new RecordItemIndex(29));
                 Validate.Exists(repo.MyHafelePortal.DeliveryAddress_NameCheckSummery_JohnSmithInfo, null, false);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(27)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(29)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddress_AddressCheckSummery'.", repo.MyHafelePortal.DeliveryAddress_AddressCheckSummeryInfo, new RecordItemIndex(28));
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddress_AddressCheckSummery'.", repo.MyHafelePortal.DeliveryAddress_AddressCheckSummeryInfo, new RecordItemIndex(30));
                 Validate.Exists(repo.MyHafelePortal.DeliveryAddress_AddressCheckSummeryInfo, null, false);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(28)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(30)); }
             
             try {
-                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddressSummery'.", repo.MyHafelePortal.DeliveryAddressSummeryInfo, new RecordItemIndex(29));
+                Report.Log(ReportLevel.Info, "Validation", "(Optional Action)\r\nValidating Exists on item 'MyHafelePortal.DeliveryAddressSummery'.", repo.MyHafelePortal.DeliveryAddressSummeryInfo, new RecordItemIndex(31));
                 Validate.Exists(repo.MyHafelePortal.DeliveryAddressSummeryInfo, null, false);
                 Delay.Milliseconds(0);
-            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(29)); }
+            } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(31)); }
             
         }
 

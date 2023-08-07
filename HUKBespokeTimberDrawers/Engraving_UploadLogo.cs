@@ -54,16 +54,14 @@ namespace HUKBespokeTimberDrawers
 
 #region Variables
 
-        string _Logo_Upload;
-
         /// <summary>
         /// Gets or sets the value of variable Logo_Upload.
         /// </summary>
         [TestVariable("704aa281-e937-4e20-9f1e-74d5f0c29a5b")]
         public string Logo_Upload
         {
-            get { return _Logo_Upload; }
-            set { _Logo_Upload = value; }
+            get { return repo.Logo_Upload; }
+            set { repo.Logo_Upload = value; }
         }
 
 #endregion

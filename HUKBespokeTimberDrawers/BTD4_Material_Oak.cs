@@ -112,8 +112,18 @@ namespace HUKBespokeTimberDrawers
                 Delay.Milliseconds(0);
             } catch(Exception ex) { Report.Log(ReportLevel.Warn, "Module", "(Optional Action) " + ex.Message, new RecordItemIndex(3)); }
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(4));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'MyHafelePortal.SelectThickness'.", repo.MyHafelePortal.SelectThicknessInfo, new RecordItemIndex(4));
+            repo.MyHafelePortal.SelectThickness.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.SelectThickness'.", repo.MyHafelePortal.SelectThicknessInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.MyHafelePortal.SelectThicknessInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.SelectThickness, false, new RecordItemIndex(6));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Delay.Duration(2000, false);
             
         }
 

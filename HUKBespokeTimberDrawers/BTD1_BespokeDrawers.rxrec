@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6a568138-75c7-4c72-b319-33d44b940318"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BTD1_BespokeDrawers"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="WaitForDocumentLoaded"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1297e41e-d294-4396-9dc8-1a23be5d057f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="34d79915-5149-497e-a236-08c284e00cf0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="66e0d606-a7d3-4b63-b9d3-b1e1f46c37be">
+			</arguments>
+		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6545af38-7d6f-49b5-8bb3-60a46b0db0d8"
+		sx="97"
+		sy="375"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e1809052-6821-43c7-b6fd-548dfb6816f1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="46,368,119,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Bespoke Drawers
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-wuj-c67"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Bespoke Drawers']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="bb54e222-f7c0-4b2f-a840-e2e154d69497">
+				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
+gAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BTD1_BespokeDrawers.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

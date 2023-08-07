@@ -73,6 +73,54 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="True"
+		searchpropertyid="2445a073-ef94-4d2d-b392-0630889ec809"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="28cf0c37-90f2-4025-9762-fa991b532516">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"

@@ -83,25 +83,27 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.TimberDrawer.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Continue' at Center.", repo.MyHafelePortal.ContinueInfo, new RecordItemIndex(1));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.TimberDrawer, false, new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Continue' at Center.", repo.MyHafelePortal.ContinueInfo, new RecordItemIndex(2));
             repo.MyHafelePortal.Continue.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfoInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfoInfo, new RecordItemIndex(3));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.MoreInfo.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png') on item 'MyHafelePortal.Dimensions'.", repo.MyHafelePortal.DimensionsInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png') on item 'MyHafelePortal.Dimensions'.", repo.MyHafelePortal.DimensionsInfo, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.MyHafelePortal.DimensionsInfo, "Src", "https://qmy.hafele.co.uk/assets/img/quotes/btd/moreinfo/drawer_dimensions.png");
             Delay.Milliseconds(100);
             
-            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.Dimensions, false, new RecordItemIndex(4));
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.Dimensions, false, new RecordItemIndex(5));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Close' at Center.", repo.MyHafelePortal.CloseInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.Close' at Center.", repo.MyHafelePortal.CloseInfo, new RecordItemIndex(6));
             repo.MyHafelePortal.Close.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(7));
             Delay.Duration(3000, false);
             
         }

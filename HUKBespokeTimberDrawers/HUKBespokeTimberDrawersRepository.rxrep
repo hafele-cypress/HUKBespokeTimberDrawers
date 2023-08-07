@@ -13,6 +13,15 @@ name="HUKBespokeTimberDrawersRepository">
 	searchtimeout="0ms"
 	usecache="True">
 		<item
+		capname="button"
+		id="8f13a668-5547-4c7e-b26a-4497baca93a6"
+		name="AdditionalInformation_FileOpenButton"
+		refimgid="e76ea847-f21f-45fd-9745-3398f9fc8a5c"
+		robustPath="/dom[@domain='qauth.hafele.co.uk']/element"
+		searchtimeout="30000ms">
+			/form[@title='Open']/button[@text='&amp;Open']
+		</item>
+		<item
 		capname="text"
 		id="eaeb4245-342d-451d-bccf-4cdfa3c8412f"
 		name="FileUploadWindow"
@@ -44,10 +53,9 @@ name="HUKBespokeTimberDrawersRepository">
 			id="254dd297-2d5e-4dc4-8246-102fc9b2c4ed"
 			name="Username"
 			refimgid="e87792ae-8faf-4f71-a95c-0055349b23b8"
-			refpath="/dom[1]//input[#'Username']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qauth.hafele.co.uk']//input[#'Username']
+				/dom[@domain~'hafele.co.uk']//input[#'Username']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -55,10 +63,9 @@ name="HUKBespokeTimberDrawersRepository">
 			id="c7e5aec2-4856-4d6c-843c-09c6c310f2c9"
 			name="Password"
 			refimgid="5c4ef3c7-983e-4560-8952-3760021178ac"
-			refpath="/dom[1]//input[#'Password']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qauth.hafele.co.uk']//input[#'Password']
+				/dom[@domain~'hafele.co.uk']//input[#'Password']
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"
@@ -66,10 +73,9 @@ name="HUKBespokeTimberDrawersRepository">
 			id="ba5816c5-2a18-4a88-8bfd-2fe0e3160684"
 			name="LoginBtn"
 			refimgid="a4d6223c-7223-405a-a042-0d1272ba4eb0"
-			refpath="/dom[1]//button[#'LoginBtn']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qauth.hafele.co.uk']//button[#'LoginBtn']
+				/dom[@domain~'hafele.co.uk']//button[#'LoginBtn']
 			</item>
 			<item
 			capname="inputtag"
@@ -78,7 +84,7 @@ name="HUKBespokeTimberDrawersRepository">
 			refimgid="6b2f6def-d584-4c6d-a129-d9cc8f7de530"
 			robustPath="/dom[@domain='qauth.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qauth.hafele.co.uk']//input[#'IsCoUser']
+				/dom[@domain~'hafele.co.uk']//input[#'IsCoUser']
 			</item>
 			<item
 			capname="inputtag"
@@ -87,10 +93,10 @@ name="HUKBespokeTimberDrawersRepository">
 			refimgid="2af7f3c0-bbf5-4c84-a0f2-68ac4520ffcc"
 			robustPath="/dom[@domain='qauth.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qauth.hafele.co.uk']//input[#'CoUsername']
+				/dom[@domain~'hafele.co.uk']//input[#'CoUsername']
 			</item>
 			<basepath>
-				/dom[@domain='qauth.hafele.co.uk']
+				/dom[@domain~'hafele.co.uk']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -114,7 +120,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		isrooted="True"
 		name="MyHafelePortal"
 		refimgid="379352b4-d14f-4f05-92dc-ca099f6c12c4"
-		refpath="/dom[@domain='qmy.hafele.co.uk']"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -123,10 +128,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="7b9291c7-1b21-4e86-8f83-49b941e650f2"
 			name="PleaseLogin"
 			refimgid="ea76f593-d8c8-4585-9ef3-15f92562762d"
-			refpath="/dom[1]//div[#'main_content']/main/div/p/a/button[@innertext='Please Login']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'main_content']//p/?/?/button[@innertext='Please Login']
+				/dom[@domain~'hafele.co.uk']//div[#'main_content']//p/?/?/button[@innertext='Please Login']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -134,10 +138,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="8575c214-c3ab-4827-a6e7-c30ac31a1b9c"
 			name="LogOut"
 			refimgid="9c2d8212-739e-4a37-8a7b-ad6867f66d45"
-			refpath="/dom[1]//nav[#'sidenavAccordion']/div[2]/a[2]/span[@innertext='Log out']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Log out']
+				/dom[@domain~'hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Log out']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -145,10 +148,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="e1809052-6821-43c7-b6fd-548dfb6816f1"
 			name="BespokeDrawers"
 			refimgid="37edf55b-1706-4550-a551-1a4f9324c5fd"
-			refpath="/dom[1]//nav[#'sidenavAccordion']/div[1]/div/a[6]/span[@innertext='Bespoke Drawers']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Bespoke Drawers']
+				/dom[@domain~'hafele.co.uk']//nav[#'sidenavAccordion']//span[@innertext='Bespoke Drawers']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -156,10 +158,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="422941b7-72ed-44a2-a0b7-c9c16ba928cc"
 			name="StartNewQuote"
 			refimgid="7531f809-6276-4cc5-8738-c1ec30f59def"
-			refpath="/dom[1]//div[#'title']/div/a[@innertext='Start New Quote ']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'title']/?/?/a[@innertext='Start New Quote ']
+				/dom[@domain~'hafele.co.uk']//div[#'title']/?/?/a[@innertext='Start New Quote ']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -167,10 +168,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="8b1d32fc-7be7-452a-9865-24879c6d8f77"
 			name="AddProduct"
 			refimgid="68e45d12-d13b-40c1-839b-93da1588405a"
-			refpath="/dom[1]//div[#'layoutSidenav_content']/main/div/tag[@tagname='app-quote-mananger']/div[2]/div[2]/div/div/a[@innertext='Add Product ']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]//a[@innertext='Add Product ']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]//a[@innertext='Add Product ']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -178,7 +178,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="b4b968a8-6fa9-4f7c-87cb-2db602cbe8a7"
 			name="TimberDrawer"
 			refimgid="c390dd88-b6ed-45a9-830c-ed2e198df91a"
-			refpath="/dom[1]//div[#'product_types']/ul/li[1]/div[1]/img[@alt='Timber Drawer']"
 			robustPath=""
 			searchtimeout="30000ms">
 				<image
@@ -651,7 +650,7 @@ N+C9phJcOvoOvvjoMm7f/gZ3eN6MfNLsr9HvcN7XgNjDd7CWx0D4mS8KftG4YQGZXMjQFkNYe9bh
 X5fHQHi8mOUxEB4vZnkMhMeLWR4D4fFilsdAeLyY5TEQHi9meQyEx4tZHgPh8WKWx0B4vJjlIRAe
 26/dzuP/AacTj+Bp5B3VAAAAAElFTkSuQmCC
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Timber Drawer']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Timber Drawer']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -986,7 +985,7 @@ YZyB/b5oBtmRffllGSrmsfssBeqvyO9xR/NaefBot0cGCNr2v9e0QNA21bRA0DbVtEDQNtW0QNA2
 QNA21bRA0DbVtEDQNtW0QNA21bRA0DbVtEDQNtW0QNA21bRA0DbVtEDQNtX+AQja/n921wJB29lH
 4P8Daf2Ow70Wqd0AAAAASUVORK5CYII=
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Drawer Insert']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Drawer Insert']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -1314,7 +1313,7 @@ M0J+tDcGThykg6FKHSPlXwIIr4oK+n8TFFoeEH0gwfu9asurlKFiyz/++BGp2p9UANH+9+rSc/7x
 7Y+/4vqhbmyKMkR9sBn2tTfhxfNn/Lz8lnDR6C//UkD4/6Io7JAhXrx4jp9++B7ff/etsqzq2n+H
 qUZjGQfCCJVXQf/n41gpvwNhvP7/vd7H/wUhyPyQg/cG2AAAAABJRU5ErkJggg==
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Wall Hung Spice Rack']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Wall Hung Spice Rack']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -1687,7 +1686,7 @@ VYmomjlUabmnXK/+BAHyKL6WSMLw1I5fillk4VSBpHDD51k0oW2V63l5qHO/L+rwveVuvDx8hQy5
 QTvU0AJBO9TQAkE71NACQTvU0AJBO9TQAkE71HgCBO38Z58X8f8DUGTocL4UL90AAAAASUVORK5C
 YII=
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Spice Rack Insert']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Spice Rack Insert']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -2041,7 +2040,7 @@ tFM7HylZUF0eaxhQMe7oLxmCMKCP6ADAfwUEqRx0ANHa6wEEyWoJLB9K8LXAyzrRf/m7BB2EIC9q
 A4KuqaYDgq6ppgOCrqmmA4KuqaYDgq6ppgOCrqmmA4KuqaYDgq6ppgOCrqmmA4KuqaYDgq6ppgOC
 rqmmA4KuqfYSCLr+Q+/l+H9Vwz2ln9brtQAAAABJRU5ErkJggg==
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Knife Block Insert']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Knife Block Insert']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -2209,7 +2208,7 @@ EYK4BCIEcQlECOISiBDEJRAhiEsgQhCXQIQgLoEIQVwCEYK4BCIEcQlECOISiBDEJRAhiEsgQhCX
 QIQgLoEIQVwCEYK4BCIEcQlECOISiBDEJRAhiEsgQhCXQIQgLoEIQVwCEYK4BCIEcQlECOISiBDE
 JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				</image>
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Internal Drawer Front']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Internal Drawer Front']
 			</item>
 			<item
 			capname="imgtag"
@@ -2218,7 +2217,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 			refimgid="08db76aa-26b8-4345-882f-a2fcf706c194"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img[@alt='Peg Board']
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img[@alt='Peg Board']
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"
@@ -2226,10 +2225,9 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 			id="5ccb85e7-8b7f-46b9-86a5-257548dbd01f"
 			name="Continue"
 			refimgid="7417994b-c1cf-404f-93f5-a53d4bad66eb"
-			refpath="/dom[1]//div[#'cta']/button[@innertext='Continue']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'cta']/button[@innertext='Continue']
+				/dom[@domain~'hafele.co.uk']//div[#'cta']/button[@innertext='Continue']
 			</item>
 			<item
 			addcaps="unknown,webelement,imgtag"
@@ -2237,10 +2235,9 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 			id="61fd6294-c7e7-4d8d-b6c6-c51246cc1480"
 			name="Dimensions"
 			refimgid="b82c6ec5-4005-4a40-858f-f2fe2fd2dfb0"
-			refpath="/dom[@domain='qmy.hafele.co.uk']//div[#'more_info_img']/img[@alt='Dimensions']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'more_info_img']/img[@alt='Dimensions']
+				/dom[@domain~'hafele.co.uk']//div[#'more_info_img']/img[@alt='Dimensions']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2248,10 +2245,9 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 			id="eaa13efb-c502-48c0-9298-03126f46eba9"
 			name="Close"
 			refimgid="88d249b4-0e7f-4f11-9fda-3ddb1db46383"
-			refpath="/dom[1]//div[#'modal_header']/div/div/a/span[@innertext='Close']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'modal_header']//span[@innertext='Close']
+				/dom[@domain~'hafele.co.uk']//div[#'modal_header']//span[@innertext='Close']
 			</item>
 			<folder
 			addcaps="unknown,webelement,formtag"
@@ -2265,11 +2261,11 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
 				id="baa43195-f137-4c48-911b-68eefad3ec6f"
-				name="Width_Text"
+				name="Width_Text_Internal"
 				refimgid="ac866c97-6547-4f4d-a85b-8568a866ec6b"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form//input[@type='text' and @formcontrolname='cabinetWidth']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
@@ -2279,7 +2275,16 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="e5f4cad2-4efa-4c25-9d9e-96b873f1e567"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///span[@innertext='More info']
+				</item>
+				<item
+				capname="inputtag"
+				id="5f206cfc-3974-43cf-981b-e06474735239"
+				name="Width_Text"
+				refimgid="b4e3c186-928c-4e5c-91dc-5cdd9dec5e75"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//input[@type='text']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -2289,7 +2294,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="87c7a1d5-6ac6-479c-9601-20574bbab4d5"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[1]/div[3]/div/div[2]/input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[1]/div[3]/div/div[2]/input[@type='text']
 				</item>
 				<item
 				addcaps="unknown,webelement,inputtag"
@@ -2299,7 +2304,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="875cf191-535c-419a-bd2a-8af91a85f0aa"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[1]/div[3]/div/div[3]/input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[1]/div[3]/div/div[3]/input[@type='text']
 				</item>
 				<item
 				addcaps="unknown,webelement,imgtag"
@@ -2309,7 +2314,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="bb34131c-0288-4557-8bc7-926a4f3b2f31"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[2]//img[@alt='Ply']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//div/div[2]//img[@alt='Ply']
 				</item>
 				<item
 				addcaps="unknown,webelement,divtag"
@@ -2319,7 +2324,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="61764b5e-1961-4a02-8657-5c5b4121a398"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']/div
+					/dom[@domain~'hafele.co.uk']//div[#'container']//div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']/div
 				</item>
 				<item
 				addcaps="unknown,webelement,textareatag"
@@ -2329,7 +2334,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="748f3e18-193b-4640-894c-ae2391447928"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///textarea[@placeholder='Please specify any additional product requirements here']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///textarea[@placeholder='Please specify any additional product requirements here']
 				</item>
 				<item
 				capname="inputtag"
@@ -2338,7 +2343,7 @@ JRAhiEsgQhCXQIQgLoEIQVwCEYK4dBEh4D8dl+3/APb4wONaepeJAAAAAElFTkSuQmCC
 				refimgid="e91640eb-781f-4d72-8db0-b082f9dad792"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//input[@formcontrolname='materialOther']
 				</item>
 				<item
 				capname="labeltag"
@@ -2369,7 +2374,7 @@ EX6pIFYHkQMj/vRfn6cJ5YjAH94KKIcCgoxZQC4xWkIZlOUvsmlycDkAlge8P2BGwA4EW1TMEADH
 bleCMq9lKXmNHEUOBwLvJMCXW8BJQynS56hykMuGchAVykFUKAdRoRxEhXIQFcpBVCgHUaEcRIVy
 EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']///label[@innertext=' Unlacquered ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']///label[@innertext=' Unlacquered ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2400,7 +2405,7 @@ svuFvvaztFGOl36VLcW2FzFNrGGXQHe2SBKQ1hcSp+KmbxhZEvWbzK7PHDGCMfMHzLIcwDl/FQeY
 BwlCOUgQykGCUA4ShHKQIJSDBKEcJAjlIEGMHPyTWuKS/Ukt/96auMCHx6ux/AdqoicZz/lPiQAA
 AABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Lacquered ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Lacquered ']
 				</item>
 				<item
 				capname="inputtag"
@@ -2409,7 +2414,7 @@ AABJRU5ErkJggg==
 				refimgid="978bcd8d-6e81-4635-b864-6028b748d651"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///input[#'generalUpload']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///input[#'generalUpload']
 				</item>
 				<item
 				capname="labeltag"
@@ -2418,7 +2423,7 @@ AABJRU5ErkJggg==
 				refimgid="47465038-ce35-4931-a177-b33832284485"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' None ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' None ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2427,7 +2432,7 @@ AABJRU5ErkJggg==
 				refimgid="af2ca6ca-a536-4acb-838c-7508b652e866"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' External scalloped ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' External scalloped ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2436,7 +2441,7 @@ AABJRU5ErkJggg==
 				refimgid="af2ca6ca-a536-4acb-838c-7508b652e866"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Internal cut out ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Internal cut out ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2445,7 +2450,7 @@ AABJRU5ErkJggg==
 				refimgid="b21cb30f-7c84-4e93-97fe-8068c2e0d3ce"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Flat ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Flat ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2454,7 +2459,7 @@ AABJRU5ErkJggg==
 				refimgid="e4130b0b-9950-4efd-9c60-842c085dc9dd"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Stepped ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Stepped ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2463,7 +2468,7 @@ AABJRU5ErkJggg==
 				refimgid="4f07971c-c3aa-4bc8-989b-a4aaaea7a545"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' No ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' No ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2472,7 +2477,7 @@ AABJRU5ErkJggg==
 				refimgid="0874f133-df9b-425c-b858-5877564f63c1"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Yes ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="inputtag"
@@ -2481,7 +2486,7 @@ AABJRU5ErkJggg==
 				refimgid="b979cafd-cf70-4500-905b-59c8cf820ba9"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@type='text']
 				</item>
 				<item
 				capname="inputtag"
@@ -2490,7 +2495,7 @@ AABJRU5ErkJggg==
 				refimgid="b979cafd-cf70-4500-905b-59c8cf820ba9"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@value='15']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[4]/div[2]/div[3]/div/div/input[@value='15']
 				</item>
 				<item
 				capname="labeltag"
@@ -2499,7 +2504,7 @@ AABJRU5ErkJggg==
 				refimgid="e955232b-72e4-4d5c-a50a-1d377c0e01f8"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2508,7 +2513,7 @@ AABJRU5ErkJggg==
 				refimgid="7cf9ff8a-f0d1-4575-8c2b-544faab7090e"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[3]//label[@innertext=' No ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[3]//label[@innertext=' No ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2517,7 +2522,7 @@ AABJRU5ErkJggg==
 				refimgid="df0d6120-c399-4cc2-bfca-9092997b5e2c"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2526,7 +2531,7 @@ AABJRU5ErkJggg==
 				refimgid="eb998432-ea53-45d2-a99f-0336dc77004b"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[4]/div[2]/div/div/div[2]/label[@innertext=' No ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//div/div[4]/div[4]/div[2]/div/div/div[2]/label[@innertext=' No ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2535,7 +2540,7 @@ AABJRU5ErkJggg==
 				refimgid="8d879dc4-7f52-41d1-a6d0-48763798b54c"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Standard Base ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Standard Base ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2544,7 +2549,7 @@ AABJRU5ErkJggg==
 				refimgid="ec07dc6f-6214-4d4f-9aa1-2e4249653759"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Flush Base ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Flush Base ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2553,7 +2558,7 @@ AABJRU5ErkJggg==
 				refimgid="f3057e2f-5a27-4445-8d4c-4692473aeca3"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=$SlideOutBase]
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=$SlideOutBase]
 				</item>
 				<item
 				capname="labeltag"
@@ -2582,7 +2587,7 @@ OYBycJqHYKIqiFUpcvCJP93jc1EFpckB+sPbZVGqHECQyQJ+iUk1+tBXYtST0uUAygPrBzICOxC2
 qGQI4NjtSuijUlJfKpHDQeCdBDzcAieNpKg/lcohzhvJIZJIDpFEcogkkkMkkRwiieQQSSSHSCI5
 RBLJIZJYOfQltSJk/SW1+nprEYIPz7cd8xeBsK/fL5fTCwAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Grass ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']//label[@innertext=' Grass ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2627,7 +2632,7 @@ Urus+ASvEv4YJzlMyFFpOV57K/tk7jiJuSTH8afZziS7JjlM+DuVlgMoBy//EEzUCbmqRA6+8S//
 IAEPtyBIIymaT61yiLeN5BAmkkOYSA5hIjmEieQQJpJDmEgOYSI5hInkECZeDv1IrSiy+pFa/by1
 KIIPDxdd9x9jtLXjgoUnlAAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Blum ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Blum ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2656,7 +2661,7 @@ wC8xVsMczKUY7aR2OQDKA+4fkBGwA8EWFRkC4Fh3JZjDUtJeGpFDQeBVAjzcAioNpWg/jcpB9hvK
 QUwoBzGhHMSEchATykFMKAcxoRzEhHIQE8pBTJwc/JFaElL8SC1/3pqEwIfHi0T+AmxlfFW3jddV
 AAAAAElFTkSuQmCC
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Hettich ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Hettich ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2685,7 +2690,7 @@ eGsXlcoBEGRkAV1irIYxGEsxmknlcgCUB6wfkBGwA8EWFRkC4NjvSjCGpaS51CKHB4H3EuDhFvDS
 UIrmU6sc5P+GchATykFMKAcxoRzEhHIQE8pBTCgHMaEcxIRyEBMnB3+klhTZ/0gtf96aFIEPj9eR
 /APforurU/PvfQAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[5]/div[2]/div/div/div[4]/label[@innertext=' None ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2694,7 +2699,7 @@ UIrmU6sc5P+GchATykFMKAcxoRzEhHIQE8pBTCgHMaEcxIRyEBMnB3+klhTZ/0gtf96aFIEPj9eR
 				refimgid="8162e5b8-1104-46e6-b036-cdb3cd4355a4"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Front &amp; back ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Front &amp; back ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2703,7 +2708,7 @@ UIrmU6sc5P+GchATykFMKAcxoRzEhHIQE8pBTCgHMaEcxIRyEBMnB3+klhTZ/0gtf96aFIEPj9eR
 				refimgid="61e66029-7718-4d79-94c0-4a12a9fadec4"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Back only ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Back only ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2712,7 +2717,7 @@ UIrmU6sc5P+GchATykFMKAcxoRzEhHIQE8pBTCgHMaEcxIRyEBMnB3+klhTZ/0gtf96aFIEPj9eR
 				refimgid="78e3825c-8b91-401f-9abf-dad030f14452"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Front only ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Front only ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2740,7 +2745,7 @@ zw5LR7XslPcrokE5+IvX6/OXRWNygP7x9rJoVA4gyGSBsMSkGmMYKzHaSeNyAOWB/QMZgRMIR1Qy
 BHDtTyWMUSlpL3uRw0PgvQS83AIvjaRoP3uVQxw2kkMkkRwiieQQSSSHSCI5RBLJIZJIDpFEcogk
 kkMkcXLoR2pFleJHavXz1qIKPtyd9+0PYBX7MYCQrRQAAAAASUVORK5CYII=
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[6]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[6]/div[3]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2768,7 +2773,7 @@ zCoQpphUoQ99JUY9qVwOID2wf2BF4ATCEZUVAqj7Uwl9lErqy0Hk8BB4LwEvt8BLIynqz0HlEG8b
 ySGSSA6RRHKIJJJDJJEcIonkEEkkh0giOUQSySGSODn0J7WiyOZPavX31qIIPjxede0fwykFJo5a
 QQsAAAAASUVORK5CYII=
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[6]/div[3]/div[2]/div/div/div[2]/label[@innertext=' No ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[6]/div[3]/div[2]/div/div/div[2]/label[@innertext=' No ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2797,7 +2802,7 @@ FpXKAQSZLOCXmFhjDGMlRj2pXA6gPLB+ICOwA2GLSoYAjt2uhDEqJfXlKHI4CLyTgJdb4KSRFPXn
 qHKIt43kEFEkh4giOUQUySGiSA4RRXKIKJJDRJEcIorkEFGsHPqRWlHk+Udq9fPWogg+PF0PzD+e
 v7urfM7j1AAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[7]/div[2]/div/div/div[1]/label[@innertext=' None ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[7]/div[2]/div/div/div[1]/label[@innertext=' None ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2806,7 +2811,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="63e2f0e0-9bfc-46ed-815f-e76f8edff5ac"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Add engraving ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Add engraving ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2815,7 +2820,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="d4b6a456-7a5e-40ef-bac6-cae5495af18b"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[1]/label[@innertext=' Yes ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[1]/label[@innertext=' Yes ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2824,7 +2829,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="4e4935ce-b985-46ea-8e00-b4beefafa778"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[2]/label[@innertext=' No ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[2]/label[@innertext=' No ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2833,7 +2838,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="26ea5599-c4bc-4f40-8362-f64ab328f8ce"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Router logo ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Router logo ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2842,7 +2847,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="d7ef2962-936d-455a-9493-dfd1df68bc0a"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Laser logo ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Laser logo ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2851,7 +2856,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="8703f1b6-a06a-4c20-b4ba-ebe3834e0ab0"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Left side ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Left side ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2860,7 +2865,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="fee35638-202c-4602-b9a6-a147f2e0d4b1"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Right side ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Right side ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2869,7 +2874,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="44e696f4-186b-411f-aec3-ff9dd3341d4a"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Left &amp; Right ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Left &amp; Right ']
 				</item>
 				<item
 				capname="labeltag"
@@ -2878,7 +2883,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="810e450e-8091-4425-9632-34d205fdb3f2"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Front ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' Front ']
 				</item>
 				<item
 				capname="textareatag"
@@ -2887,7 +2892,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="97f7172a-d314-43f5-9222-1acdd54e1db9"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///textarea[@placeholder='Please specify any specific engraving requirements here']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///textarea[@placeholder='Please specify any specific engraving requirements here']
 				</item>
 				<item
 				capname="imgtag"
@@ -2896,7 +2901,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="79b2b78b-465e-400c-8e67-36fa2a31fb94"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_1']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_1']
 				</item>
 				<item
 				capname="imgtag"
@@ -2905,7 +2910,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="997c964f-0fa2-42f3-82d3-4ec4ca1aecfb"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_2']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_2']
 				</item>
 				<item
 				capname="imgtag"
@@ -2914,7 +2919,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="b8a7ba42-cc8e-482d-b3f1-ba6be84912e5"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_other']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[3]//img[@alt='insert_other']
 				</item>
 				<item
 				capname="inputtag"
@@ -2923,7 +2928,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="c205c039-97d7-4404-b6de-1fbbcefa9864"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///input[#'customInsert']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///input[#'customInsert']
 				</item>
 				<item
 				capname="divtag"
@@ -2932,7 +2937,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="5891a6a5-02e6-4e88-baa6-96e20135cd98"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
 				</item>
 				<item
 				capname="inputtag"
@@ -2941,7 +2946,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="aadd27f0-1dca-4d29-8ae9-5bd73f5bf30b"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///input[#'customLogo']
+					/dom[@domain~'hafele.co.uk']//div[#'container']///input[#'customLogo']
 				</item>
 				<item
 				capname="spantag"
@@ -2950,7 +2955,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="a439d900-23bb-4b75-9790-78dae082896e"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//div/div[2]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//div/div[2]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="inputtag"
@@ -2959,7 +2964,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="c22ce1df-f386-454a-9a71-1312c5b7fcbb"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//div/div[1]/div[2]/div/div[2]/input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form//div/div[1]/div[2]/div/div[2]/input[@type='text']
 				</item>
 				<item
 				capname="inputtag"
@@ -2968,7 +2973,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="e892c365-a634-41a2-9c0a-511eeecf732a"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//div/div[1]/div[2]/div/div[3]/input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form//div/div[1]/div[2]/div/div[3]/input[@type='text']
 				</item>
 				<item
 				capname="inputtag"
@@ -2977,7 +2982,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="b6cf68db-1f79-4f4d-b007-732ab66b475e"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//input[@type='text']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form//input[@type='text']
 				</item>
 				<item
 				capname="spantag"
@@ -2986,7 +2991,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="9f76e870-c7d7-4963-9950-dc8bfbf8be67"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[2]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[4]/div[2]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="spantag"
@@ -2995,7 +3000,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="d341239c-1cfc-42ed-8b89-817ce340dc1f"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[3]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[4]/div[3]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="spantag"
@@ -3004,7 +3009,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="26db914f-81d1-4513-a876-444f36f8c5a1"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="spantag"
@@ -3013,7 +3018,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="3323a330-8467-43db-9da3-37a9e0fe83f9"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[5]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[4]/div[5]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="spantag"
@@ -3022,7 +3027,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="dbac32dd-88b3-4274-97fe-b55942af99fe"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[5]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[5]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="spantag"
@@ -3031,7 +3036,7 @@ v7urfM7j1AAAAABJRU5ErkJggg==
 				refimgid="255b7e4c-fcc7-45ac-8e00-c51f349f0766"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[6]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[6]/div[1]/div/span[@innertext='More info']
 				</item>
 				<item
 				capname="labeltag"
@@ -3083,7 +3088,7 @@ EX6pIFYHkQMj/vRfn6cJ5YjAH94KKIcCgoxZQC4xWkIZlOUvsmlycDkAlge8P2BGwA4EW1TMEADH
 bleCMq9lKXmNHEUOBwLvJMCXW8BJQynS56hykMuGchAVykFUKAdRoRxEhXIQFcpBVCgHUaEcRIVy
 EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 					</image>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form//label[@innertext=' Unlacquered ']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form//label[@innertext=' Unlacquered ']
 				</item>
 				<item
 				capname="divtag"
@@ -3092,7 +3097,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 				refimgid="78c7ecf2-6030-4b89-a5ed-8921409c2c09"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[6]
+					/dom[@domain~'hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[6]
 				</item>
 				<item
 				capname="spantag"
@@ -3101,10 +3106,28 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 				refimgid="f803a95e-1cf2-402d-ade3-1113e35c98d3"
 				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 				searchtimeout="30000ms">
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[6]/div[3]/div[1]/div/span[@innertext='More info']
+					/dom[@domain~'hafele.co.uk']//div[#'container']//form/div/div[6]/div[3]/div[1]/div/span[@innertext='More info']
+				</item>
+				<item
+				capname="divtag"
+				id="4e6dfd9e-f55e-42e6-ac9f-bd1a54cd88f3"
+				name="Validate_LogoUpload"
+				refimgid="470300bb-57ed-41d1-bcb5-6d94b8f18e99"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain~'hafele.co.uk']//div[#'container']///*[@id='container']/form/div/div[8]/div[3]/div[2]/div
+				</item>
+				<item
+				capname="labeltag"
+				id="8ad7657e-822b-4d2c-abd9-ccf7ab9ed447"
+				name="Dimensions_InternalDrawer_No"
+				refimgid="bc22c467-c003-493d-b291-c9aaeb7addd1"
+				robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
+				searchtimeout="30000ms">
+					/dom[@domain~'hafele.co.uk']//div[#'container']///label[@innertext=' No ']
 				</item>
 				<basepath>
-					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//
+					/dom[@domain~'hafele.co.uk']//div[#'container']//
 				</basepath>
 			</folder>
 			<item
@@ -3113,10 +3136,9 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			id="b3a4ae3e-35c9-474f-a9db-a994361ef95c"
 			name="Thickness"
 			refimgid="f72e6b77-0cc9-4003-a208-4905b726e5e2"
-			refpath="/dom[1]//select[#'thickness']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//select[#'thickness']
+				/dom[@domain~'hafele.co.uk']//select[#'thickness']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
@@ -3124,10 +3146,9 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			id="351f8356-f8a1-4129-b513-c02fca0e1eaa"
 			name="SaveProductAndExit"
 			refimgid="461bf2e0-6387-402b-99ab-77a9ec968c97"
-			refpath="/dom[1]//div[#'save_draft']/a[@innertext='Save product and exit ']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'save_draft']/a[@innertext='Save product and exit ']
+				/dom[@domain~'hafele.co.uk']//div[#'save_draft']/a[@innertext='Save product and exit ']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -3135,10 +3156,9 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			id="6a10dd9a-a5e1-4aa6-b419-f37e46919c02"
 			name="QuoteSummary"
 			refimgid="3967a380-e21e-4cba-b570-2205a28f8ae4"
-			refpath="/dom[1]//div[#'summary']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']
+				/dom[@domain~'hafele.co.uk']//div[#'summary']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -3146,10 +3166,9 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			id="cb14b2b7-38a8-46f5-b551-35e2425d80f8"
 			name="CancelQuote"
 			refimgid="c1944509-5898-4623-9be4-3b60c9c05599"
-			refpath="/dom[1]//div[#'cancel_quote']/span[@innertext='Cancel Quote']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'cancel_quote']/span[@innertext='Cancel Quote']
+				/dom[@domain~'hafele.co.uk']//div[#'cancel_quote']/span[@innertext='Cancel Quote']
 			</item>
 			<item
 			addcaps="button,webelement,buttontag"
@@ -3157,10 +3176,9 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			id="74f01f9d-8e15-4772-b097-f7d0838c9216"
 			name="AreYouSure_CancelQuote"
 			refimgid="345a6ba9-2377-447d-8a8a-f3583ab0a562"
-			refpath="/dom[1]/body/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']"
 			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']
 			</item>
 			<item
 			capname="button"
@@ -3168,7 +3186,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="MyHafele_PleaseLogin"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'main_content']//button[@innertext='Please Login']
+				/dom[@domain~'hafele.co.uk']//div[#'main_content']//button[@innertext='Please Login']
 			</item>
 			<item
 			capname="imgtag"
@@ -3177,7 +3195,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="ebed53bd-88b7-4bce-9f3b-33ef777d5734"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//img[@alt='Oak']
+				/dom[@domain~'hafele.co.uk']//img[@alt='Oak']
 			</item>
 			<item
 			capname="imgtag"
@@ -3186,7 +3204,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="97ccd3c5-efe3-41cf-8930-edda10719e36"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//img[@alt='Ply']
+				/dom[@domain~'hafele.co.uk']//img[@alt='Ply']
 			</item>
 			<item
 			capname="imgtag"
@@ -3195,7 +3213,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="5d7522e6-3ac2-4e19-85aa-16acece0ab7c"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//img[@alt='Walnut']
+				/dom[@domain~'hafele.co.uk']//img[@alt='Walnut']
 			</item>
 			<item
 			capname="imgtag"
@@ -3204,7 +3222,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="ad4e1785-5141-46d4-b80f-7a7bb9a71437"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[2]//img[@alt='material_custom']
+				/dom[@domain~'hafele.co.uk']//div[#'container']///div/div[2]//img[@alt='material_custom']
 			</item>
 			<item
 			capname="selecttag"
@@ -3213,7 +3231,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="f7bd4939-7b1b-4289-a771-33149c8a5dba"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//select[#'thickness']
+				/dom[@domain~'hafele.co.uk']//select[#'thickness']
 			</item>
 			<item
 			capname="optiontag"
@@ -3221,7 +3239,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="MaterialThickness_13mm"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//*[@id='thickness']/option[2]
+				/dom[@domain~'hafele.co.uk']//*[@id='thickness']/option[2]
 			</item>
 			<item
 			capname="optiontag"
@@ -3229,7 +3247,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="MaterialThickness_15mm"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//*[@id='thickness']/option[3]
+				/dom[@domain~'hafele.co.uk']//*[@id='thickness']/option[3]
 			</item>
 			<item
 			capname="optiontag"
@@ -3237,7 +3255,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="MaterialThickness_16mm"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//*[@id='thickness']/option[4]
+				/dom[@domain~'hafele.co.uk']//*[@id='thickness']/option[4]
 			</item>
 			<item
 			capname="optiontag"
@@ -3245,7 +3263,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="MaterialThickness_19mm"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//*[@id='thickness']/option[5]
+				/dom[@domain~'hafele.co.uk']//*[@id='thickness']/option[5]
 			</item>
 			<item
 			capname="selecttag"
@@ -3253,7 +3271,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="Copy_of_MaterialThickness_16mm"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//select[@tagvalue='213: 16']
+				/dom[@domain~'hafele.co.uk']//select[@tagvalue='213: 16']
 			</item>
 			<item
 			capname="imgtag"
@@ -3261,7 +3279,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="ProductTypes"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'product_types']//img
+				/dom[@domain~'hafele.co.uk']//div[#'product_types']//img
 			</item>
 			<item
 			capname="inputtag"
@@ -3270,7 +3288,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="8eb9401c-d2be-4be1-83ee-25928667e82a"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//input[#'generalUpload']
+				/dom[@domain~'hafele.co.uk']//input[#'generalUpload']
 			</item>
 			<item
 			capname="labeltag"
@@ -3279,7 +3297,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="d78820f5-848b-4ccb-98b5-95b00fc05e20"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Left side ']
+				/dom[@domain~'hafele.co.uk']//label[@innertext=' Left side ']
 			</item>
 			<item
 			capname="labeltag"
@@ -3288,7 +3306,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="e6aae8d5-07a1-4dcd-bdd3-439872269ca2"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Right side ']
+				/dom[@domain~'hafele.co.uk']//label[@innertext=' Right side ']
 			</item>
 			<item
 			capname="labeltag"
@@ -3297,7 +3315,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="50f3d9d7-e5cb-4e00-bc96-83275e277c78"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Left &amp; Right ']
+				/dom[@domain~'hafele.co.uk']//label[@innertext=' Left &amp; Right ']
 			</item>
 			<item
 			capname="labeltag"
@@ -3306,7 +3324,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="187517c9-f8c0-4923-9f2f-8e7f83cad1f9"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//label[@innertext=' Front ']
+				/dom[@domain~'hafele.co.uk']//label[@innertext=' Front ']
 			</item>
 			<item
 			capname="textareatag"
@@ -3315,7 +3333,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="f4f263f1-56df-4582-8b3f-690313b17d43"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//textarea[@placeholder='Please specify any specific engraving requirements here']
+				/dom[@domain~'hafele.co.uk']//textarea[@placeholder='Please specify any specific engraving requirements here']
 			</item>
 			<item
 			capname="atag"
@@ -3324,7 +3342,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="7f0fa4fa-403a-4ffa-ae4b-d46406ebc4d0"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]//a[@innertext='Add Delivery Address ']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]//a[@innertext='Add Delivery Address ']
 			</item>
 			<item
 			capname="inputtag"
@@ -3333,7 +3351,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="02931593-2a55-4d05-9364-cdfa7f4f29bf"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'contact_details']/?/?/input[@formcontrolname='contactName']
+				/dom[@domain~'hafele.co.uk']//div[#'contact_details']/?/?/input[@formcontrolname='contactName']
 			</item>
 			<item
 			capname="inputtag"
@@ -3342,7 +3360,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="e2e74a46-f051-4ddd-bfb0-80c349a88f5d"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'contact_details']/div[2]/input[@formcontrolname='contactNumber']
+				/dom[@domain~'hafele.co.uk']//div[#'contact_details']/div[2]/input[@formcontrolname='contactNumber']
 			</item>
 			<item
 			capname="ptag"
@@ -3351,7 +3369,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="9a17b99b-c17e-4ccb-8637-f922812c2197"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//p[#'manual_entry']
+				/dom[@domain~'hafele.co.uk']//p[#'manual_entry']
 			</item>
 			<item
 			capname="inputtag"
@@ -3360,7 +3378,16 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="e4ce497b-9af8-4bb7-90e5-b3fc424a8053"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/?/?/input[@formcontrolname='address1']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/?/?/input[@type='text']
+			</item>
+			<item
+			capname="inputtag"
+			id="4c4fecd1-8977-4a9a-b122-f99d03832cdf"
+			name="Copy_of_DeliveryAddress_CompanyName"
+			refimgid="e4ce497b-9af8-4bb7-90e5-b3fc424a8053"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']/body/ngb-modal-window/div/div/app-address-form/form/div[1]/div[2]/div/div[1]/input
 			</item>
 			<item
 			capname="inputtag"
@@ -3369,7 +3396,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="97b26105-1cb4-4167-b3dd-d44d855ee5bf"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/div[2]/input[@formcontrolname='address2']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/div[2]/input[@formcontrolname='address2']
 			</item>
 			<item
 			capname="inputtag"
@@ -3378,7 +3405,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="f6f758bf-25a5-48c3-b98d-838d4dd32201"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/div[3]/input[@formcontrolname='address3']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/div[3]/input[@formcontrolname='address3']
 			</item>
 			<item
 			capname="inputtag"
@@ -3387,7 +3414,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="2fcd043e-ace5-4ee8-84bf-759f0900b9e2"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/div[4]/input[@formcontrolname='city']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/div[4]/input[@formcontrolname='city']
 			</item>
 			<item
 			capname="inputtag"
@@ -3396,7 +3423,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="a2f01b58-6466-40ac-96dc-cddc9775bd8a"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/div[5]/input[@formcontrolname='county']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/div[5]/input[@formcontrolname='county']
 			</item>
 			<item
 			capname="inputtag"
@@ -3405,7 +3432,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="f268db85-8d8b-40ae-9721-1e4ee1e274cf"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'address_form']/div[6]/input[@formcontrolname='postcode']
+				/dom[@domain~'hafele.co.uk']//div[#'address_form']/div[6]/input[@formcontrolname='postcode']
 			</item>
 			<item
 			capname="button"
@@ -3414,7 +3441,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="45a87575-22d6-4e7b-8888-80ff11e82060"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'cta']/button[@innertext='Add Delivery Address']
+				/dom[@domain~'hafele.co.uk']//div[#'cta']/button[@innertext='Add Delivery Address']
 			</item>
 			<item
 			capname="inputtag"
@@ -3423,7 +3450,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="57343098-ae83-472d-9bfb-d2cd26d2c7f4"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//input[#'QuoteReference']
+				/dom[@domain~'hafele.co.uk']//input[#'QuoteReference']
 			</item>
 			<item
 			capname="inputtag"
@@ -3432,7 +3459,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="49929a67-62da-4bec-9fed-f71e754104f8"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//input[#'CustomerEmail']
+				/dom[@domain~'hafele.co.uk']//input[#'CustomerEmail']
 			</item>
 			<item
 			capname="divtag"
@@ -3441,7 +3468,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="1180cfa8-7e44-4daf-8ad7-d54ef00876b0"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Remove ']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Remove ']
 			</item>
 			<item
 			capname="divtag"
@@ -3450,7 +3477,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="b3be0407-067c-4848-bf59-90e66fe28d38"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Edit ']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[3]/div[@innertext='Edit ']
 			</item>
 			<item
 			capname="button"
@@ -3459,7 +3486,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="5d2b5696-556a-4946-818a-74842dce47a8"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'cta']/button[@innertext='Update Delivery Address']
+				/dom[@domain~'hafele.co.uk']//div[#'cta']/button[@innertext='Update Delivery Address']
 			</item>
 			<item
 			capname="button"
@@ -3467,7 +3494,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			name="YesRemoveAddress"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Yes, remove address.']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Yes, remove address.']
 			</item>
 			<item
 			capname="button"
@@ -3476,7 +3503,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="f7efd769-c04d-4435-b35b-f5520da2d470"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[2]/button[@innertext='Review Order']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[2]/button[@innertext='Review Order']
 			</item>
 			<item
 			capname="spantag"
@@ -3485,7 +3512,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="93f3f012-442c-4455-927a-059440043b7d"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'cancel_quote']/span[@innertext='Cancel Quote']
+				/dom[@domain~'hafele.co.uk']//div[#'cancel_quote']/span[@innertext='Cancel Quote']
 			</item>
 			<item
 			capname="button"
@@ -3494,7 +3521,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="43679482-b0f8-44cc-a3ed-0b9e3371d05c"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']
 			</item>
 			<item
 			capname="strongtag"
@@ -3503,7 +3530,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="4fabb3e8-82e7-4035-b9ef-566e31ac623c"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[1]/strong[@innertext='John Smith']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[1]/strong[@innertext='John Smith']
 			</item>
 			<item
 			capname="divtag"
@@ -3512,7 +3539,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="b775313b-2962-4076-a116-2e32e7c6fcb8"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]//div[@innertext&gt;'Hafele, 1, Rugby, Warikshire,']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]//div[@innertext&gt;'Hafele, 1, Rugby, Warwickshire,']
 			</item>
 			<item
 			capname="divtag"
@@ -3521,7 +3548,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="fa1c5cd5-6c53-49e9-8a91-bb79addaddc0"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[@class='cust-summary']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[@class='cust-summary']
 			</item>
 			<item
 			capname="divtag"
@@ -3530,7 +3557,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="a82b2c47-e001-465d-bddd-3d561bb14dd1"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'more_info_img']
+				/dom[@domain~'hafele.co.uk']//div[#'more_info_img']
 			</item>
 			<item
 			capname="divtag"
@@ -3539,7 +3566,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="c95f169d-1736-4c46-b2a8-66e87679b954"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']
+				/dom[@domain~'hafele.co.uk']//div[#'summary']
 			</item>
 			<item
 			capname="atag"
@@ -3548,7 +3575,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="248f5933-7a7f-4f52-9234-01f80a8a9e42"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'save_draft']/a[@innertext='Save product and exit ']
+				/dom[@domain~'hafele.co.uk']//div[#'save_draft']/a[@innertext='Save product and exit ']
 			</item>
 			<item
 			capname="divtag"
@@ -3557,7 +3584,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="ef5543b3-4d89-40fb-977a-d869ba3a4f6c"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[@class='row item draft']
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[@class='row item draft']
 			</item>
 			<item
 			capname="divtag"
@@ -3566,7 +3593,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="4f9e950c-34b6-48ef-9a90-29f1c9c1670a"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[@id='more_info_img']
+				/dom[@domain~'hafele.co.uk']//div[@id='more_info_img']
 			</item>
 			<item
 			capname="atag"
@@ -3575,7 +3602,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="a9077cbb-f099-4a4e-b7df-2b8410b4c8f5"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Add To Quote']
+				/dom[@domain~'hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Add To Quote']
 			</item>
 			<item
 			capname="atag"
@@ -3584,7 +3611,7 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="fab1aa7e-e4f3-4256-a040-ef95e081048d"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Place Order']
+				/dom[@domain~'hafele.co.uk']//div[#'summary']/?/?/a[@innertext='Place Order']
 			</item>
 			<item
 			capname="divtag"
@@ -3593,16 +3620,16 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="40a41e16-939c-4c1a-908d-3088cd892ac0"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']//div[#'container']//element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
 			</item>
 			<item
 			capname="button"
 			id="1d9d0de6-aa65-4dd7-9c10-0629fd54f084"
-			name="AggreeAndConfirmOrder_Button"
+			name="AgreeAndConfirmOrder_Button"
 			refimgid="440db38c-7856-45f2-9577-60c46bd95442"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Agree and confirm order']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Agree and confirm order']
 			</item>
 			<item
 			capname="button"
@@ -3611,10 +3638,513 @@ EBUrB/+kloRUf1LLv7cmIfDh+XZg/gLFZ9pSl7/tCgAAAABJRU5ErkJggg==
 			refimgid="3b6b09c7-198f-480f-aaae-38ba12b348f1"
 			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
 			searchtimeout="30000ms">
-				/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Return to quotes']
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Return to quotes']
+			</item>
+			<item
+			capname="spantag"
+			id="e3fc45a7-bf19-46d5-a613-1a1202dfd959"
+			name="BackLink_Arrow"
+			refimgid="0cf3d2fc-1e65-4a02-9756-91feba1325e0"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'back_link']/?/?/span[@innertext='Back']
+			</item>
+			<item
+			capname="spantag"
+			id="ff6d0003-9f6a-4c30-b859-304f76df425a"
+			name="Draft_Badge_Button"
+			refimgid="8297b71f-85d1-4fc4-ba1b-6758f1bd541c"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'orders']/table//span[@innertext='Draft']
+			</item>
+			<item
+			capname="atag"
+			id="c8fec3b6-f552-4163-ba44-52ad547a80bf"
+			name="Draft_EditButton"
+			refimgid="26b8c9ce-a146-4c06-86a4-7155463db600"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[2]/div[3]/?/?/a[@innertext='Edit ']
+			</item>
+			<item
+			capname="strongtag"
+			id="0fd306e5-03e3-4224-ac89-d91d9f3b07db"
+			name="DeliveryAddress_NameCheckSummery_RV"
+			refimgid="07fc5a27-9afb-4270-97ff-9c4b1102e344"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[2]/div[1]/strong[@innertext='RV']
+			</item>
+			<item
+			capname="divtag"
+			id="c1ba99ea-75f8-4e64-a5f4-f42bee599484"
+			name="DeliveryAddress_AddressCheckSummery_Any_Company"
+			refimgid="38953710-b857-422b-a7b8-87891e530a8a"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]//div[@class='address']
+			</item>
+			<item
+			capname="divtag"
+			id="a712ded8-c4ca-4376-98bd-141c46164bb8"
+			name="DeliveryAddress_Summery"
+			refimgid="f6af3126-c2bb-4e80-95ae-f0de9a0de3cb"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[3]/div[1]/div/div[2]/div[@class='cust-summary']
+			</item>
+			<item
+			capname="divtag"
+			id="5c36d0ee-31a6-44d6-bc97-e92e8d211470"
+			name="QuoteSummery_Total_Ex_VAT"
+			refimgid="86e3dcae-cd44-472c-8676-b48be2ef5579"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'summary']/div[2]/div[4]
+			</item>
+			<item
+			capname="inputtag"
+			id="83df4584-a05b-4929-b4bc-bf615c86ef97"
+			name="DeliveryAddress_BuildingNumberOrName"
+			refimgid="a70a383f-acc4-4bec-8727-80b334b4a093"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'address_lookup']/div[1]/input[@type='text']
+			</item>
+			<item
+			capname="inputtag"
+			id="93bac6c5-2dd1-4226-bae1-9e721baac11e"
+			name="DeliveryAddress_SearchByPostcode"
+			refimgid="4d5e1c6a-34ad-401d-9fd4-c73cf29c4df7"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'address_lookup']/div[2]/div/input[@type='text']
+			</item>
+			<item
+			capname="button"
+			id="ac7218ce-5186-4ffc-ae8a-fb35f64c0bfb"
+			name="DeliveryAddress_FindAddressButton"
+			refimgid="d99f7e28-f395-4e50-9085-16939437c079"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'product_search_btn']/button[@innertext='Find address']
+			</item>
+			<item
+			capname="selecttag"
+			id="0e3c0485-8479-4bc2-9d82-cfb190006927"
+			name="SelectAnAddressFromTheResults"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//select[#'contact-address-result-select']
+			</item>
+			<item
+			capname="unknown"
+			id="2fd66021-2cbb-4767-98e4-122674e852cd"
+			name="SelectedAddressFromList_Address_0"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//*[@id='ADDRESS_0']
+			</item>
+			<item
+			capname="selecttag"
+			id="80063873-184c-4049-aa8d-74c4cbcbf4b4"
+			name="Number_Of_Items_Per_PageSize_"
+			refimgid="6e31a011-6ba1-49ed-89bd-31b0be0451e8"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'paging']/select[@name='pageSize']
+			</item>
+			<item
+			capname="optiontag"
+			id="2cbd40bc-ff0f-478b-bb8a-59da1f509f0a"
+			name="_20_Items_PerPage"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//*[@id='paging']/select/option[@tagvalue='2: 20']
+			</item>
+			<item
+			capname="inputtag"
+			id="8ed1b52d-c0cc-4979-b323-e236b4ac0d14"
+			name="Quote_OrderSearch"
+			refimgid="b8df4764-feed-46e0-bad8-7521f3408057"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//input[#'order_search']
+			</item>
+			<item
+			capname="tdtag"
+			id="f5e06e4f-3cce-4424-bf30-0d14920c6e23"
+			name="Quote_Ref_rci2950"
+			refimgid="0c21439b-c1b7-4a5f-82f4-1a3b06ccc663"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'orders']//td[@innertext='rci2950']
+			</item>
+			<item
+			capname="atag"
+			id="25183675-bcd4-441c-90fb-ba9c1333e061"
+			name="Quote_OrderNumber_4635"
+			refimgid="6cfce487-960c-48bc-adc1-944dc0ddff27"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'orders']//a[@innertext='4635']
+			</item>
+			<item
+			capname="unknown"
+			id="a5cbf653-24e1-4800-aa04-f1e684b6226d"
+			name="Quote_Overview"
+			refimgid="af4a37a8-549f-4ef3-b664-09966950eff4"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//*[@id='layoutSidenav']
+			</item>
+			<item
+			capname="spantag"
+			id="2586f1f6-3971-4f7a-b5cd-d9a8eaaa4851"
+			name="Quote_DraftBadge"
+			refimgid="40a878f9-0f63-4e6b-8737-03b06aeb26d6"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'orders']/table//span[@innertext='Draft']
+			</item>
+			<item
+			capname="svgtag"
+			id="1ed0f501-9249-4f74-b964-e361688b3e01"
+			name="SupportingInformation_Remove_Logo"
+			refimgid="e31862a0-14ac-424c-8d9f-186fbfea857f"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'container']//tag[@tagname='app-trash-icon']/svg
+			</item>
+			<item
+			capname="divtag"
+			id="0b6a4c8a-8823-4a79-be3d-62d4dc063ea2"
+			name="Remove_Product"
+			refimgid="fb86614d-f615-42cc-89a8-b362e96b4f8a"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[2]/div[3]/div[@innertext='Remove ']
+			</item>
+			<item
+			capname="divtag"
+			id="98c983b6-cf03-484a-b19d-daf156aebc3a"
+			name="Product_Summery"
+			refimgid="829036ed-f90e-488d-b305-5336ee601225"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				<image
+				guid="397e72bb-a42d-437b-a531-49df9cb0eb18"
+				name="Screenshot2">
+					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
+egAAAABJRU5ErkJggg==
+				</image>
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[2]/div[2]
+			</item>
+			<item
+			capname="divtag"
+			id="0066d4e7-e8a5-4176-bb50-a0a8e607b654"
+			name="AreYouSure_DialogueBox"
+			refimgid="d5b8f769-68df-4c07-99e5-b3583e10ddc3"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
+			</item>
+			<item
+			capname="button"
+			id="33caeb23-c4b1-4d1e-81cb-86a77dc82feb"
+			name="YesRemoveProduct"
+			refimgid="16448937-b0b1-4c63-9b36-cf329b5cc750"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Yes, remove product.']
+			</item>
+			<item
+			capname="labeltag"
+			id="a7886e68-38a6-4ce5-b41c-547f1cb7195a"
+			name="Dimensions_Internal"
+			refimgid="e36962dd-675d-4804-b2ce-ff0a8c399e6b"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'container']//label[@innertext&gt;' Enter internal cabinet opening']
+			</item>
+			<item
+			capname="labeltag"
+			id="fee7f2f6-ed90-4aab-a86b-e41d7b139930"
+			name="Dimensions_InternalCabinetDrawer_Yes"
+			refimgid="616df0f9-bd37-428a-aab8-e3d335f8e900"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				<image
+				guid="535293f7-9950-4a60-8db4-48ca806702f7"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAIcAAAAsCAYAAABPPKsnAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALfSURBVHhe7ZwxahtBFIZNIHW63CBlSJsmF0jr
+Q+gWrg0+gMBNsCqjA6iVIZUhRbIuhBApjBBYTUCNII1e9M16VrOrGdvKruKV8w98sJqdmQW9z+/N
+rEFHd+d9u3n7yb6/ei+EAx/w4oiLX1+/2XK5FMKBD3hxhCmxAeL/Bi8kh4giOUQSySGSSA6RRHKI
+JJJDJJEcIonkEEkkh0iyVzmyLLPBYGC9Xs+63a6Da/q4F5sj2sNe5CDwXoLxeGyLxcJWq5WDa/q8
+NJKkvTQux3A4tH6/b7PZzB5rjGEsc2JrieelUTkIMhmBDPHUxljmSJD20ZgclAeyQFWM+dkXG737
+bD9ef3BwTV/YmMNclZh20Zgc7B/CUvL759SJcPPmo3tICH3cY4xvzGWN2NpxpjY5Xq93fGnz6r3J
+pWXr54yuKv1iJ4hVbTn4i6c0hI3gh0LEYEzYWGO37HFtI9YpSZBLk11Mgz7xNxCj2nIQVE4gvlE2
+YhmjCmPCEuNPMbFnpJhfdNZrndpt+DmWTcTOEKPaclAOOKL69pSs4QmzB2vsVlogzBTbmSSX5/55
+JWnuy5K/d3JdzBE5fC+15eDlVrgRZeNZfOmPwFjfWIO1Ys94ELfH6FhGsMMgX52un7HJKrcnm/tO
+mmJsLor2KGWIz+HLscYFPhDB95X2Hk6ifEyeUTo2mWzGizLE58DLSs72XqNSNgo2QpRKjkTZgu/l
+oDeknm05IpnjAVzm0Ua2BDGqLcfzHWU3xOSo7jnyTJF/DvcfxT1tSksQo9pyAOXg374EKxOVw/cX
+zw5LR7XslPcrokE5+IvX6/OXRWNygP7x9rJoVA4gyGSBsMSkGmMYKzHaSeNyAOWB/QMZgRMIR1Qy
+BHDtTyWMUSlpL3uRw0PgvQS83AIvjaRoP3uVQxw2kkMkkRwiieQQSSSHSCI5RBLJIZJIDpFEcogk
+kkMkcXLoR2pFleJHavXz1qIKPtyd9+0PYBX7MYCQrRQAAAAASUVORK5CYII=
+				</image>
+				/dom[@domain~'hafele.co.uk']//div[#'container']//label[@innertext=' Yes ']
+			</item>
+			<item
+			capname="divtag"
+			id="b51cf216-a62b-468c-a652-76808c5eabdd"
+			name="Quote_You_placed_this_order_on"
+			refimgid="fdcf6f40-3a00-4460-83d3-3d451ee05be5"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']/?/?/div
+			</item>
+			<item
+			capname="spantag"
+			id="7e9ddb63-f124-4bfd-9156-0b71bacce841"
+			name="Ordered_Badge"
+			refimgid="3cf49a7a-882e-45bc-b2e6-f26ff8b472e8"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'orders']/table//span[@innertext='Ordered']
+			</item>
+			<item
+			capname="divtag"
+			id="3a2664eb-ab26-4988-843a-1a2a2385730c"
+			name="DeliveryAddress_Overview"
+			refimgid="f64220c4-21af-4997-b025-7342955850cd"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//tag[@tagname='app-quote-mananger']/div[4]/div[1]/div/div[2]/div[2]
+			</item>
+			<item
+			capname="divtag"
+			id="a8ce92d7-1040-487a-99dd-3c7f17b1c9ad"
+			name="Quotes_Overview"
+			refimgid="79ca2294-de92-48d6-a3f1-8cfbd6779379"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//form[@action='https://qmy.hafele.co.uk/quotes/bespoke-quotes']/div
+			</item>
+			<item
+			capname="unknown"
+			id="3ed80c1b-a55a-4e0f-a8f9-fcc3c134c6d4"
+			name="QuoteSummary_Product_Summary"
+			refimgid="b3ee4d06-37d6-4634-a6f5-6b8b1cfcefe7"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//*[@id='product-summary']
+			</item>
+			<item
+			capname="divtag"
+			id="301054ef-7383-4d8c-81d6-0f51f0a100c6"
+			name="NewItem"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
+			</item>
+			<item
+			capname="divtag"
+			id="70703074-e888-4586-a481-204ae08d5de3"
+			name="BespokeDrawers_QuotesOverview"
+			refimgid="29c80669-b122-4152-9a63-c95dd95d860c"
+			robustPath="/dom[@domain='qmy.hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']//div[#'layoutSidenav_content']//form[@action='https://qmy.hafele.co.uk/quotes/bespoke-quotes']/div
+			</item>
+			<item
+			capname="divtag"
+			id="6ab3c12a-29d5-4183-a51f-cdac1a790189"
+			name="UpdateDeliveryAddress"
+			refimgid="4b142dbb-fe45-454f-ac23-1c5195dd8ba1"
+			robustPath="/dom[@domain~'hafele.co.uk']/element"
+			searchtimeout="30000ms">
+				/dom[@domain~'hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
 			</item>
 			<basepath>
-				/dom[@domain='qmy.hafele.co.uk']
+				/dom[@domain~'hafele.co.uk']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
@@ -3672,6 +4202,204 @@ mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
 Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="webdocument"
+		id="f3b2d616-04f4-4ab6-b653-630f72df5494"
+		isrooted="True"
+		name="Gmail"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="16268821-219b-41f9-823a-a15805f27003"
+			name="Pane"
+			refimgid="88a65e09-7ea7-4c44-8d44-46e18dbdabf0"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='https://accounts.google.com/']/container[@accessiblename='']
+			</item>
+			<item
+			capname="divtag"
+			id="2ccf477b-5838-49e3-a42c-f9bbdc95a983"
+			name="AutomatedTesting_Account"
+			robustPath="/dom[@domain='https://accounts.google.com/']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='https://accounts.google.com/']/dom[@domain='accounts.google.com']//div[#'view_container']//form[@action='https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Faccounts.google.com%2F&amp;followup=https%3A%2F%2Faccounts.google.com%2F&amp;passive=1209600&amp;ifkv=AeDOFXjDdLv5qdDavZpaEobS4dAzxKEzh-rjeAm1_GuKI8Sa1qlvH2g31xRKjpHm5EjiBnOBSiXy0A&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin']/?/?/section//ul/li[2]/div
+			</item>
+			<basepath>
+				/dom[@domain='https://accounts.google.com/']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKpSURBVDhPZdPJTxNxFAfwOUmCURDjgkGoIMjW
+TqFqCJZ2CiogIEQ9mYiJ0XjyD1BBr16kBSSVRYp7TDh6MCIWkDUmjJ64WVO6EZYW0LjM8Pv65tcR
+QV7yyfc3nfdemulU+L/m7RYp7LC45sotvrnyoyCMruWIZPGE7aJBb9taPruYHJYszojDAg2dWVgq
+pvwnZCe2IqfWq4/FS/sgJBXL1MCH6EzNRQjaihjPMjMLbDBrNcmbloRsZic1aY3rAlai5+wJEyOY
+tYramfOXmpx8WHxZb3h8tSx+0yoyP90MX6jCz+mPCMzGsPKDgUW9WJProEwWM5UrAmHKhCgJ5ucN
+nkp3LWYcIm01Ini+kg9e93zDsbsx7qJ7FcGFGNTpKigTRqgTJijjRqaMF7oE05OzsvlpPe7dKMPX
+kgJ8Hx5Ebcsyiu/ESHTdtd5VsNgU1PF8ThnLY8QnGPvqYOyrZSWdZzBZISIYXYPYvMSZm6NEy/h1
+YD5KgzlQRrNpOFtLCIW9NSjQXWmSmN8fhbFpCcbbi4RSO/PrJf481NFM3SFOyO+u9uX3VLO8nmpQ
+Yir0GZe7l5F/a3FdATnXHgNbeAP1Q7ruIJSRNFnI66x05nZVIreriit/0YiZyDIa2qPIvbnANdLC
+mcgKlKnjUIYPkFSoI6m0INUjHHFXSDnuU8h5eBp/0/HsEga+jPGvrC2bDH5C6+saGtwLlShDezh4
+98Vf7ayOCidhhztOaqDJelDBNNrZ1kW/0Nv9UId202AKFG8K1oZ2xV8krTKc9uTMNoec2V6OLKIl
+1+bg+aifnvj7JKZ4d1KSwR0yvEmb/w/akoxWu8vgkmBo1bkkZnWX0tB2XSINJ7q2DG8sWmQgfekt
+Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="6732413c-e0af-4505-bd46-aa5c8f81b1e7"
+		isrooted="True"
+		name="GmailApplicationUnderTest"
+		refimgid="1d40e25c-391d-4e59-b729-b6096a0cb320"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="divtag"
+			id="3d3b1f3a-2097-4b63-b967-b1e583b7acd0"
+			name="UseAnotherAccount"
+			refimgid="f980b5fc-4f04-4d70-a7a8-b06c0ef16b27"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'view_container']//?/?/section//ul/li[2]/div
+			</item>
+			<item
+			capname="inputtag"
+			id="c16c5e23-3635-42b1-8c7a-cd3328ff5b2f"
+			name="Email_Address"
+			refimgid="b12700e3-7e09-465e-ae17-364312991fc4"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//input[#'identifierId']
+			</item>
+			<item
+			capname="spantag"
+			id="d6070a92-b541-4967-88a3-4d313fceeeeb"
+			name="Email_NextButton"
+			refimgid="98e36be9-a1e8-4160-bb77-df29fbfeea2d"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'identifierNext']//span[@innertext='Next']
+			</item>
+			<item
+			capname="inputtag"
+			id="fed0e984-d0e6-446e-939a-495c57a7bf18"
+			name="Password"
+			refimgid="0b3834f0-99bf-46c3-bbd3-1bc74b201b33"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'password']//input[@name='password']
+			</item>
+			<item
+			capname="spantag"
+			id="5186c1a2-d105-41ba-8658-4e955eaeaae4"
+			name="Password_NextButton"
+			refimgid="7af3a5ac-3c67-4114-9636-c7746c3f185d"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='accounts.google.com']//div[#'passwordNext']//span[@innertext='Next']
+			</item>
+			<basepath>
+				/dom[@domain='accounts.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="fd31926d-bb89-4775-976f-90b17139ba62"
+		isrooted="True"
+		name="GmailInbox"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			capname="divtag"
+			id="83246e83-2108-4ed7-96de-2789e6305411"
+			name="Gmail_Inbox"
+			refimgid="59029d4e-d4cb-4ec6-8ef1-54aea8554457"
+			robustPath="element"
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']/body/div[7]/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div
+			</item>
+			<item
+			capname="imgtag"
+			id="c0a25ac8-ed06-428b-bbcf-ae0821607e95"
+			name="GoogleAccount"
+			refimgid="32f43ed9-0405-469c-9bb1-150ae54f6d59"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']//header[#'gb']/div[2]//img[@src='https://lh3.google.com/u/0/ogw/AGvuzYbNOciFGm_iUOvtXwBAdGKkTtIy5EhGKqJU_GfO=s32-c-mo']
+			</item>
+			<item
+			capname="divtag"
+			id="62671eb3-4fda-4916-bafa-2c2a8a96fba3"
+			name="SignOut"
+			refimgid="a5740fbb-33d6-4b9a-9f5e-5e70d705a982"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']//header[#'gb']/div[2]//iframe[@name='account']//div[#'yDmH0d']/tag[@tagname='c-wiz']/div[2]//div[@innertext='Sign out']
+			</item>
+			<item
+			capname="spantag"
+			id="ecef6f27-6908-4587-a43b-a2d7c4597bfc"
+			name="OpenEmail"
+			refimgid="7f1e77bd-f4d4-470e-b065-5a98a6776134"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']/body/div[7]/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div[1]/div/div/div[5]//table/tbody/tr[2]/td[4]/div[2]/span[1]/spantag[@innertext='Hafele UK Ltd']
+			</item>
+			<item
+			capname="spantag"
+			id="33c511e6-6568-4c70-a6b0-b0493e0c041b"
+			name="Open2ndEmailAttachment"
+			refimgid="866c9363-d19c-4ee9-a2d3-7a31d317c8a6"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']/body/div[7]/div[3]/div/div[2]/div[2]//table/?/?/td/div[2]/div[2]/div/div[3]/div[1]/div/div/div/div/div/div[2]/?/?/table/tbody/tr[1]/td[1]/?/?/span[@innertext='Hafele UK Ltd']
+			</item>
+			<item
+			capname="divtag"
+			id="6fee8a08-003f-4401-a619-f592d58cd2ea"
+			name="ValidateEmailContents"
+			refimgid="0b62fcce-fdfe-4419-b59c-2d87f7225f17"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='mail.google.com']/body/div[7]/div[3]/div/div[2]/div[2]//table/?/?/td/div[2]/div[2]/div/div[3]/div[1]/div/div/div/div/div[2]/div[1]/div[2]
+			</item>
+			<basepath>
+				/dom[@domain='mail.google.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
@@ -3680,6 +4408,10 @@ Njn9vo296k/D73fbfL8GElzKQIKkt+klCH8ARJYkm8QxdZEAAAAASUVORK5CYII=
 		id="72e158f5-e396-4eb7-99fa-834cbe0ceaf8"
 		name="SlideOutBase">
 			&#32;Slide out Base&#32;
+		</var>
+		<var
+		id="60ce457d-b2d1-4bc9-9d49-ff60e41f9396"
+		name="Logo_Upload">
 		</var>
 	</variables>
 </repository>

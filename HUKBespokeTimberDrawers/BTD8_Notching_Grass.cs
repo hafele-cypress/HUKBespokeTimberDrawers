@@ -111,6 +111,9 @@ namespace HUKBespokeTimberDrawers
             Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo);
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
+            Delay.Duration(2000, false);
+            
         }
 
 #region Image Feature Data

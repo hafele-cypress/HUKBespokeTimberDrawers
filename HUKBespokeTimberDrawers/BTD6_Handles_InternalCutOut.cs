@@ -87,6 +87,9 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Handles_InternalCutOut.Click();
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
+            Delay.Duration(2000, false);
+            
         }
 
 #region Image Feature Data

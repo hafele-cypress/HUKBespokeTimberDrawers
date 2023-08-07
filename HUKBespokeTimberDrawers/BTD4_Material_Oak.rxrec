@@ -128,8 +128,77 @@ mode="Global">
 				</robustPath>
 			</info>
 		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="7a677382-e252-495b-b958-2aa3fc2faa00">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d13582fe-2e09-44a1-8d15-804e21ac204c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//select[#'thickness']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a5606d06-5d50-443f-a3e2-79ce01c18458"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d13582fe-2e09-44a1-8d15-804e21ac204c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//select[#'thickness']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="1d1f7054-3f89-4fee-808c-99e8ef32b5ac">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d13582fe-2e09-44a1-8d15-804e21ac204c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//select[#'thickness']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="2000ms"
 		enabled="True"
 		optional="False">
 			<comment>

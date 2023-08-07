@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a3fa8d3d-5676-461e-974b-af342edc90ed"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BTD13_Engraving_HaveYouUsedTheLogoBefore_No"
+	namespace="HUKBespokeTimberDrawers">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8ff7662e-2ccb-4133-a286-6020eac85fd1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4629552e-7eae-4904-9e2e-92a8cf5d9fe1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[2]/label[@innertext=' No ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="0761561c-7965-4e32-8587-e89d7bbb2906">
+			</arguments>
+		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8b0dfc9c-acfc-42f8-a1da-f45383ca0650"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4629552e-7eae-4904-9e2e-92a8cf5d9fe1"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div/div[7]/div[3]/div[1]/div/div/div[2]/label[@innertext=' No ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"
+	name="HUKBespokeTimberDrawersRepository"
+	relativepath="HUKBespokeTimberDrawersRepository.rxrep">
+		<codegen
+		classname="HUKBespokeTimberDrawersRepository"
+		namespace="HUKBespokeTimberDrawers">
+		</codegen>
+		<rootfolder
+		id="87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BTD13_Engraving_HaveYouUsedTheLogoBefore_No.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

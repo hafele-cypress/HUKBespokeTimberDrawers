@@ -180,12 +180,12 @@ namespace HUKBespokeTimberDrawers
             // Dimensions
             Report.Log(ReportLevel.Info, "Section", "Dimensions", new RecordItemIndex(12));
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text' at 95;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_TextInfo, new RecordItemIndex(13));
-            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text.Click("95;20");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_Internal' at 95;20.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_InternalInfo, new RecordItemIndex(13));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_Internal.Click("95;20");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ExWidth_mm' with focus on 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_TextInfo, new RecordItemIndex(14));
-            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text.PressKeys(ExWidth_mm);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$ExWidth_mm' with focus on 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_Internal'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_InternalInfo, new RecordItemIndex(14));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Width_Text_Internal.PressKeys(ExWidth_mm);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Depth_Text' at 27;22.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Depth_TextInfo, new RecordItemIndex(15));

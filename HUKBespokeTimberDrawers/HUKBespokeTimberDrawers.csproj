@@ -123,32 +123,116 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddToQuote.cs">
+    <Compile Include="BTD10_Add_Delivery_Address_Only.cs">
+      <BoundTo>0862e620-b06a-45ef-aed2-81dedf7f64a2</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Address_Only.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>418b555f-d77f-4ff6-b025-21b705e07240</id>
+    </Compile>
+    <Compile Include="BTD10_Add_Delivery_Address_Only.UserCode.cs">
+      <BoundTo>0862e620-b06a-45ef-aed2-81dedf7f64a2</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Address_Only.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b328ce1b-125d-4b82-b9d0-5420ce3eb193</id>
+    </Compile>
+    <Compile Include="BTD10_Add_Delivery_Address_Postcode_LookUp.cs">
+      <BoundTo>bcc57547-cd09-446c-9791-4ff184aaf1c9</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Address_Postcode_LookUp.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db6c84ba-5a82-4e3c-9af6-a06be2a2680e</id>
+    </Compile>
+    <Compile Include="BTD10_Add_Delivery_Address_Postcode_LookUp.UserCode.cs">
+      <BoundTo>bcc57547-cd09-446c-9791-4ff184aaf1c9</BoundTo>
+      <DependentUpon>BTD10_Add_Delivery_Address_Postcode_LookUp.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b6b1889-a4f7-4a58-af53-a27fc1a8413f</id>
+    </Compile>
+    <Compile Include="BTD11_Additional_Information.cs">
+      <BoundTo>c7615779-4b32-497b-b265-cff20eeb6717</BoundTo>
+      <DependentUpon>BTD11_Additional_Information.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>37864746-ac91-45ef-ba9b-8970013e7911</id>
+    </Compile>
+    <Compile Include="BTD11_Additional_Information.UserCode.cs">
+      <BoundTo>c7615779-4b32-497b-b265-cff20eeb6717</BoundTo>
+      <DependentUpon>BTD11_Additional_Information.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3290b4ad-60da-48f2-b22a-929031202bad</id>
+    </Compile>
+    <Compile Include="BTD12_AddToQuote.cs">
       <BoundTo>74081b33-0bb7-4811-883b-8971fbe6b201</BoundTo>
-      <DependentUpon>AddToQuote.rxrec</DependentUpon>
+      <DependentUpon>BTD12_AddToQuote.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>51b4e5d7-8ff2-4de5-99ba-911991c23f6c</id>
     </Compile>
-    <Compile Include="AddToQuote.UserCode.cs">
+    <Compile Include="BTD12_AddToQuote.UserCode.cs">
       <BoundTo>74081b33-0bb7-4811-883b-8971fbe6b201</BoundTo>
-      <DependentUpon>AddToQuote.rxrec</DependentUpon>
+      <DependentUpon>BTD12_AddToQuote.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>ead8deeb-7127-4a79-ad3f-a2753eccfca8</id>
     </Compile>
-    <Compile Include="BTD10_Add_Delivery_Addrerss.cs">
+    <Compile Include="BTD10_Add_Delivery_Addrerss_And_Reference.cs">
       <BoundTo>3dc2bb80-596c-49f0-8d1e-288885e08d69</BoundTo>
-      <DependentUpon>BTD10_Add_Delivery_Addrerss.rxrec</DependentUpon>
+      <DependentUpon>BTD10_Add_Delivery_Addrerss_And_Reference.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>79740855-9840-4293-8247-5ad9af0136be</id>
     </Compile>
-    <Compile Include="BTD10_Add_Delivery_Addrerss.UserCode.cs">
+    <Compile Include="BTD10_Add_Delivery_Addrerss_And_Reference.UserCode.cs">
       <BoundTo>3dc2bb80-596c-49f0-8d1e-288885e08d69</BoundTo>
-      <DependentUpon>BTD10_Add_Delivery_Addrerss.rxrec</DependentUpon>
+      <DependentUpon>BTD10_Add_Delivery_Addrerss_And_Reference.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7e40f55e-9656-468c-8636-157fbc9f7fec</id>
     </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>7eb865c5-e02c-4f84-8216-c5cc9a1bfff1</id>
+    </Compile>
+    <Compile Include="BTD13_Engraving_AddEngraving_No.cs">
+      <BoundTo>bdc410dc-4409-4415-8b2b-dbf7e111515d</BoundTo>
+      <DependentUpon>BTD13_Engraving_AddEngraving_No.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c57c00f0-f6c2-4a65-bb86-65209baf1515</id>
+    </Compile>
+    <Compile Include="BTD13_Engraving_AddEngraving_No.UserCode.cs">
+      <BoundTo>bdc410dc-4409-4415-8b2b-dbf7e111515d</BoundTo>
+      <DependentUpon>BTD13_Engraving_AddEngraving_No.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c28c02de-9ccb-4bd3-ae78-28246ce971c4</id>
+    </Compile>
+    <Compile Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_No.cs">
+      <BoundTo>dc4218d7-d4b5-4988-8cdd-8956f82b2794</BoundTo>
+      <DependentUpon>BTD13_Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96e09a50-7d4f-425f-9777-af8180e67a79</id>
+    </Compile>
+    <Compile Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_No.UserCode.cs">
+      <BoundTo>dc4218d7-d4b5-4988-8cdd-8956f82b2794</BoundTo>
+      <DependentUpon>BTD13_Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e436b03-2415-4dcc-83b2-c6d348f94e05</id>
+    </Compile>
+    <Compile Include="BTD14_QuoteSummery_Total_Ex_VAT.cs">
+      <BoundTo>8e1d56ff-ea60-408c-80be-00d5449c3765</BoundTo>
+      <DependentUpon>BTD14_QuoteSummery_Total_Ex_VAT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f3a94a91-016a-4d1b-b89c-09320d35189b</id>
+    </Compile>
+    <Compile Include="BTD14_QuoteSummery_Total_Ex_VAT.UserCode.cs">
+      <BoundTo>8e1d56ff-ea60-408c-80be-00d5449c3765</BoundTo>
+      <DependentUpon>BTD14_QuoteSummery_Total_Ex_VAT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4a55679d-2264-45b2-b239-96df2a34d446</id>
+    </Compile>
+    <Compile Include="BTD1_StartNewQuote_NoProduct.cs">
+      <BoundTo>c8d30d87-aa5d-4802-a8bc-12b799775efb</BoundTo>
+      <DependentUpon>BTD1_StartNewQuote_NoProduct.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ac53092-a981-4218-9286-bc009206abcd</id>
+    </Compile>
+    <Compile Include="BTD1_StartNewQuote_NoProduct.UserCode.cs">
+      <BoundTo>c8d30d87-aa5d-4802-a8bc-12b799775efb</BoundTo>
+      <DependentUpon>BTD1_StartNewQuote_NoProduct.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d6fb476-c6ee-4020-bf10-3bbed6779a89</id>
     </Compile>
     <Compile Include="BTD2_SelectProduct_InternalDrawerFront.cs">
       <BoundTo>6615f905-fb20-4eb6-ba20-44d4ab916dd2</BoundTo>
@@ -234,6 +318,42 @@
       <UserCode>true</UserCode>
       <id>8230ba63-80f7-4152-8a9d-86a3ff5cd180</id>
     </Compile>
+    <Compile Include="BTD3_Dimensions_Internal_Drawer_Yes.cs">
+      <BoundTo>70afa587-6c73-4b81-aa3b-043e619f17f4</BoundTo>
+      <DependentUpon>BTD3_Dimensions_Internal_Drawer_Yes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8adc76e2-1508-4688-8cbd-cbd381c124e9</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions_Internal_Drawer_Yes.UserCode.cs">
+      <BoundTo>70afa587-6c73-4b81-aa3b-043e619f17f4</BoundTo>
+      <DependentUpon>BTD3_Dimensions_Internal_Drawer_Yes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>11179ba1-6add-4174-8061-c705c3dd0a9f</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions_PegBoard.cs">
+      <BoundTo>6714e4d4-3483-43e5-a0db-7424ee6698a1</BoundTo>
+      <DependentUpon>BTD3_Dimensions_PegBoard.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c68a9d2-4c1b-4fb2-8f81-b8e7ebd0c160</id>
+    </Compile>
+    <Compile Include="BTD3_Dimensions_PegBoard.UserCode.cs">
+      <BoundTo>6714e4d4-3483-43e5-a0db-7424ee6698a1</BoundTo>
+      <DependentUpon>BTD3_Dimensions_PegBoard.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a55c08e4-f842-40eb-a974-c0dec936db3a</id>
+    </Compile>
+    <Compile Include="BTD3_Internal_Cabinet_Dimensions.cs">
+      <BoundTo>0a69dccf-5d22-4f20-a734-82b637ca0e47</BoundTo>
+      <DependentUpon>BTD3_Internal_Cabinet_Dimensions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>aa9146f4-202a-4a92-a244-56595e8815e0</id>
+    </Compile>
+    <Compile Include="BTD3_Internal_Cabinet_Dimensions.UserCode.cs">
+      <BoundTo>0a69dccf-5d22-4f20-a734-82b637ca0e47</BoundTo>
+      <DependentUpon>BTD3_Internal_Cabinet_Dimensions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>111673a4-5442-45b8-a470-7a450310b1ee</id>
+    </Compile>
     <Compile Include="BTD_AddManualDeliveryAddress.cs">
       <BoundTo>7817a9c8-83ec-4e32-8daa-10a8276a2865</BoundTo>
       <DependentUpon>BTD_AddManualDeliveryAddress.rxrec</DependentUpon>
@@ -306,15 +426,123 @@
       <UserCode>true</UserCode>
       <id>40db1413-40b7-4b4d-a3ae-bf528f9af1a5</id>
     </Compile>
-    <Compile Include="BTD_SaveProductAnExit.cs">
+    <Compile Include="BTD_AddManualDeliveryAddress_Within_A_quote.cs">
+      <BoundTo>ff9876fe-3a0b-4592-bb3e-1a1a95085506</BoundTo>
+      <DependentUpon>BTD_AddManualDeliveryAddress_Within_A_quote.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1579b7af-4e2e-4d6b-b7fa-b584e4511925</id>
+    </Compile>
+    <Compile Include="BTD_AddManualDeliveryAddress_Within_A_quote.UserCode.cs">
+      <BoundTo>ff9876fe-3a0b-4592-bb3e-1a1a95085506</BoundTo>
+      <DependentUpon>BTD_AddManualDeliveryAddress_Within_A_quote.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>282cdff2-aa0b-435e-a915-311b72c467c8</id>
+    </Compile>
+    <Compile Include="BTD_BespokeDrawers_Quotes_Overview.cs">
+      <BoundTo>da64c523-3baa-4c7c-8600-da1990aee3d2</BoundTo>
+      <DependentUpon>BTD_BespokeDrawers_Quotes_Overview.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>20f58284-ab01-4e2f-95df-93188c7bcad0</id>
+    </Compile>
+    <Compile Include="BTD_BespokeDrawers_Quotes_Overview.UserCode.cs">
+      <BoundTo>da64c523-3baa-4c7c-8600-da1990aee3d2</BoundTo>
+      <DependentUpon>BTD_BespokeDrawers_Quotes_Overview.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>442fd66f-a0e4-4a8e-a137-ca6ee0a73179</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Login.cs">
+      <BoundTo>7d189180-995e-4b97-8f61-d6bf252668b7</BoundTo>
+      <DependentUpon>BTD_Gmail_Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>91dcaa4f-2c38-48f5-8877-cb46b19e10a1</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Login.UserCode.cs">
+      <BoundTo>7d189180-995e-4b97-8f61-d6bf252668b7</BoundTo>
+      <DependentUpon>BTD_Gmail_Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9227472d-9421-4cda-a01f-d53c5c3455f2</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Logout.cs">
+      <BoundTo>1ac96940-6824-4ed3-86d2-70161877c587</BoundTo>
+      <DependentUpon>BTD_Gmail_Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>414fe2e4-6f79-4c94-be09-f8bdba224739</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Logout.UserCode.cs">
+      <BoundTo>1ac96940-6824-4ed3-86d2-70161877c587</BoundTo>
+      <DependentUpon>BTD_Gmail_Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4c9c2a68-34cc-4923-880c-364372afb435</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Page_Load.cs">
+      <BoundTo>e8188617-5b09-46c2-8eca-3daf469ad0ab</BoundTo>
+      <DependentUpon>BTD_Gmail_Page_Load.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d74b5df1-4c87-4796-972b-b454a9729dea</id>
+    </Compile>
+    <Compile Include="BTD_Gmail_Page_Load.UserCode.cs">
+      <BoundTo>e8188617-5b09-46c2-8eca-3daf469ad0ab</BoundTo>
+      <DependentUpon>BTD_Gmail_Page_Load.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1948b7fa-5935-45ca-8e78-4509f4c45a57</id>
+    </Compile>
+    <Compile Include="BTD_Order_Confirmation_Email_Validation.cs">
+      <BoundTo>814f8e0c-3824-49f9-9f8b-44d2c3f04d7a</BoundTo>
+      <DependentUpon>BTD_Order_Confirmation_Email_Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7e5b5ede-2d3a-4b86-a81e-d17d507d607f</id>
+    </Compile>
+    <Compile Include="BTD_Order_Confirmation_Email_Validation.UserCode.cs">
+      <BoundTo>814f8e0c-3824-49f9-9f8b-44d2c3f04d7a</BoundTo>
+      <DependentUpon>BTD_Order_Confirmation_Email_Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d39fb78e-697e-4d97-9f3f-a9ea22fb6883</id>
+    </Compile>
+    <Compile Include="BTD_Remove_Delivery_Address.cs">
+      <BoundTo>7c80e413-5fae-48fe-baf2-fb6be533c8fa</BoundTo>
+      <DependentUpon>BTD_Remove_Delivery_Address.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f57d0b5-9dea-49a1-81d1-892c6d0d4914</id>
+    </Compile>
+    <Compile Include="BTD_Remove_Delivery_Address.UserCode.cs">
+      <BoundTo>7c80e413-5fae-48fe-baf2-fb6be533c8fa</BoundTo>
+      <DependentUpon>BTD_Remove_Delivery_Address.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d1606c24-8056-4d73-90dd-9e19c28a8572</id>
+    </Compile>
+    <Compile Include="BTD_Remove_Product.cs">
+      <BoundTo>8ca32bf0-a5da-4ae0-b35c-f3038fdebe49</BoundTo>
+      <DependentUpon>BTD_Remove_Product.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b4bd342e-7da3-4bbf-8564-f4b6bbaacc91</id>
+    </Compile>
+    <Compile Include="BTD_Remove_Product.UserCode.cs">
+      <BoundTo>8ca32bf0-a5da-4ae0-b35c-f3038fdebe49</BoundTo>
+      <DependentUpon>BTD_Remove_Product.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4aae6b23-ae10-4842-b76e-813064962d01</id>
+    </Compile>
+    <Compile Include="BTD_SaveProduct.cs">
+      <BoundTo>a327cc42-d4b2-4988-8da9-508eba14d14d</BoundTo>
+      <DependentUpon>BTD_SaveProduct.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89340ee6-4cee-4bee-85d4-a43bdbdecb81</id>
+    </Compile>
+    <Compile Include="BTD_SaveProduct.UserCode.cs">
+      <BoundTo>a327cc42-d4b2-4988-8da9-508eba14d14d</BoundTo>
+      <DependentUpon>BTD_SaveProduct.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54446aed-8c0f-4bba-b3d9-28127bbbf55b</id>
+    </Compile>
+    <Compile Include="BTD_SaveProductAndExit.cs">
       <BoundTo>62dd806e-7f4c-44df-9f62-9b33588b7ed1</BoundTo>
-      <DependentUpon>BTD_SaveProductAnExit.rxrec</DependentUpon>
+      <DependentUpon>BTD_SaveProductAndExit.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>2c0e682e-5748-4d5c-84cf-62a82d4f9aab</id>
     </Compile>
-    <Compile Include="BTD_SaveProductAnExit.UserCode.cs">
+    <Compile Include="BTD_SaveProductAndExit.UserCode.cs">
       <BoundTo>62dd806e-7f4c-44df-9f62-9b33588b7ed1</BoundTo>
-      <DependentUpon>BTD_SaveProductAnExit.rxrec</DependentUpon>
+      <DependentUpon>BTD_SaveProductAndExit.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>62ff3128-aab0-42f1-98c2-da2acc90cde0</id>
     </Compile>
@@ -390,6 +618,18 @@
       <UserCode>true</UserCode>
       <id>7696bd94-fcad-4523-862a-700e83bd3d4d</id>
     </Compile>
+    <Compile Include="Delivery_Address_Validation.cs">
+      <BoundTo>baacec20-3379-47cd-a11f-28846aaa63bc</BoundTo>
+      <DependentUpon>Delivery_Address_Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3691372a-2e07-473d-b25c-a15f09e720f7</id>
+    </Compile>
+    <Compile Include="Delivery_Address_Validation.UserCode.cs">
+      <BoundTo>baacec20-3379-47cd-a11f-28846aaa63bc</BoundTo>
+      <DependentUpon>Delivery_Address_Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>655250bc-0f21-4d89-9c3a-d69c23f81e60</id>
+    </Compile>
     <Compile Include="DraftProductHighlighted.cs">
       <BoundTo>a0b7f440-3950-4af1-bc04-2b481e9f967e</BoundTo>
       <DependentUpon>DraftProductHighlighted.rxrec</DependentUpon>
@@ -414,6 +654,30 @@
       <UserCode>true</UserCode>
       <id>0c34f8c2-f148-4d87-8dbc-9480633e5f30</id>
     </Compile>
+    <Compile Include="BTD1_BespokeDrawers.cs">
+      <BoundTo>ebd55b7d-e1aa-4d07-bb00-e688c87b4c1b</BoundTo>
+      <DependentUpon>BTD1_BespokeDrawers.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6aacbd3-3a21-4f97-a09c-f12bfded9f23</id>
+    </Compile>
+    <Compile Include="BTD1_BespokeDrawers.UserCode.cs">
+      <BoundTo>ebd55b7d-e1aa-4d07-bb00-e688c87b4c1b</BoundTo>
+      <DependentUpon>BTD1_BespokeDrawers.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0f200d3-d30f-409a-95d8-7081f1b60f58</id>
+    </Compile>
+    <Compile Include="Filter_results_by_quote_ref_order_ref_and_filter_by_status.cs">
+      <BoundTo>515a7f9b-d4d9-4979-8bda-c59f5b380abd</BoundTo>
+      <DependentUpon>Filter_results_by_quote_ref_order_ref_and_filter_by_status.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>07ae025c-4458-4708-84a1-ee43695a5fa7</id>
+    </Compile>
+    <Compile Include="Filter_results_by_quote_ref_order_ref_and_filter_by_status.UserCode.cs">
+      <BoundTo>515a7f9b-d4d9-4979-8bda-c59f5b380abd</BoundTo>
+      <DependentUpon>Filter_results_by_quote_ref_order_ref_and_filter_by_status.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f65cd2fd-9145-4e26-b490-1cc667a9b5f8</id>
+    </Compile>
     <Compile Include="Finish_LacqueredBase.cs">
       <BoundTo>1e8b2c64-4ad3-4a06-a2a7-33bb6ad4d60b</BoundTo>
       <DependentUpon>Finish_LacqueredBase.rxrec</DependentUpon>
@@ -425,6 +689,30 @@
       <DependentUpon>Finish_LacqueredBase.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d1f232b0-8104-4829-a374-46f21bc9ab65</id>
+    </Compile>
+    <Compile Include="MyHafelePortal_Page_Load_Prod.cs">
+      <BoundTo>1cabdcd1-e882-45cd-850a-f92c349e6a1a</BoundTo>
+      <DependentUpon>MyHafelePortal_Page_Load_Prod.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a6395f8b-66c6-4c94-b788-559d7b3c5c66</id>
+    </Compile>
+    <Compile Include="MyHafelePortal_Page_Load_Prod.UserCode.cs">
+      <BoundTo>1cabdcd1-e882-45cd-850a-f92c349e6a1a</BoundTo>
+      <DependentUpon>MyHafelePortal_Page_Load_Prod.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0caa0214-7d72-4033-a746-6d30c27250e6</id>
+    </Compile>
+    <Compile Include="MyHafele_CancelQuote_Only.cs">
+      <BoundTo>d12c8c05-39f1-4c07-b02f-23b7a153b8d3</BoundTo>
+      <DependentUpon>MyHafele_CancelQuote_Only.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d49c4f3f-d674-48e7-a96d-f83dd564438e</id>
+    </Compile>
+    <Compile Include="MyHafele_CancelQuote_Only.UserCode.cs">
+      <BoundTo>d12c8c05-39f1-4c07-b02f-23b7a153b8d3</BoundTo>
+      <DependentUpon>MyHafele_CancelQuote_Only.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cc47f4ba-da36-4dc0-8c8b-6598e78b3412</id>
     </Compile>
     <Compile Include="MyHafele_Cancel_Quote.cs">
       <BoundTo>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</BoundTo>
@@ -438,75 +726,63 @@
       <UserCode>true</UserCode>
       <id>253bc67a-b5e8-4828-aedb-057b58666627</id>
     </Compile>
-    <Compile Include="Engraving_AddEngraving.cs">
+    <Compile Include="BTD13_Engraving_AddEngraving_Yes.cs">
       <BoundTo>929c26c8-588f-45f5-8f87-988eef26947c</BoundTo>
-      <DependentUpon>Engraving_AddEngraving.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_AddEngraving_Yes.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f80960e3-8daa-4633-948b-befcbaebc7b8</id>
     </Compile>
-    <Compile Include="Engraving_AddEngraving.UserCode.cs">
+    <Compile Include="BTD13_Engraving_AddEngraving_Yes.UserCode.cs">
       <BoundTo>929c26c8-588f-45f5-8f87-988eef26947c</BoundTo>
-      <DependentUpon>Engraving_AddEngraving.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_AddEngraving_Yes.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>59bf23df-2c8b-4f93-8d08-f8a6f7e3e910</id>
     </Compile>
-    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_No.cs">
-      <BoundTo>a4234a00-8016-4953-aad4-440fe8e9b44e</BoundTo>
-      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>ef605c3b-ec28-4cdf-8e59-4a5100bad651</id>
-    </Compile>
-    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_No.UserCode.cs">
-      <BoundTo>a4234a00-8016-4953-aad4-440fe8e9b44e</BoundTo>
-      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_No.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>a59f01d5-ba58-4d51-a686-a122b4063cb1</id>
-    </Compile>
-    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_Yes.cs">
+    <Compile Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_Yes.cs">
       <BoundTo>46020710-d7b5-4fd3-ad35-b6d08d04aea6</BoundTo>
-      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>aeba56e7-edd3-403f-970b-2252b3c41d98</id>
     </Compile>
-    <Compile Include="Engraving_HaveYouUsedTheLogoBefore_Yes.UserCode.cs">
+    <Compile Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_Yes.UserCode.cs">
       <BoundTo>46020710-d7b5-4fd3-ad35-b6d08d04aea6</BoundTo>
-      <DependentUpon>Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>73ae68e4-4e74-43a8-993f-69c3caadc536</id>
     </Compile>
-    <Compile Include="Engraving_None.cs">
+    <Compile Include="BTD13_Engraving_None.cs">
       <BoundTo>4246a411-aa04-492d-ba22-3521f1ab5b60</BoundTo>
-      <DependentUpon>Engraving_None.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_None.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a073f1de-ce75-4d4a-a809-4d89dc537bd2</id>
     </Compile>
-    <Compile Include="Engraving_None.UserCode.cs">
+    <Compile Include="BTD13_Engraving_None.UserCode.cs">
       <BoundTo>4246a411-aa04-492d-ba22-3521f1ab5b60</BoundTo>
-      <DependentUpon>Engraving_None.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_None.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8c897fb9-e472-4057-b612-86c48d2c0445</id>
     </Compile>
-    <Compile Include="Engraving_SelectEngravingType_Laser.cs">
+    <Compile Include="BTD13_Engraving_SelectEngravingType_Laser.cs">
       <BoundTo>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</BoundTo>
-      <DependentUpon>Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>beeadbc3-0faa-4484-bd87-3d7619c404f1</id>
     </Compile>
-    <Compile Include="Engraving_SelectEngravingType_Laser.UserCode.cs">
+    <Compile Include="BTD13_Engraving_SelectEngravingType_Laser.UserCode.cs">
       <BoundTo>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</BoundTo>
-      <DependentUpon>Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_SelectEngravingType_Laser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>64a55ba3-e724-42b4-82a8-0ec6ab3cbe50</id>
     </Compile>
-    <Compile Include="Engraving_SelectEngravingType_Router.cs">
+    <Compile Include="BTD13_Engraving_SelectEngravingType_Router.cs">
       <BoundTo>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</BoundTo>
-      <DependentUpon>Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>37f1c090-2325-4fae-a09f-016f14774652</id>
     </Compile>
-    <Compile Include="Engraving_SelectEngravingType_Router.UserCode.cs">
+    <Compile Include="BTD13_Engraving_SelectEngravingType_Router.UserCode.cs">
       <BoundTo>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</BoundTo>
-      <DependentUpon>Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_SelectEngravingType_Router.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>063782b5-e385-48c3-9d99-4010d1872a05</id>
     </Compile>
@@ -522,51 +798,51 @@
       <UserCode>true</UserCode>
       <id>5ec2c1df-de5f-4e94-9ecb-7068572a676a</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.cs">
       <BoundTo>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>28377e17-0271-49a3-95e7-76c7b35bfa22</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.UserCode.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.UserCode.cs">
       <BoundTo>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>2e3f559c-4773-4962-ada0-d08f254cb84a</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.cs">
       <BoundTo>bab8d9dc-41ca-40a2-927b-36856a1cae1f</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>b6936bc8-ba88-4c90-9eea-0b64ff0bc17c</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.UserCode.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.UserCode.cs">
       <BoundTo>bab8d9dc-41ca-40a2-927b-36856a1cae1f</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>c7d52aad-186e-4901-b5b9-244fd642d230</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.cs">
       <BoundTo>f502721c-6fb0-412f-8d63-d207fc79e523</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>dbe16e0a-2117-41ee-936a-3b504c8e3bd5</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.UserCode.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.UserCode.cs">
       <BoundTo>f502721c-6fb0-412f-8d63-d207fc79e523</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7d498d38-92b8-4106-997b-e44ee5190cff</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.cs">
       <BoundTo>f2bffc01-5ead-4da0-b3da-bf2876d953e3</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>d9c02f55-adc9-44c8-8fc5-583003c55616</id>
     </Compile>
-    <Compile Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.UserCode.cs">
+    <Compile Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.UserCode.cs">
       <BoundTo>f2bffc01-5ead-4da0-b3da-bf2876d953e3</BoundTo>
-      <DependentUpon>Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
+      <DependentUpon>BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1d9a8b81-a5fe-4057-bfdc-02952775c074</id>
     </Compile>
@@ -744,15 +1020,15 @@
       <RepositoryCode>true</RepositoryCode>
       <id>ae3f2575-729f-4b93-b08c-72ac0940cd09</id>
     </Compile>
-    <Compile Include="MyHafelePortal_Page_Load.cs">
+    <Compile Include="MyHafelePortal_Page_Load_Qmy.cs">
       <BoundTo>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</BoundTo>
-      <DependentUpon>MyHafelePortal_Page_Load.rxrec</DependentUpon>
+      <DependentUpon>MyHafelePortal_Page_Load_Qmy.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>c56347ce-edfb-4d6c-9c9e-f19af8aa88b5</id>
     </Compile>
-    <Compile Include="MyHafelePortal_Page_Load.UserCode.cs">
+    <Compile Include="MyHafelePortal_Page_Load_Qmy.UserCode.cs">
       <BoundTo>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</BoundTo>
-      <DependentUpon>MyHafelePortal_Page_Load.rxrec</DependentUpon>
+      <DependentUpon>MyHafelePortal_Page_Load_Qmy.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>40611afc-80b4-41ca-bfb3-7f8424f7d591</id>
     </Compile>
@@ -803,6 +1079,30 @@
       <DependentUpon>BTD8_Notching_None.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8a42951a-9e3a-4c43-ad46-f8cb48c497c7</id>
+    </Compile>
+    <Compile Include="MyHafele_Save_Product_And_Exit.cs">
+      <BoundTo>303a796c-86b8-4efa-894d-931db5079143</BoundTo>
+      <DependentUpon>MyHafele_Save_Product_And_Exit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7adab7c7-9825-45bc-a647-1ef8c0005822</id>
+    </Compile>
+    <Compile Include="MyHafele_Save_Product_And_Exit.UserCode.cs">
+      <BoundTo>303a796c-86b8-4efa-894d-931db5079143</BoundTo>
+      <DependentUpon>MyHafele_Save_Product_And_Exit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7acef4c1-c93f-4f9b-8277-ed36472b9086</id>
+    </Compile>
+    <Compile Include="BTD_Edit_Existing_Delivery_Address.cs">
+      <BoundTo>196b7237-c0ab-49e4-a017-e06ff713646b</BoundTo>
+      <DependentUpon>BTD_Edit_Existing_Delivery_Address.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a8c1c7b6-295b-467e-a4c1-00aaf4172fef</id>
+    </Compile>
+    <Compile Include="BTD_Edit_Existing_Delivery_Address.UserCode.cs">
+      <BoundTo>196b7237-c0ab-49e4-a017-e06ff713646b</BoundTo>
+      <DependentUpon>BTD_Edit_Existing_Delivery_Address.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c11c03cf-cb39-474d-b28d-174ac995523e</id>
     </Compile>
     <Compile Include="Program.cs">
       <id>8820c9be-c679-4e15-ab9e-2714d195264e</id>
@@ -867,20 +1167,79 @@
       <UserCode>true</UserCode>
       <id>48bf9902-dc36-4de0-aa37-936164932d22</id>
     </Compile>
+    <Compile Include="BTD_QuoteSummary_Product_Summary.cs">
+      <BoundTo>d35ccb60-337c-443c-ad14-cfe8c72c23ac</BoundTo>
+      <DependentUpon>BTD_QuoteSummary_Product_Summary.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>41189737-cfa3-40c5-8daf-74dee1c432f8</id>
+    </Compile>
+    <Compile Include="BTD_QuoteSummary_Product_Summary.UserCode.cs">
+      <BoundTo>d35ccb60-337c-443c-ad14-cfe8c72c23ac</BoundTo>
+      <DependentUpon>BTD_QuoteSummary_Product_Summary.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>693d161a-d628-4adb-b341-f7ad94240bca</id>
+    </Compile>
+    <Compile Include="See_summary_of_the_quote_including_address_reference_etc__status_ordered.cs">
+      <BoundTo>c33bdcc7-d469-4541-9dc1-40b3a39de280</BoundTo>
+      <DependentUpon>See_summary_of_the_quote_including_address_reference_etc__status_ordered.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0e15b508-1077-4057-ad8c-4cf0569dbca0</id>
+    </Compile>
+    <Compile Include="See_summary_of_the_quote_including_address_reference_etc__status_ordered.UserCode.cs">
+      <BoundTo>c33bdcc7-d469-4541-9dc1-40b3a39de280</BoundTo>
+      <DependentUpon>See_summary_of_the_quote_including_address_reference_etc__status_ordered.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac7c298b-de3b-4d66-8839-436f5d5c887d</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AddToQuote.rxrec">
+    <None Include="BTD10_Add_Delivery_Address_Only.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>0862e620-b06a-45ef-aed2-81dedf7f64a2</id>
+      <recordtableid>b15a6e94-ec11-44f2-a377-25550eb9693d</recordtableid>
+    </None>
+    <None Include="BTD10_Add_Delivery_Address_Postcode_LookUp.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>bcc57547-cd09-446c-9791-4ff184aaf1c9</id>
+      <recordtableid>da47bbcd-f9df-47ae-b40a-f4eed9931e7f</recordtableid>
+    </None>
+    <None Include="BTD11_Additional_Information.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c7615779-4b32-497b-b265-cff20eeb6717</id>
+      <recordtableid>2aa6ef90-79c5-49b4-a0e7-194346b441a6</recordtableid>
+    </None>
+    <None Include="BTD12_AddToQuote.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>74081b33-0bb7-4811-883b-8971fbe6b201</id>
       <recordtableid>c94100cf-ad2c-4d18-b567-1d3609b87921</recordtableid>
     </None>
-    <None Include="BTD10_Add_Delivery_Addrerss.rxrec">
+    <None Include="BTD10_Add_Delivery_Addrerss_And_Reference.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>3dc2bb80-596c-49f0-8d1e-288885e08d69</id>
       <recordtableid>ebe72804-3520-486a-8583-4600f7f8f4de</recordtableid>
     </None>
     <None Include="app.config">
       <id>d2dce9d0-d9ae-4e0e-b29f-c6cba9147d08</id>
+    </None>
+    <None Include="BTD13_Engraving_AddEngraving_No.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>bdc410dc-4409-4415-8b2b-dbf7e111515d</id>
+      <recordtableid>99edd125-2eb9-429a-ae0c-2ea0ba8791ea</recordtableid>
+    </None>
+    <None Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_No.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>dc4218d7-d4b5-4988-8cdd-8956f82b2794</id>
+      <recordtableid>a3fa8d3d-5676-461e-974b-af342edc90ed</recordtableid>
+    </None>
+    <None Include="BTD14_QuoteSummery_Total_Ex_VAT.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>8e1d56ff-ea60-408c-80be-00d5449c3765</id>
+      <recordtableid>753e7e27-156f-4b15-b472-d6f455c969b3</recordtableid>
+    </None>
+    <None Include="BTD1_StartNewQuote_NoProduct.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c8d30d87-aa5d-4802-a8bc-12b799775efb</id>
+      <recordtableid>af23ece4-3eab-4c39-96e1-1c2a415d004b</recordtableid>
     </None>
     <None Include="BTD2_SelectProduct_InternalDrawerFront.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
@@ -917,6 +1276,21 @@
       <id>15647bd4-40a2-449a-a227-56150cf8f24b</id>
       <recordtableid>1d8ee4a5-84c2-44d9-bbaf-b606181d26ff</recordtableid>
     </None>
+    <None Include="BTD3_Dimensions_Internal_Drawer_Yes.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>70afa587-6c73-4b81-aa3b-043e619f17f4</id>
+      <recordtableid>4f52501e-21ca-4953-9d65-5f11910b6e54</recordtableid>
+    </None>
+    <None Include="BTD3_Dimensions_PegBoard.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>6714e4d4-3483-43e5-a0db-7424ee6698a1</id>
+      <recordtableid>ec8bfe19-f9aa-494b-8fb3-9332526a744f</recordtableid>
+    </None>
+    <None Include="BTD3_Internal_Cabinet_Dimensions.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>0a69dccf-5d22-4f20-a734-82b637ca0e47</id>
+      <recordtableid>dab49aaa-e294-4e19-b476-ca5f3ab7ed3d</recordtableid>
+    </None>
     <None Include="BTD_AddManualDeliveryAddress.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>7817a9c8-83ec-4e32-8daa-10a8276a2865</id>
@@ -947,7 +1321,52 @@
       <id>818016be-e36a-46c6-8e93-605857fcb773</id>
       <recordtableid>020a8cf9-0423-4e09-af08-f55663ef5406</recordtableid>
     </None>
-    <None Include="BTD_SaveProductAnExit.rxrec">
+    <None Include="BTD_AddManualDeliveryAddress_Within_A_quote.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>ff9876fe-3a0b-4592-bb3e-1a1a95085506</id>
+      <recordtableid>1be8369e-97b1-4f7e-960e-1ba02db88da4</recordtableid>
+    </None>
+    <None Include="BTD_BespokeDrawers_Quotes_Overview.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>da64c523-3baa-4c7c-8600-da1990aee3d2</id>
+      <recordtableid>49ffab0f-4b48-4b71-935c-6e135112d7fe</recordtableid>
+    </None>
+    <None Include="BTD_Gmail_Login.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>7d189180-995e-4b97-8f61-d6bf252668b7</id>
+      <recordtableid>cf7cfbd9-5796-47e4-ae68-d504c0ed5355</recordtableid>
+    </None>
+    <None Include="BTD_Gmail_Logout.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1ac96940-6824-4ed3-86d2-70161877c587</id>
+      <recordtableid>d047b43a-706b-43ae-9c35-ffbb87411396</recordtableid>
+    </None>
+    <None Include="BTD_Gmail_Page_Load.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>e8188617-5b09-46c2-8eca-3daf469ad0ab</id>
+      <recordtableid>a95648c2-4746-4cc4-9815-e0cf41ab2dd0</recordtableid>
+    </None>
+    <None Include="BTD_Order_Confirmation_Email_Validation.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>814f8e0c-3824-49f9-9f8b-44d2c3f04d7a</id>
+      <recordtableid>5d060e2e-d6c0-4f04-9dc8-9c9191776af3</recordtableid>
+    </None>
+    <None Include="BTD_Remove_Delivery_Address.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>7c80e413-5fae-48fe-baf2-fb6be533c8fa</id>
+      <recordtableid>732aa3f6-cd04-48f2-95da-690315cb4d33</recordtableid>
+    </None>
+    <None Include="BTD_Remove_Product.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>8ca32bf0-a5da-4ae0-b35c-f3038fdebe49</id>
+      <recordtableid>67f40de7-38bd-4dec-a494-c92114e1ebd2</recordtableid>
+    </None>
+    <None Include="BTD_SaveProduct.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>a327cc42-d4b2-4988-8da9-508eba14d14d</id>
+      <recordtableid>ce96e1c2-f7f3-4818-9fbc-912efaa1ea92</recordtableid>
+    </None>
+    <None Include="BTD_SaveProductAndExit.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>62dd806e-7f4c-44df-9f62-9b33588b7ed1</id>
       <recordtableid>362a54d6-9529-4412-8f89-827170a584b7</recordtableid>
@@ -982,6 +1401,11 @@
       <id>af573b53-3f20-48ff-9910-7874fbc4089f</id>
       <recordtableid>b6eb7f64-a05f-4ec4-bd3d-f736731460d2</recordtableid>
     </None>
+    <None Include="Delivery_Address_Validation.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>baacec20-3379-47cd-a11f-28846aaa63bc</id>
+      <recordtableid>5a8b3528-c1da-45f2-aa91-ac2cd5a773b5</recordtableid>
+    </None>
     <None Include="DraftProductHighlighted.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>a0b7f440-3950-4af1-bc04-2b481e9f967e</id>
@@ -992,42 +1416,57 @@
       <id>20daeedb-d51c-46da-b656-828e8badc473</id>
       <recordtableid>a5789302-a7f6-472b-9ed2-e44dcdaa66b5</recordtableid>
     </None>
+    <None Include="BTD1_BespokeDrawers.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>ebd55b7d-e1aa-4d07-bb00-e688c87b4c1b</id>
+      <recordtableid>6a568138-75c7-4c72-b319-33d44b940318</recordtableid>
+    </None>
+    <None Include="Filter_results_by_quote_ref_order_ref_and_filter_by_status.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>515a7f9b-d4d9-4979-8bda-c59f5b380abd</id>
+      <recordtableid>c01bc04e-ebf9-46f8-bd07-d16601283ccb</recordtableid>
+    </None>
     <None Include="Finish_LacqueredBase.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>1e8b2c64-4ad3-4a06-a2a7-33bb6ad4d60b</id>
       <recordtableid>0b193810-b1ce-4da1-9621-9dc39d5b2c04</recordtableid>
+    </None>
+    <None Include="MyHafelePortal_Page_Load_Prod.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>1cabdcd1-e882-45cd-850a-f92c349e6a1a</id>
+      <recordtableid>4c949389-e87c-4e30-b535-de5dcb6d8eb7</recordtableid>
+    </None>
+    <None Include="MyHafele_CancelQuote_Only.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>d12c8c05-39f1-4c07-b02f-23b7a153b8d3</id>
+      <recordtableid>23836329-9bb2-4f36-ae8e-fe919b147164</recordtableid>
     </None>
     <None Include="MyHafele_Cancel_Quote.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>8b808fb1-df7a-4ad1-8843-ad28b8375a5a</id>
       <recordtableid>f13babb9-e288-4101-8f2f-c7ef985ad74d</recordtableid>
     </None>
-    <None Include="Engraving_AddEngraving.rxrec">
+    <None Include="BTD13_Engraving_AddEngraving_Yes.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>929c26c8-588f-45f5-8f87-988eef26947c</id>
       <recordtableid>68075922-3de1-469f-8306-e2b0dad96448</recordtableid>
     </None>
-    <None Include="Engraving_HaveYouUsedTheLogoBefore_No.rxrec">
-      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
-      <id>a4234a00-8016-4953-aad4-440fe8e9b44e</id>
-      <recordtableid>46ac2ede-b67d-4512-a3d0-3a21b273a14f</recordtableid>
-    </None>
-    <None Include="Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec">
+    <None Include="BTD13_Engraving_HaveYouUsedTheLogoBefore_Yes.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>46020710-d7b5-4fd3-ad35-b6d08d04aea6</id>
       <recordtableid>fa0c41a6-1cf1-4e73-9cb8-e5a8a3509325</recordtableid>
     </None>
-    <None Include="Engraving_None.rxrec">
+    <None Include="BTD13_Engraving_None.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>4246a411-aa04-492d-ba22-3521f1ab5b60</id>
       <recordtableid>6177105e-20cc-4b78-b52d-4b8340d9c5fb</recordtableid>
     </None>
-    <None Include="Engraving_SelectEngravingType_Laser.rxrec">
+    <None Include="BTD13_Engraving_SelectEngravingType_Laser.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>15ec5c66-a60a-43b7-9ad4-e15f94ee5b14</id>
       <recordtableid>2132b29f-c6bf-466e-add6-85818398deeb</recordtableid>
     </None>
-    <None Include="Engraving_SelectEngravingType_Router.rxrec">
+    <None Include="BTD13_Engraving_SelectEngravingType_Router.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>1ebd5bd8-3a6b-4a2a-9b86-24ffb7b88dc7</id>
       <recordtableid>dca91f4c-aa25-40c3-85c5-472aec8dbbef</recordtableid>
@@ -1037,22 +1476,22 @@
       <id>d857143f-55cb-4d64-b572-f2cad368a3c3</id>
       <recordtableid>aca0f41d-3b46-4f42-acdd-c61f0cdf93a0</recordtableid>
     </None>
-    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec">
+    <None Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Front.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>f456dfd0-0826-4fb0-9f4c-77395ed9a5d8</id>
       <recordtableid>fea70c6a-3816-4e74-94ef-2dce34a25e1a</recordtableid>
     </None>
-    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec">
+    <None Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Left.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>bab8d9dc-41ca-40a2-927b-36856a1cae1f</id>
       <recordtableid>a7ba51e0-839d-4425-94e8-8df49d8aac4c</recordtableid>
     </None>
-    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec">
+    <None Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_LeftAndRight.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>f502721c-6fb0-412f-8d63-d207fc79e523</id>
       <recordtableid>4882f91a-1725-411b-b6a9-bf45ec5f2bd8</recordtableid>
     </None>
-    <None Include="Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec">
+    <None Include="BTD13_Engraving_WhatSideOfTheDrawerDoYouWantTheLogo_Right.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>f2bffc01-5ead-4da0-b3da-bf2876d953e3</id>
       <recordtableid>8459b02c-da3b-4dd7-a1a0-d94328f9f235</recordtableid>
@@ -1138,7 +1577,7 @@
       <repoid>34afd095-787e-4ba9-a45b-95a1f9652c5a</repoid>
       <reporootid>87c7ab3d-1646-4ef0-a762-8a2b0f8c6df5</reporootid>
     </None>
-    <None Include="MyHafelePortal_Page_Load.rxrec">
+    <None Include="MyHafelePortal_Page_Load_Qmy.rxrec">
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>1ac9869b-9dcb-4476-b39e-5f685ab7ce3c</id>
       <recordtableid>b8578d26-e022-468a-9231-63daa5f838bd</recordtableid>
@@ -1187,6 +1626,26 @@
       <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
       <id>0f34c94e-f6a6-4abc-aa80-297ab5cf2a72</id>
       <recordtableid>5ee36a1d-90d3-4fe9-be40-5c55af949218</recordtableid>
+    </None>
+    <None Include="MyHafele_Save_Product_And_Exit.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>303a796c-86b8-4efa-894d-931db5079143</id>
+      <recordtableid>32a18fd9-489f-4d0d-9261-04ba7897f222</recordtableid>
+    </None>
+    <None Include="BTD_QuoteSummary_Product_Summary.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>d35ccb60-337c-443c-ad14-cfe8c72c23ac</id>
+      <recordtableid>26e37492-351d-4ca0-a651-9528450e741e</recordtableid>
+    </None>
+    <None Include="BTD_Edit_Existing_Delivery_Address.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>196b7237-c0ab-49e4-a017-e06ff713646b</id>
+      <recordtableid>9256728c-823d-4fdf-82b1-15bdf454fc0a</recordtableid>
+    </None>
+    <None Include="See_summary_of_the_quote_including_address_reference_etc__status_ordered.rxrec">
+      <BoundTo>d41ead21-4f9d-42ac-aa85-eac34088a1d7</BoundTo>
+      <id>c33bdcc7-d469-4541-9dc1-40b3a39de280</id>
+      <recordtableid>50e8b5c7-5803-47a1-8fac-a2e9336501b2</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

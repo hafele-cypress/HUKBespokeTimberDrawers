@@ -109,6 +109,8 @@ namespace HUKBespokeTimberDrawers
             Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_BodyOptionValidationInfo);
             Delay.Milliseconds(0);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Finish_BodyOptionValidation, false, new RecordItemIndex(8));
+            
         }
 
 #region Image Feature Data

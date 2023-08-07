@@ -25,8 +25,28 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ded25562-09eb-4030-bd11-e1b63533c9ee"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="970f2f94-dc15-4968-abef-5d0503c11528"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Front &amp; back ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 		<invokeactionrecorditem
-		action="EnsureVisible"
+		action="Focus"
 		enabled="True"
 		optional="False"
 		searchpropertyid="2cfafc93-bcb7-42a7-a09b-ca341d760d09">
@@ -47,6 +67,15 @@ mode="Global">
 			id="dc660321-635e-4dc0-8e9f-dd64b70465a0">
 			</arguments>
 		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -73,6 +102,89 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d4dd7061-bb5f-40e8-a8a7-aba3a9f9545e"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="970f2f94-dc15-4968-abef-5d0503c11528"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///label[@innertext=' Front &amp; back ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2445a073-ef94-4d2d-b392-0630889ec809"
+		similarity="1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="28cf0c37-90f2-4025-9762-fa991b532516">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"

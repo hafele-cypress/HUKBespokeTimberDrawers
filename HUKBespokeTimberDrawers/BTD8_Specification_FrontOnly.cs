@@ -87,6 +87,12 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontOnly.Click();
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo, new RecordItemIndex(2));
+            Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation, false, new RecordItemIndex(3));
+            
         }
 
 #region Image Feature Data

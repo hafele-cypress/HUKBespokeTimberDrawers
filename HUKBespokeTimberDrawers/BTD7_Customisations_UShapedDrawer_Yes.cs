@@ -99,15 +99,18 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.Close.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo, new RecordItemIndex(5));
-            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes'", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo, new ActionTimeout(5000), new RecordItemIndex(5));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo, new RecordItemIndex(6));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_YesInfo, new RecordItemIndex(7));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Customisations_UShapedDrawer_Yes.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(8));
             Delay.Duration(2000, false);
             
         }

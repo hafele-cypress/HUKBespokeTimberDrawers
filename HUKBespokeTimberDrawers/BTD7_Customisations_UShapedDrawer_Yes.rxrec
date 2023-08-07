@@ -228,8 +228,28 @@ hLZrK8xUPKQdq9F/zmhbA9zSooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
 AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="57577d7f-7b9d-4e1b-b9e0-900f1c317971"
+		waitaction="Exists"
+		waittimeout="5000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dd2875ee-5a80-4240-96ee-5a15034bc1c7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']//form/div/div[4]/div[4]/div[2]/div/div/div[1]/label[@innertext=' Yes ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</WaitForRecordItem>
 		<invokeactionrecorditem
-		action="EnsureVisible"
+		action="Focus"
 		enabled="True"
 		optional="False"
 		searchpropertyid="44b15eb9-b278-402f-91c1-323a8eb0fe94">

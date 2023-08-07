@@ -79,13 +79,32 @@ namespace HUKBespokeTimberDrawers
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Invoke action", "Invoking EnsureVisible() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new RecordItemIndex(0));
-            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack.EnsureVisible();
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 5s to exist. Associated repository item: 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack'", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new ActionTimeout(5000), new RecordItemIndex(0));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo.WaitForExists(5000);
+            
+            Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new RecordItemIndex(1));
+            repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack' at Center.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new RecordItemIndex(3));
             repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack.Click();
             Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBack'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo, new RecordItemIndex(4));
+            Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Specification_FrontAndBackInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation'.", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo, new RecordItemIndex(5));
+            Validate.Exists(repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidationInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.MyHafelePortal.HttpsQmyHafeleCoUkQuotesBespoke.Notching_SpecificationOptionValidation, false, new RecordItemIndex(6));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(7));
+            Delay.Duration(3000, false);
             
         }
 

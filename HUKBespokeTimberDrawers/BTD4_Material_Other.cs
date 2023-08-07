@@ -116,8 +116,8 @@ namespace HUKBespokeTimberDrawers
             repo.MyHafelePortal.SelectThickness.PressKeys(Thickness);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(6));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(6));
+            Delay.Duration(3000, false);
             
         }
 

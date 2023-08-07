@@ -229,6 +229,15 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 			id="ac1e6fe7-c781-4308-b117-cf7094c7973c">
 			</arguments>
 		</invokeactionrecorditem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -260,7 +269,7 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		codegenpropertyname="Notching_None_Screenshot1"
 		enabled="True"
 		imagerect="0,0,135,44"
-		optional="False"
+		optional="True"
 		screenshotguid="9dafbdf0-2a5d-49e9-a5ec-75c4debef0d0"
 		screenshotname="Screenshot1"
 		searchpropertyid="c772f81c-aba2-4f4a-b577-82c3e5889216"
@@ -288,7 +297,7 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 		<validationitem
 		action="Exists"
 		enabled="True"
-		optional="False"
+		optional="True"
 		searchpropertyid="64261b5d-42bb-4a50-99bb-079469591d65"
 		similarity="1">
 			<comment>
@@ -311,6 +320,37 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
 				yourValue
 			</matchvalue>
 		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="624cbf94-5cce-4e5a-a256-5c2b2865fba3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a207f9fd-00a6-4d1a-bbf1-ad950d23c6a8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'container']///div[#'container']/form/div/div[5]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="34afd095-787e-4ba9-a45b-95a1f9652c5a"

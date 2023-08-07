@@ -25,6 +25,28 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<invokeactionrecorditem
+		action="EnsureVisible"
+		enabled="True"
+		optional="True"
+		searchpropertyid="a5b5d822-8a4f-4446-93da-2a5cd1a173bf">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="351f8356-f8a1-4129-b513-c02fca0e1eaa"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']//div[#'save_draft']/a[@innertext='Save product and exit ']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<arguments
+			id="68bf6e03-825d-4ef5-8f81-eb594a1837c5">
+			</arguments>
+		</invokeactionrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -32,7 +54,7 @@ mode="Global">
 		enabled="True"
 		loc="Center"
 		movetime="300ms"
-		optional="False"
+		optional="True"
 		searchpropertyid="2a490332-559a-4c69-ab2e-df2fba4a029b"
 		sx="0"
 		sy="0"
@@ -77,6 +99,28 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="f5154869-f68d-471c-8402-d8759c3ad926">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="0066d4e7-e8a5-4176-bb50-a0a8e607b654"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
@@ -94,10 +138,10 @@ mode="Global">
 			<bindings>
 			</bindings>
 			<info
-			id="74f01f9d-8e15-4772-b097-f7d0838c9216"
+			id="0066d4e7-e8a5-4176-bb50-a0a8e607b654"
 			sourcename="RepositoryEditor">
 				<path>
-					/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div/div/div[1]/button[@innertext='Cancel Quote']
+					/dom[@domain='qmy.hafele.co.uk']/?/?/tag[@tagname='ngb-modal-window']/div/div
 				</path>
 				<robustPath>
 				</robustPath>
